@@ -1,0 +1,949 @@
+1, TITLE: Locality in Image Diffusion Models Emerges from Data Statistics
+AUTHORS: Artem Lukoianov ; Chenyang Yuan ; Justin Solomon ; Vincent Sitzmann
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In this work, wepresent evidence that the locality in deep diffusion models emerges as astatistical property of the image dataset, not due to the inductive bias ofconvolutional neural networks.
+
+2, TITLE: IRDFusion: Iterative Relation-Map Difference Guided Feature Fusion for Multispectral Object Detection
+AUTHORS: JIFENG SHEN et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: The proposed method adaptively enhances salientstructures by fusing object-aware complementary cross-modal features whilesuppressing shared background interference.Our solution centers on two novel,specially designed modules: the Mutual Feature Refinement Module (MFRM) and theDifferential Feature Feedback Module (DFFM).
+
+3, TITLE: UltrON: Ultrasound Occupancy Networks
+AUTHORS: Magdalena Wysocki ; Felix Duelmer ; Ananya Bal ; Nassir Navab ; Mohammad Farid Azampour
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To address the problems resulting from occlusions andannotation dependency, we propose an occupancy-based representation andintroduce \gls{UltrON} that leverages acoustic features to improve geometricconsistency in weakly-supervised optimization regime.
+
+4, TITLE: ObjectReact: Learning Object-Relative Control for Visual Navigation
+AUTHORS: SOURAV GARG et. al.
+CATEGORY: cs.RO [cs.RO, cs.AI, cs.CV, cs.LG, cs.SY, eess.SY]
+HIGHLIGHT: In this work, wepresent a new paradigm of learning "object-relative" control that exhibitsseveral desirable characteristics: a) new routes can be traversed withoutstrictly requiring to imitate prior experience, b) the control predictionproblem can be decoupled from solving the image matching problem, and c) highinvariance can be achieved in cross-embodiment deployment for variations acrossboth training-testing and mapping-execution settings.
+
+5, TITLE: InterAct: Advancing Large-Scale Versatile 3D Human-Object Interaction Generation
+AUTHORS: SIRUI XU et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To address theseissues, we introduce InterAct, a large-scale 3D HOI benchmark featuring datasetand methodological advancements.
+
+6, TITLE: Dexplore: Scalable Neural Control for Dexterous Manipulation from Reference-Scoped Exploration
+AUTHORS: SIRUI XU et. al.
+CATEGORY: cs.RO [cs.RO, cs.CV]
+HIGHLIGHT: We introduce Dexplore, a unified single-loop optimization thatjointly performs retargeting and tracking to learn robot control policiesdirectly from MoCap at scale.
+
+7, TITLE: Fluent But Unfeeling: The Emotional Blind Spots of Language Models
+AUTHORS: BANGZHAO SHU et. al.
+CATEGORY: cs.CL [cs.CL, cs.AI]
+HIGHLIGHT: Existing research typically focuses on classifying emotionsinto predefined, limited categories, overlooking more nuanced expressions. Toaddress this gap, we introduce EXPRESS, a benchmark dataset curated from Redditcommunities featuring 251 fine-grained, self-disclosed emotion labels.
+
+8, TITLE: Discovering Divergent Representations Between Text-to-Image Models
+AUTHORS: LISA DUNLAP et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In this paper, we investigate when and how visual representations learned bytwo different generative models diverge.
+
+9, TITLE: FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark
+AUTHORS: RONGYAO FANG et. al.
+CATEGORY: cs.CV [cs.CV, cs.CL]
+HIGHLIGHT: The advancement of open-source text-to-image (T2I) models has been hinderedby the absence of large-scale, reasoning-focused datasets and comprehensiveevaluation benchmarks, resulting in a performance gap compared to leadingclosed-source systems. To address this challenge, We introduce FLUX-Reason-6Mand PRISM-Bench (Precise and Robust Image Synthesis Measurement Benchmark).
+
+10, TITLE: Open-sci-ref-0.01: Open and Reproducible Reference Baselines for Language Model and Dataset Comparison
+AUTHORS: MARIANNA NEZHURINA et. al.
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.CL]
+HIGHLIGHT: We introduce open-sci-ref, a family of dense transformer models trained asresearch baselines across multiple model (0.13B to 1.7B parameters) and tokenscales (up to 1T) on 8 recent open reference datasets.
+
+11, TITLE: Visual Grounding from Event Cameras
+AUTHORS: LINGDONG KONG et. al.
+CATEGORY: cs.CV [cs.CV, cs.RO]
+HIGHLIGHT: Yet, their integration withnatural language understanding has received little attention, leaving a gap inmultimodal perception. To address this, we introduce Talk2Event, the firstlarge-scale benchmark for language-driven object grounding using event data.Built on real-world driving scenarios, Talk2Event comprises 5,567 scenes,13,458 annotated objects, and more than 30,000 carefully validated referringexpressions.
+
+12, TITLE: ButterflyQuant: Ultra-low-bit LLM Quantization Through Learnable Orthogonal Butterfly Transforms
+AUTHORS: Bingxin Xu ; Zhen Dong ; Oussama Elachqar ; Yuzhang Shang
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.CL]
+HIGHLIGHT: We propose ButterflyQuant, which replacesHadamard rotations with learnable butterfly transforms parameterized bycontinuous Givens rotation angles.
+
+13, TITLE: OpenFake: An Open Dataset and Platform Toward Large-Scale Deepfake Detection
+AUTHORS: VICTOR LIVERNOCHE et. al.
+CATEGORY: cs.CV [cs.CV, cs.AI, cs.LG, I.4.9; I.5.4; I.2.10]
+HIGHLIGHT: Consequently, we present a comprehensive, politically-focuseddataset specifically crafted for benchmarking detection against moderngenerative models.
+
+14, TITLE: Prompting The Market? A Large-Scale Meta-Analysis of GenAI in Finance NLP (2022-2025)
+AUTHORS: Paolo Pedinotti ; Peter Baumann ; Nathan Jessurun ; Leslie Barrett ; Enrico Santus
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: Yet, this transformation has outpaced traditional surveys. In thispaper, we present MetaGraph, a generalizable methodology for extractingknowledge graphs from scientific literature and analyzing them to obtain astructured, queryable view of research trends.
+
+15, TITLE: Recurrence Meets Transformers for Universal Multimodal Retrieval
+AUTHORS: Davide Caffagni ; Sara Sarto ; Marcella Cornia ; Lorenzo Baraldi ; Rita Cucchiara
+CATEGORY: cs.CV [cs.CV, cs.AI, cs.CL, cs.MM]
+HIGHLIGHT: With the rapid advancement of multimodal retrieval and its application inLLMs and multimodal LLMs, increasingly complex retrieval tasks have emerged.Existing methods predominantly rely on task-specific fine-tuning ofvision-language models and are limited to single-modality queries or documents.In this paper, we propose ReT-2, a unified retrieval model that supportsmultimodal queries, composed of both images and text, and searches acrossmultimodal document collections where text and images coexist.
+
+16, TITLE: Can Vision-Language Models Solve Visual Math Equations?
+AUTHORS: Monjoy Narayan Choudhury ; Junling Wang ; Yifan Hou ; Mrinmaya Sachan
+CATEGORY: cs.CL [cs.CL, cs.AI, cs.CV]
+HIGHLIGHT: Despite strong performance in visual understanding and language-basedreasoning, Vision-Language Models (VLMs) struggle with tasks requiringintegrated perception and symbolic computation. We study this limitationthrough visual equation solving, where mathematical equations are embedded inimages, variables are represented by object icons, and coefficients must beinferred by counting.
+
+17, TITLE: Zero-shot Hierarchical Plant Segmentation Via Foundation Segmentation Models and Text-to-image Attention
+AUTHORS: JUNHAO XING et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: This problem is referred to as ahierarchical segmentation task, typically requiring annotated trainingdatasets, which are often species-specific and require notable human labor. Toaddress this, we introduce ZeroPlantSeg, a zero-shot segmentation forrosette-shaped plant individuals from top-view images.
+
+18, TITLE: Can Multimodal LLMs See Materials Clearly? A Multimodal Benchmark on Materials Characterization
+AUTHORS: ZHENGZHAO LAI et. al.
+CATEGORY: cs.CV [cs.CV, cs.AI, cs.CL, cs.MM]
+HIGHLIGHT: While multimodal large language models(MLLMs) have recently shown promise in generative and predictive tasks withinmaterials science, their capacity to understand real-world characterizationimaging data remains underexplored. To bridge this gap, we present MatCha, thefirst benchmark for materials characterization image understanding, comprising1,500 questions that demand expert-level domain expertise.
+
+19, TITLE: GmSLM : Generative Marmoset Spoken Language Modeling
+AUTHORS: Talia Sternberg ; Michael London ; David Omer ; Yossi Adi
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: Studying their vocal communication offers a unique opportunity to link it withbrain activity-especially given the difficulty of accessing the human brain inspeech and language research.
+
+20, TITLE: Kling-Avatar: Grounding Multimodal Instructions for Cascaded Long-Duration Avatar Animation Synthesis
+AUTHORS: YIKANG DING et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: However, existing methods treat instructionconditioning merely as low-level tracking driven by acoustic or visual cues,without modeling the communicative purpose conveyed by the instructions. Thislimitation compromises their narrative coherence and character expressiveness.To bridge this gap, we introduce Kling-Avatar, a novel cascaded framework thatunifies multimodal instruction understanding with photorealistic portraitgeneration.
+
+21, TITLE: Can Understanding and Generation Truly Benefit Together -- or Just Coexist?
+AUTHORS: ZHIYUAN YAN et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In this paper, we introduce an insightful paradigm through the Auto-Encoderlens-understanding as the encoder (I2T) that compresses images into text, andgeneration as the decoder (T2I) that reconstructs images from that text.
+
+22, TITLE: Jupiter: Enhancing LLM Data Analysis Capabilities Via Notebook and Inference-Time Value-Guided Search
+AUTHORS: SHUOCHENG LI et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: Large language models (LLMs) have shown great promise in automating datascience workflows, but existing models still struggle with multi-step reasoningand tool use, which limits their effectiveness on complex data analysis tasks.To address this, we propose a scalable pipeline that extracts high-quality,tool-based data analysis tasks and their executable multi-step solutions fromreal-world Jupyter notebooks and associated data files.
+
+23, TITLE: The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
+AUTHORS: Akshit Sinha ; Arvindh Arun ; Shashwat Goel ; Steffen Staab ; Jonas Geiping
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: We propose isolatingexecution capability, by explicitly providing the knowledge and plan needed tosolve a long-horizon task.
+
+24, TITLE: LITcoder: A General-Purpose Library for Building and Comparing Encoding Models
+AUTHORS: Taha Binhuraib ; Ruimin Gao ; Anna A. Ivanova
+CATEGORY: cs.CL [cs.CL, q-bio.NC]
+HIGHLIGHT: We introduce LITcoder, an open-source library for building and benchmarkingneural encoding models.
+
+25, TITLE: Retrieval-Augmented Generation for Reliable Interpretation of Radio Regulations
+AUTHORS: Zakaria El Kassimi ; Fares Fourati ; Mohamed-Slim Alouini
+CATEGORY: cs.IR [cs.IR, cs.AI, cs.CL, cs.LG, eess.SP]
+HIGHLIGHT: We study question answering in the domain of radio regulations, a legallysensitive and high-stakes area. We propose a telecom-specificRetrieval-Augmented Generation (RAG) pipeline and introduce, to our knowledge,the first multiple-choice evaluation set for this domain, constructed fromauthoritative sources using automated filtering and human validation.
+
+26, TITLE: Steering MoE LLMs Via Expert (De)Activation
+AUTHORS: MOHSEN FAYYAZ et. al.
+CATEGORY: cs.CL [cs.CL, cs.LG]
+HIGHLIGHT: Our detection method identifies expertswith distinct activation patterns across paired inputs exhibiting contrastingbehaviors.
+
+27, TITLE: CCF: A Context Compression Framework for Efficient Long-Sequence Language Modeling
+AUTHORS: WENHAO LI et. al.
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: In this work, we proposeCCF, a novel context compression framework designed to enable efficientlong-context modeling by learning hierarchical latent representations thatpreserve global semantics while aggressively reducing input redundancy.
+
+28, TITLE: CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models
+AUTHORS: RUNPENG DAI et. al.
+CATEGORY: cs.CL [cs.CL, cs.AI, cs.LG]
+HIGHLIGHT: Yetcurrent RLVR methods often explore poorly, leading to premature convergence andentropy collapse. To address this challenge, we introduce Curiosity-DrivenExploration (CDE), a framework that leverages the model's own intrinsic senseof curiosity to guide exploration.
+
+29, TITLE: Automated Evidence Extraction and Scoring for Corporate Climate Policy Engagement: A Multilingual RAG Approach
+AUTHORS: Imene Kolli ; Ario Saeid Vaghefi ; Chiara Colesanti Senni ; Shantam Raj ; Markus Leippold
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: We propose anAI-assisted framework to accelerate the monitoring of corporate climate policyengagement by leveraging Retrieval-Augmented Generation to automate the mosttime-intensive extraction of relevant evidence from large-scale textual data.Our evaluation shows that a combination of layout-aware parsing, the Nomicembedding model, and few-shot prompting strategies yields the best performancein extracting and classifying evidence from multilingual corporate documents.We conclude that while the automated RAG system effectively acceleratesevidence extraction, the nuanced nature of the analysis necessitates ahuman-in-the-loop approach where the technology augments, rather than replaces,expert judgment to ensure accuracy.
+
+30, TITLE: SimpleVLA-RL: Scaling VLA Training Via Reinforcement Learning
+AUTHORS: HAOZHAN LI et. al.
+CATEGORY: cs.RO [cs.RO, cs.AI, cs.CL, cs.LG]
+HIGHLIGHT: In this work, we introduce SimpleVLA-RL, an efficient RLframework tailored for VLA models.
+
+31, TITLE: LAVA: Language Model Assisted Verbal Autopsy for Cause-of-Death Determination
+AUTHORS: Yiqun T. Chen ; Tyler H. McCormick ; Li Liu ; Abhirup Datta
+CATEGORY: cs.CL [cs.CL, stat.AP]
+HIGHLIGHT: Using the PopulationHealth Metrics Research Consortium (PHMRC) dataset across three age categories(Adult: 7,580; Child: 1,960; Neonate: 2,438), we evaluate multiple approaches:GPT-5 predictions, LCVA baseline, text embeddings, and meta-learner ensembles.Our results demonstrate that GPT-5 achieves the highest individual performancewith average test site accuracies of 48.6% (Adult), 50.5% (Child), and 53.5%(Neonate), outperforming traditional statistical machine learning baselines by5-10%.
+
+32, TITLE: PeftCD: Leveraging Vision Foundation Models with Parameter-Efficient Fine-Tuning for Remote Sensing Change Detection
+AUTHORS: Sijun Dong ; Yuxuan Hu ; LiBo Wang ; Geng Chen ; Xiaoliang Meng
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To tackle the prevalence of pseudo changes, the scarcity of labeled samples,and the difficulty of cross-domain generalization in multi-temporal andmulti-source remote sensing imagery, we propose PeftCD, a change detectionframework built upon Vision Foundation Models (VFMs) with Parameter-EfficientFine-Tuning (PEFT).
+
+33, TITLE: Unified Start, Personalized End: Progressive Pruning for Efficient 3D Medical Image Segmentation
+AUTHORS: Linhao Li ; Yiwen Ye ; Ziyang Chen ; Yong Xia
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In this paper, we propose PSP-Seg, a progressive pruning frameworkthat enables dynamic and efficient 3D segmentation.
+
+34, TITLE: EchoX: Towards Mitigating Acoustic-Semantic Gap Via Echo Training for Speech-to-Speech LLMs
+AUTHORS: YUHAO ZHANG et. al.
+CATEGORY: cs.CL [cs.CL, cs.AI, cs.SD]
+HIGHLIGHT: We hypothesizethat this limitation arises because current training paradigms for SLLMs failto bridge the acoustic-semantic gap in the feature representation space. Toaddress this issue, we propose EchoX, which leverages semantic representationsand dynamically generates speech training targets.
+
+35, TITLE: FS-Diff: Semantic Guidance and Clarity-aware Simultaneous Multimodal Image Fusion and Super-resolution
+AUTHORS: YUCHAN JIE et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In response, we propose FS-Diff, asemantic guidance and clarity-aware joint image fusion and super-resolutionmethod.
+
+36, TITLE: Region-Wise Correspondence Prediction Between Manga Line Art Images
+AUTHORS: Yingxuan Li ; Jiafeng Mao ; Qianru Qiu ; Yusuke Matsui
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To tackle thisproblem, we divide each line art image into a set of patches and propose aTransformer-based framework that learns patch-level similarities within andacross images.
+
+37, TITLE: DP-FedLoRA: Privacy-Enhanced Federated Fine-Tuning for On-Device Large Language Models
+AUTHORS: Honghui Xu ; Shiva Shrestha ; Wei Chen ; Zhiyuan Li ; Zhipeng Cai
+CATEGORY: cs.CR [cs.CR, cs.AI]
+HIGHLIGHT: DP-FedLoRA: Privacy-Enhanced Federated Fine-Tuning for On-Device Large Language Models
+
+38, TITLE: MGTraj: Multi-Granularity Goal-Guided Human Trajectory Prediction with Recursive Refinement Network
+AUTHORS: Ge Sun ; Jun Ma
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Inthis paper, we propose MGTraj, a novel Multi-Granularity goal-guided model forhuman Trajectory prediction.
+
+39, TITLE: Dynamic Structural Recovery Parameters Enhance Prediction of Visual Outcomes After Macular Hole Surgery
+AUTHORS: YINZHENG ZHAO et. al.
+CATEGORY: eess.IV [eess.IV, cs.CV, I.4.6]
+HIGHLIGHT: Methods: We utilized a publicly available longitudinal OCT dataset atfive stages (preoperative, 2 weeks, 3 months, 6 months, and 12 months).
+
+40, TITLE: VQualA 2025 Challenge on Visual Quality Comparison for Large Multimodal Models: Methods and Results
+AUTHORS: HANWEI ZHU et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: This paper presents a summary of the VQualA 2025 Challenge on Visual QualityComparison for Large Multimodal Models (LMMs), hosted as part of the ICCV 2025Workshop on Visual Quality Assessment.
+
+41, TITLE: Instructional Prompt Optimization for Few-Shot LLM-Based Recommendations on Cold-Start Users
+AUTHORS: HAOWEI YANG et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: We introduce acontext-conditioned prompt formulation method P(u,\ Ds)\ \rightarrow\R\widehat, where u is a cold-start user profile, Ds is a curated support set,and R\widehat is the predicted ranked list of items.
+
+42, TITLE: Hierarchical Bracketing Encodings Work for Dependency Graphs
+AUTHORS: Ana Ezquerro ; Carlos G�mez-Rodr�guez ; David Vilares
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: We revisit hierarchical bracketing encodings from a practical perspective inthe context of dependency graph parsing.
+
+43, TITLE: BRoverbs -- Measuring How Much LLMs Understand Portuguese Proverbs
+AUTHORS: Thales Sales Almeida ; Giovana Kerche Bon�s ; Jo�o Guilherme Alves Santos
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: To address thislimitation, we introduce BRoverbs, a dataset specifically designed to assessLLM performance through Brazilian proverbs.
+
+44, TITLE: TigerCoder: A Novel Suite of LLMs for Code Generation in Bangla
+AUTHORS: Nishat Raihan ; Antonios Anastasopoulos ; Marcos Zampieri
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: Hence, we introduce the first dedicated family of CodeLLMs for Bangla (1B & 9B).
+
+45, TITLE: LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering
+AUTHORS: JIELIN QIU et. al.
+CATEGORY: cs.SE [cs.SE, cs.AI]
+HIGHLIGHT: We introduce acomprehensive evaluation framework with 17 metrics across 4 dimensions,including 8 new evaluation metrics, combined in a LoCoBench Score (LCBS).
+
+46, TITLE: Fusing Knowledge and Language: A Comparative Study of Knowledge Graph-Based Question Answering with LLMs
+AUTHORS: Vaibhav Chaudhary ; Neha Soni ; Narotam Singh ; Amita Kapoor
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: While traditional Retrieval Augmented Generation(RAG) approaches are proficient in fact-based and local context-basedextraction from concise texts, they encounter limitations when addressing thethematic and holistic understanding of complex, extensive texts, requiring adeeper analysis of both text and context. This paper presents a comprehensivetechnical comparative study of three different methodologies for constructingknowledge graph triplets and integrating them with Large Language Models (LLMs)for question answering: spaCy, Stanford CoreNLP-OpenIE, and GraphRAG, allleveraging open source technologies.
+
+47, TITLE: OCELOT 2023: Cell Detection from Cell-Tissue Interaction Challenge
+AUTHORS: JAEWOONG SHIN et. al.
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: Participants presented models that significantlyenhanced the understanding of cell-tissue relationships.
+
+48, TITLE: Semantic Concentration for Self-Supervised Dense Representations Learning
+AUTHORS: Peisong Wen ; Qianqian Xu ; Siran Dai ; Runmin Cong ; Qingming Huang
+CATEGORY: cs.CV [cs.CV, cs.LG]
+HIGHLIGHT: This work reveals that image-level SSL avoids over-dispersionby involving implicit semantic concentration.
+
+49, TITLE: ENSI: Efficient Non-Interactive Secure Inference for Large Language Models
+AUTHORS: ZHIYU HE et. al.
+CATEGORY: cs.CR [cs.CR, cs.AI]
+HIGHLIGHT: In this work,we propose ENSI, a novel non-interactive secure inference framework for LLMs,based on the principle of co-designing the cryptographic protocols and LLMarchitecture.
+
+50, TITLE: An U-Net-Based Deep Neural Network for Cloud Shadow and Sun-Glint Correction of Unmanned Aerial System (UAS) Imagery
+AUTHORS: Yibin Wang ; Wondimagegn Beshah ; Padmanava Dash ; Haifeng Wang
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: The data wasextracted from the images at pixel level to train an U-Net based deep learningmodel and best settings for model training was identified based on the variousevaluation metrics from test cases. Using this evaluation, a high-quality imagecorrection model was determined, which was used to recover the cloud shadow andsun glint areas in the images.
+
+51, TITLE: FPI-Det: A Face--phone Interaction Dataset for Phone-use Detection and Understanding
+AUTHORS: JIANQIN GAO et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Existing generic benchmarks do not fully capture suchfine-grained human--device interactions. To address this gap, we introduce theFPI-Det, containing 22{,}879 images with synchronized annotations for faces andphones across workplace, education, transportation, and public scenarios.
+
+52, TITLE: Automated Classification of Tutors' Dialogue Acts Using Generative AI: A Case Study Using The CIMA Corpus
+AUTHORS: Liqun He ; Jiaqi Xu
+CATEGORY: cs.CL [cs.CL, cs.AI]
+HIGHLIGHT: This study explores the use of generative AI for automating theclassification of tutors' Dialogue Acts (DAs), aiming to reduce the time andeffort required by traditional manual coding.
+
+53, TITLE: MetaLLMix : An XAI Aided LLM-Meta-learning Based Approach for Hyper-parameters Optimization
+AUTHORS: Mohammed Tiouti ; Mohamed Bal-Ghaoui
+CATEGORY: cs.LG [cs.LG, cs.AI]
+HIGHLIGHT: We propose MetaLLMiX, a zero-shothyperparameter optimization framework combining meta-learning, explainable AI,and efficient LLM reasoning.
+
+54, TITLE: Image Recognition with Vision and Language Embeddings of VLMs
+AUTHORS: Illia Volkov ; Nikita Kisel ; Klara Janouskova ; Jiri Matas
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To exploit thiscomplementarity, we introduce a simple, learning-free fusion method based onper-class precision that improves classification performance.
+
+55, TITLE: Bridging The Gap Between Ideal and Real-world Evaluation: Benchmarking AI-Generated Image Detection in Challenging Scenarios
+AUTHORS: CHUNXIAO LI et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: This paper introduces the Real-WorldRobustness Dataset (RRDataset) for comprehensive evaluation of detection modelsacross three dimensions: 1) Scenario Generalization: RRDataset encompasseshigh-quality images from seven major scenarios (War and Conflict, Disasters andAccidents, Political and Social Events, Medical and Public Health, Culture andReligion, Labor and Production, and everyday life), addressing existing datasetgaps from a content perspective.
+
+56, TITLE: SEDM: Scalable Self-Evolving Distributed Memory for Agents
+AUTHORS: HAORAN XU et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: Existing methodstypically depend on vector retrieval and hierarchical storage, yet they areprone to noise accumulation, uncontrolled memory expansion, and limitedgeneralization across domains. To address these challenges, we present SEDM,Self-Evolving Distributed Memory, a verifiable and adaptive framework thattransforms memory from a passive repository into an active, self-optimizingcomponent.
+
+57, TITLE: MR-UIE: Multi-Perspective Reasoning with Reinforcement Learning for Universal Information Extraction
+AUTHORS: ZHONGQIU LI et. al.
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: Large language models (LLMs) demonstrate robust capabilities across diverseresearch domains.
+
+58, TITLE: Integrating Anatomical Priors Into A Causal Diffusion Model
+AUTHORS: Binxu Li ; Wei Peng ; Mingjie Li ; Ehsan Adeli ; Kilian M. Pohl
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: 3D brain MRI studies often examine subtle morphometric differences betweencohorts that are hard to detect visually.
+
+59, TITLE: Towards Verified Compilation of Floating-point Optimization in Scientific Computing Programs
+AUTHORS: Mohit Tekriwal ; John Sarracino
+CATEGORY: cs.PL [cs.PL]
+HIGHLIGHT: In this paper, we focus on a specific class of optimizations,floating-point optimizations, notably due to fast math, at the LLVM IR level.We present a preliminary work, which leverages the Verified LLVM framework inthe Rocq theorem prover, to prove the correctness of Fused-Multiply-Add (FMA)optimization for a basic block implementing the arithmetic expression $a * b +c$ .
+
+60, TITLE: Character-Level Perturbations Disrupt LLM Watermarks
+AUTHORS: ZHAOXI ZHANG et. al.
+CATEGORY: cs.CR [cs.CR, cs.AI]
+HIGHLIGHT: Additionally, weargue there is an adversarial dilemma when considering potential defenses: anyfixed defense can be bypassed by a suitable perturbation strategy. Motivated bythis principle, we propose an adaptive compound character-level attack.Experimental results show that this approach can effectively defeat thedefenses.
+
+61, TITLE: Instance-Optimal Matrix Multiplicative Weight Update and Its Quantum Applications
+AUTHORS: Weiyuan Gong ; Tongyang Li ; Xinzhao Wang ; Zhiyu Zhang
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.DS, quant-ph, stat.ML]
+HIGHLIGHT: In this paper, we presentan improved algorithm achieving the instance-optimal regret bound of$O(\sqrt{T\cdot S(X||d^{-1}I_d)})$, where $X$ is the comparator in the regret,$I_d$ is the identity matrix, and $S(\cdot||\cdot)$ denotes the quantumrelative entropy.
+
+62, TITLE: Video Understanding By Design: How Datasets Shape Architectures and Insights
+AUTHORS: Lei Wang ; Piotr Koniusz ; Yongsheng Gao
+CATEGORY: cs.CV [cs.CV, cs.AI, cs.LG]
+HIGHLIGHT: By unifying datasets, inductivebiases, and architectures into a coherent framework, this survey provides botha comprehensive retrospective and a prescriptive roadmap for advancinggeneral-purpose video understanding.
+
+63, TITLE: Improving Video Diffusion Transformer Training By Multi-Feature Fusion and Alignment from Self-Supervised Vision Encoders
+AUTHORS: Dohun Lee ; Hyeonho Jeong ; Jiwook Kim ; Duygu Ceylan ; Jong Chul Ye
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: Video diffusion models have advanced rapidly in the recent years as a resultof series of architectural innovations (e.g., diffusion transformers) and useof novel training objectives (e.g., flow matching).
+
+64, TITLE: Similarity-based Outlier Detection for Noisy Object Re-Identification Using Beta Mixtures
+AUTHORS: Waqar Ahmad ; Evan Murphy ; Vladimir A. Krylov
+CATEGORY: cs.CV [cs.CV, cs.AI, cs.LG, math.ST, stat.ML, stat.TH]
+HIGHLIGHT: We address thischallenge by reframing Re-ID as a supervised image similarity task and adoptinga Siamese network architecture trained to capture discriminative pairwiserelationships.
+
+65, TITLE: Enhancing 3D Medical Image Understanding with Pretraining Aided By 2D Multimodal Large Language Models
+AUTHORS: Qiuhui Chen ; Xuancheng Yao ; Huping Ye ; Yi Hong
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Recent advancements inmultimodal large language models (MLLMs) provide a promising approach toenhance image understanding through text descriptions. To leverage these 2DMLLMs for improved 3D medical image understanding, we propose Med3DInsight, anovel pretraining framework that integrates 3D image encoders with 2D MLLMs viaa specially designed plane-slice-aware transformer module.
+
+66, TITLE: Visual Programmability: A Guide for Code-as-Thought in Chart Understanding
+AUTHORS: BOHAO TANG et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To addressthis, we propose a Code-as-Thought (CaT) approach to represent the visualinformation of a chart in a verifiable, symbolic format.
+
+67, TITLE: Towards Explainable Job Title Matching: Leveraging Semantic Textual Relatedness and Knowledge Graphs
+AUTHORS: Vadim Zadykian ; Bruno Andrade ; Haithem Afli
+CATEGORY: cs.CL [cs.CL, cs.AI]
+HIGHLIGHT: In this study, weinvestigate STR in the context of job title matching - a key challenge inresume recommendation systems, where overlapping terms are often limited ormisleading.
+
+68, TITLE: SpatialVID: A Large-Scale Video Dataset with Spatial Annotations
+AUTHORS: JIAHAO WANG et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To this end, we collect \textbf{SpatialVID}, adataset consists of a large corpus of in-the-wild videos with diverse scenes,camera movements and dense 3D annotations such as per-frame camera poses,depth, and motion instructions. Specifically, we collect more than 21,000 hoursof raw video, and process them into 2.7 million clips through a hierarchicalfiltering pipeline, totaling 7,089 hours of dynamic content.
+
+69, TITLE: SFD-Mamba2Net: Strcture-Guided Frequency-Enhanced Dual-Stream Mamba2 Network for Coronary Artery Segmentation
+AUTHORS: Nan Mu ; Ruiqi Song ; Zhihui Xu ; Jingfeng Jiang ; Chen Zhao
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Objective: This study aims to improve theaccuracy of coronary artery segmentation and stenosis detection in ICA imagesby integrating multi-scale structural priors, state-space-based long-rangedependency modeling, and frequency-domain detail enhancement strategies.Methods: We propose SFD-Mamba2Net, an end-to-end framework tailored forICA-based vascular segmentation and stenosis detection.
+
+70, TITLE: Towards Adaptive ML Benchmarks: Web-Agent-Driven Construction, Domain Expansion, and Metric Optimization
+AUTHORS: HANGYI JIA et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: Based on 150 curatedAutoML tasks, we construct three benchmark subsets of different sizes -- Lite,Medium, and Full -- designed for varying evaluation scenarios.
+
+71, TITLE: LightAgent: Production-level Open-source Agentic AI Framework
+AUTHORS: WEIGE CAI et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: To address theselimitations, we propose \textbf{LightAgent}, a lightweight yet powerful agenticframework, effectively resolving the trade-off between flexibility andsimplicity found in existing frameworks.
+
+72, TITLE: In-Loop Filtering Using Learned Look-Up Tables for Video Coding
+AUTHORS: ZHUOYUAN LI et. al.
+CATEGORY: eess.IV [eess.IV, cs.CV, cs.MM]
+HIGHLIGHT: In this paper, we propose a universal LUT-based ILF framework,termed LUT-ILF++.
+
+73, TITLE: Dark-ISP: Enhancing RAW Image Processing for Low-Light Object Detection
+AUTHORS: Jiasheng Guo ; Xin Gao ; Yuxiang Yan ; Guanghao Li ; Jian Pu
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: To address these, we propose a lightweight and self-adaptive ImageSignal Processing (ISP) plugin, Dark-ISP, which directly processes Bayer RAWimages in dark environments, enabling seamless end-to-end training for objectdetection.
+
+74, TITLE: FlexiD-Fuse: Flexible Number of Inputs Multi-modal Medical Image Fusion Based on Diffusion Model
+AUTHORS: YUSHEN XU et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: By incorporating theExpectation-Maximization algorithm into the diffusion sampling iterationprocess, FlexiD-Fuse can generate high-quality fused images with cross-modalinformation from source images, independently of the number of input images.
+
+75, TITLE: From Scratch to Silver: Creating Trustworthy Training Data for Patent-SDG Classification Using Large Language Models
+AUTHORS: Grazia Sveva Ascione ; Nicol� Tamagnone
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: Existing methods, such as keyword searches, transferlearning, and citation-based heuristics, lack scalability and generalizability.This paper frames patent-to-SDG classification as a weak supervision problem,using citations from patents to SDG-tagged scientific publications (NPLcitations) as a noisy initial signal. To address its sparsity and noise, wedevelop a composite labeling function (LF) that uses large language models(LLMs) to extract structured concepts, namely functions, solutions, andapplications, from patents and SDG papers based on a patent ontology.Cross-domain similarity scores are computed and combined using a rank-basedretrieval approach.
+
+76, TITLE: Stated Preference for Interaction and Continued Engagement (SPICE): Evaluating An LLM's Willingness to Re-engage in Conversation
+AUTHORS: Thomas Manuel Rost ; Martina Figlia ; Bernd Wallraff
+CATEGORY: cs.CL [cs.CL, cs.AI, cs.MA]
+HIGHLIGHT: We introduce and evaluate Stated Preference for Interaction and ContinuedEngagement (SPICE), a simple diagnostic signal elicited by asking a LargeLanguage Model a YES or NO question about its willingness to re-engage with auser's behavior after reviewing a short transcript.
+
+77, TITLE: Measuring Epistemic Humility in Multimodal Large Language Models
+AUTHORS: Bingkui Tong ; Jiaer Xia ; Sifeng Shang ; Kaiyang Zhou
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: We present HumbleBench, a newhallucination benchmark designed to evaluate MLLMs' ability to reject plausiblebut incorrect answers across three hallucination types: object, relation, andattribute.
+
+78, TITLE: Model-Agnostic Open-Set Air-to-Air Visual Object Detection for Reliable UAV Perception
+AUTHORS: Spyridon Loukovitis ; Anastasios Arsenos ; Vasileios Karampinis ; Athanasios Voulodimos
+CATEGORY: cs.CV [cs.CV, cs.LG, cs.RO]
+HIGHLIGHT: We propose a novel, model-agnostic open-setdetection framework designed specifically for embedding-based detectors.
+
+79, TITLE: A Fully Automatic Framework for Intracranial Pressure Grading: Integrating Keyframe Identification, ONSD Measurement and Clinical Data
+AUTHORS: PENGXU WEN et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: However, current clinical practicesfor ONSD measurement suffer from inconsistency in manual operation,subjectivity in optimal view selection, and variability in thresholding,limiting their reliability. To address these challenges, we introduce a fullyautomatic two-stage framework for ICP grading, integrating keyframeidentification, ONSD measurement and clinical data.
+
+80, TITLE: GrACE: A Generative Approach to Better Confidence Elicitation in Large Language Models
+AUTHORS: Zhaohan Zhang ; Ziquan Liu ; Ioannis Patras
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: In this work, we propose GrACE, aGenerative Approach to Confidence Elicitation that enables scalable andreliable confidence elicitation for LLMs.
+
+81, TITLE: We're Still Doing It (All) Wrong: Recommender Systems, Fifteen Years Later
+AUTHORS: Alan Said ; Maria Soledad Pera ; Michael D. Ekstrand
+CATEGORY: cs.IR [cs.IR, cs.AI]
+HIGHLIGHT: This paper revisits Amatriain's diagnosis andargues that many of the conceptual, epistemological, and infrastructuralfailures he identified still persist, in more subtle or systemic forms.
+
+82, TITLE: Texture-aware Intrinsic Image Decomposition with Model- and Learning-based Priors
+AUTHORS: Xiaodong Wang ; Zijun He ; Xin Yuan
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Inthis paper, we propose a novel method for handling severe lighting and richtextures in intrinsic image decomposition, which enables to producehigh-quality intrinsic images for real-world images.
+
+83, TITLE: Plug-and-play Diffusion Models for Image Compressive Sensing with Data Consistency Projection
+AUTHORS: Xiaodong Wang ; Ping Wang ; Zhangyuan Li ; Xin Yuan
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: By decoupling the diffusion process into threeinterpretable stages: denoising, data consistency enforcement, and sampling, weprovide a unified framework that integrates learned priors with physicalforward models in a principled manner. Building upon this insight, we propose ahybrid data-consistency module that linearly combines multiple PnP-stylefidelity terms.
+
+84, TITLE: VoxelFormer: Parameter-Efficient Multi-Subject Visual Decoding from FMRI
+AUTHORS: CHENQIAN LE et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: VoxelFormer: Parameter-Efficient Multi-Subject Visual Decoding from FMRI
+
+85, TITLE: ALL-PET: A Low-resource and Low-shot PET Foundation Model in The Projection Domain
+AUTHORS: Bin Huang ; Kang Chen ; Bingxuan Li ; Huafeng Liu ; Qiegen Liu
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To overcomedata scarcity and efficiency limitations, we propose ALL-PET, a low-resource,low-shot PET foundation model operating directly in the projection domain.ALL-PET leverages a latent diffusion model (LDM) with three key innovations.First, we design a Radon mask augmentation strategy (RMAS) that generates over200,000 structurally diverse training samples by projecting randomizedimage-domain masks into sinogram space, significantly improving generalizationwith minimal data.
+
+86, TITLE: IMatcher: Improve Matching in Point Cloud Registration Via Local-to-global Geometric Consistency Learning
+AUTHORS: Karim Slimani ; Catherine Achard ; Brahim Tamadazte
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: This paper presents iMatcher, a fully differentiable framework for featurematching in point cloud registration.
+
+87, TITLE: Mind Meets Space: Rethinking Agentic Spatial Intelligence from A Neuroscience-inspired Perspective
+AUTHORS: BUI DUC MANH et. al.
+CATEGORY: cs.AI [cs.AI, cs.CV]
+HIGHLIGHT: To this end,we first start from scrutinizing the spatial neural models as studied incomputational neuroscience, and accordingly introduce a novel computationalframework grounded in neuroscience principles. This framework maps corebiological functions to six essential computation modules: bio-inspiredmultimodal sensing, multi-sensory integration, egocentric-allocentricconversion, an artificial cognitive map, spatial memory, and spatial reasoning.Together, these modules form a perspective landscape for agentic spatialreasoning capability across both virtual and physical environments.
+
+88, TITLE: Towards Better Dental AI: A Multimodal Benchmark and Instruction Dataset for Panoramic X-ray Analysis
+AUTHORS: JING HAO et. al.
+CATEGORY: cs.CV [cs.CV, cs.MM]
+HIGHLIGHT: To this end, we introduce MMOral, the firstlarge-scale multimodal instruction dataset and benchmark tailored for panoramicX-ray interpretation.
+
+89, TITLE: Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents
+AUTHORS: JIAWEI WANG et. al.
+CATEGORY: cs.LG [cs.LG, cs.CL]
+HIGHLIGHT: In this paper, weidentify a fundamental problem in the learning dynamics of LLMs: the magnitudeof policy gradients is inherently coupled with the entropy, which leads toinefficient small updates for confident correct actions and potentiallydestabilizes large updates for uncertain ones.
+
+90, TITLE: Improving Human Motion Plausibility with Body Momentum
+AUTHORS: Ha Linh Nguyen ; Tze Ho Elden Tse ; Angela Yao
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To address these challenges, we proposeusing whole-body linear and angular momentum as a constraint to link localmotion with global movement. Since momentum reflects the aggregate effect ofjoint-level dynamics on the body's movement through space, it provides aphysically grounded way to relate local joint behavior to global displacement.Building on this insight, we introduce a new loss term that enforcesconsistency between the generated momentum profiles and those observed inground-truth data.
+
+91, TITLE: Explainable AI for Accelerated Microstructure Imaging: A SHAP-Guided Protocol on The Connectome 2.0 Scanner
+AUTHORS: QUENTIN UHL et. al.
+CATEGORY: physics.med-ph [physics.med-ph, cs.AI, cs.CV, cs.LG, eess.IV, J.3]
+HIGHLIGHT: This study proposes areduced acquisition scheme for the Connectome 2.0 scanner that preserves modelaccuracy while substantially shortening scan duration.
+
+92, TITLE: TORSO: Template-Oriented Reasoning Towards General Tasks
+AUTHORS: Minhyuk Kim ; Seungyoon Lee ; Heuiseok Lim
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: In this work, we introduceTemplate-Oriented Reasoning (TORSO), which elicits the model to utilizeinternal reasoning abilities to generate proper responses across various taskswithout the need for manually crafted few-shot examples.
+
+93, TITLE: Bridging The Capability Gap: Joint Alignment Tuning for Harmonizing LLM-based Multi-Agent Systems
+AUTHORS: MINGHANG ZHU et. al.
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: Most existing methods typicallyfine-tune these agents independently, leading to capability gaps among themwith poor coordination. To address this, we propose MOAT, a Multi-Agent JointAlignment Tuning framework that improves agents collaboration through iterativealignment.
+
+94, TITLE: Feasibility-Guided Fair Adaptive Offline Reinforcement Learning for Medicaid Care Management
+AUTHORS: SANJAY BASU et. al.
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.LO, stat.AP]
+HIGHLIGHT: We introduce Feasibility-Guided Fair Adaptive Reinforcement Learning(FG-FARL), an offline RL procedure that calibrates per-group safety thresholdsto reduce harm while equalizing a chosen fairness target (coverage or harm)across protected subgroups.
+
+95, TITLE: Generative Diffusion Contrastive Network for Multi-View Clustering
+AUTHORS: JIAN ZHU et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: 2) Some views suffer from missingdata. This paper proposes a novel Stochastic Generative Diffusion Fusion (SGDF)method to address this problem.
+
+96, TITLE: Fine-Grained Customized Fashion Design with Image-into-Prompt Benchmark and Dataset from LMM
+AUTHORS: Hui Li ; Yi You ; Qiqi Chen ; Bingfeng Zhang ; George Q. Huang
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: To prove the effectiveness of our model, we propose a newFashionEdit dataset that simulates the real-world clothing design workflow,evaluated from generation similarity, user satisfaction, and quality.
+
+97, TITLE: ProgD: Progressive Multi-scale Decoding with Dynamic Graphs for Joint Multi-agent Motion Forecasting
+AUTHORS: Xing Gao ; Zherui Huang ; Weiyao Lin ; Xiao Sun
+CATEGORY: cs.AI [cs.AI, cs.RO]
+HIGHLIGHT: However, these methods overlook the evolving nature of theseinteractions. To address this limitation, we propose a novel progressivemulti-scale decoding strategy, termed ProgD, with the help of dynamicheterogeneous graph-based scenario modeling.
+
+98, TITLE: Uncertainty Awareness and Trust in Explainable AI- On Trust Calibration Using Local and Global Explanations
+AUTHORS: CARINA NEWEN et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: One major effort many researchers tackle isconstructing general guidelines for XAI schemes, which we derived from ourstudy.
+
+99, TITLE: Unsupervised Integrated-Circuit Defect Segmentation Via Image-Intrinsic Normality
+AUTHORS: Botong Zhao ; Qijun Shi ; Shujing Lyu ; Yue Lu
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: We observe that defects are predominantly local, whileeach image still contains rich, repeatable normal patterns.
+
+100, TITLE: You Share Beliefs, I Adapt: Progressive Heterogeneous Collaborative Perception
+AUTHORS: Hao Si ; Ehsan Javanmardi ; Manabu Tsukada
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: You Share Beliefs, I Adapt: Progressive Heterogeneous Collaborative Perception
+
+101, TITLE: Understanding Economic Tradeoffs Between Human and AI Agents in Bargaining Games
+AUTHORS: CRYSTAL QIAN et. al.
+CATEGORY: cs.AI [cs.AI, cs.GT, cs.HC]
+HIGHLIGHT: In this work, wecompare humans (N = 216), LLMs (GPT-4o, Gemini 1.5 Pro), and Bayesian agents ina dynamic negotiation setting that enables direct, identical-conditioncomparisons across populations, capturing both outcomes and behavioraldynamics.
+
+102, TITLE: Objectness Similarity: Capturing Object-Level Fidelity in 3D Scene Evaluation
+AUTHORS: Yuiko Uchida ; Ren Togo ; Keisuke Maeda ; Takahiro Ogawa ; Miki Haseyama
+CATEGORY: cs.CV [cs.CV, cs.AI, cs.GR]
+HIGHLIGHT: This paper presents Objectness SIMilarity (OSIM), a novel evaluation metricfor 3D scenes that explicitly focuses on "objects," which are fundamental unitsof human visual perception.
+
+103, TITLE: Vejde: A Framework for Inductive Deep Reinforcement Learning Based on Factor Graph Color Refinement
+AUTHORS: Jakob Nyberg ; Pontus Johnson
+CATEGORY: cs.LG [cs.LG, cs.AI]
+HIGHLIGHT: We present and evaluate Vejde; a framework which combines data abstraction,graph neural networks and reinforcement learning to produce inductive policyfunctions for decision problems with richly structured states, such as objectclasses and relations.
+
+104, TITLE: CameraVDP: Perceptual Display Assessment with Uncertainty Estimation Via Camera and Visual Difference Prediction
+AUTHORS: Yancheng Cai ; Robert Wanat ; Rafal Mantiuk
+CATEGORY: cs.GR [cs.GR, cs.CV]
+HIGHLIGHT: To enable perceptual assessment of displays, we propose acombination of a camera-based reconstruction pipeline with a visual differencepredictor, which account for both the inaccuracy of camera measurements andvisual difference prediction.
+
+105, TITLE: A Knowledge Noise Mitigation Framework for Knowledge-based Visual Question Answering
+AUTHORS: Zhiyue Liu ; Sihang Liu ; Jinyuan Liu ; Xinru Zhang
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: Knowledge-based visual question answering (KB-VQA) requires a model tounderstand images and utilize external knowledge to provide accurate answers.Existing approaches often directly augment models with retrieved informationfrom knowledge sources while ignoring substantial knowledge redundancy, whichintroduces noise into the answering process. To address this, we propose atraining-free framework with knowledge focusing for KB-VQA, that mitigates theimpact of noise by enhancing knowledge relevance and reducing redundancy.First, for knowledge retrieval, our framework concludes essential parts fromthe image-question pairs, creating low-noise queries that enhance the retrievalof highly relevant knowledge.
+
+106, TITLE: All for One: LLMs Solve Mental Math at The Last Token With Information Transferred From Other Tokens
+AUTHORS: Siddarth Mamidanna ; Daking Rai ; Ziyu Yao ; Yilun Zhou
+CATEGORY: cs.CL [cs.CL, I.2.7]
+HIGHLIGHT: Inpractice, to what extent are such operations present? In this paper, on mentalmath tasks (i.e., direct math calculation via next-token prediction withoutexplicit reasoning), we investigate this question in three steps: inhibitinginput-specific token computations in the initial layers, restricting the routesof information transfer across token positions in the next few layers, andforcing all computation to happen at the last token in the remaining layers.With two proposed techniques, Context-Aware Mean Ablation (CAMA) andAttention-Based Peeking (ABP), we identify an All-for-One subgraph (AF1) withhigh accuracy on a wide variety of mental math tasks, where meaningfulcomputation occurs very late (in terms of layer depth) and only at the lasttoken, which receives information of other tokens in few specific middlelayers.
+
+107, TITLE: On Integrating Large Language Models and Scenario-Based Programming for Improving Software Reliability
+AUTHORS: Ayelet Berzack ; Guy Katz
+CATEGORY: cs.SE [cs.SE, cs.AI, 68N19]
+HIGHLIGHT: However, despite their strengths, LLMs will often introducesignificant errors and present incorrect code with persuasive confidence,potentially misleading developers into accepting flawed solutions. In order to bring LLMs into the software development cycle in a more reliablemanner, we propose a methodology for combining them with ``traditional''software engineering techniques in a structured way, with the goal ofstreamlining the development process, reducing errors, and enabling users toverify crucial program properties with increased confidence.
+
+108, TITLE: S-BEVLoc: BEV-based Self-supervised Framework for Large-scale LiDAR Global Localization
+AUTHORS: CHENGHAO ZHANG et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In this work, we proposeS-BEVLoc, a novel self-supervised framework based on bird's-eye view (BEV) forLiDAR global localization, which eliminates the need for ground-truth poses andis highly scalable.
+
+109, TITLE: Gradient-Attention Guided Dual-Masking Synergetic Framework for Robust Text-based Person Retrieval
+AUTHORS: TIANLU ZHENG et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Gradient-Attention Guided Dual-Masking Synergetic Framework for Robust Text-based Person Retrieval
+
+110, TITLE: LLMs Don't Know Their Own Decision Boundaries: The Unreliability of Self-Generated Counterfactual Explanations
+AUTHORS: HARRY MAYNE et. al.
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.CL]
+HIGHLIGHT: To collaborate effectively with humans, language models must be able toexplain their decisions in natural language. We study a specific type ofself-explanation: self-generated counterfactual explanations (SCEs), where amodel explains its prediction by modifying the input such that it would havepredicted a different outcome.
+
+111, TITLE: DATE: Dynamic Absolute Time Enhancement for Long Video Understanding
+AUTHORS: Chao Yuan ; Yang Yang ; Yehui Yang ; Zach Cheng
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In this paper,we propose Dynamic Absolute Time Enhancement (DATE) that enhances temporalawareness in MLLMs through the Timestamp Injection Mechanism (TIM) and asemantically guided Temporal-Aware Similarity Sampling (TASS) strategy.Specifically, we interleave video frame embeddings with textual timestamptokens to construct a continuous temporal reference system.
+
+112, TITLE: Boosting Embodied AI Agents Through Perception-Generation Disaggregation and Asynchronous Pipeline Execution
+AUTHORS: SHULAI ZHANG et. al.
+CATEGORY: cs.AI [cs.AI, cs.LG]
+HIGHLIGHT: In this work, wepresent Auras, an algorithm-system co-designed inference framework to optimizethe inference frequency of embodied AI agents.
+
+113, TITLE: DiFlow-TTS: Discrete Flow Matching with Factorized Speech Tokens for Low-Latency Zero-Shot Text-To-Speech
+AUTHORS: Ngoc-Son Nguyen ; Hieu-Nghia Huynh-Nguyen ; Thanh V. T. Tran ; Truong-Son Hy ; Van Nguyen
+CATEGORY: cs.SD [cs.SD, cs.CL, cs.CV]
+HIGHLIGHT: Inaddition, the model employs a factorized flow prediction mechanism withdistinct heads for prosody and acoustic details, allowing it to learnaspect-specific distributions.
+
+114, TITLE: Modelling Analogies and Analogical Reasoning: Connecting Cognitive Science Theory and NLP Research
+AUTHORS: Molly R Petersen ; Claire E Stevenson ; Lonneke van der Plas
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: In thispaper, we summarize key theory about the processes underlying analogicalreasoning from the cognitive science literature and relate it to currentresearch in natural language processing.
+
+115, TITLE: Implicit Neural Representations of Intramyocardial Motion and Strain
+AUTHORS: ANDREW BELL et. al.
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: We propose a method usingimplicit neural representations (INRs), conditioned on learned latent codes, topredict continuous left ventricular (LV) displacement -- without requiringinference-time optimisation.
+
+116, TITLE: MoSE: Unveiling Structural Patterns in Graphs Via Mixture of Subgraph Experts
+AUTHORS: Junda Ye ; Zhongbao Zhang ; Li Sun ; Siqiang Luo
+CATEGORY: cs.LG [cs.LG, cs.AI]
+HIGHLIGHT: Moreover, their fixed kernel configurations hinderthe model's flexibility in capturing diverse subgraph structures. To addressthese limitations, this paper proposes a novel Mixture of Subgraph Experts(MoSE) framework for flexible and expressive subgraph-based representationlearning across diverse graph tasks.
+
+117, TITLE: OmniEVA: Embodied Versatile Planner Via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning
+AUTHORS: YUECHENG LIU et. al.
+CATEGORY: cs.RO [cs.RO, cs.AI, cs.CL, cs.CV]
+HIGHLIGHT: OmniEVA: Embodied Versatile Planner Via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning
+
+118, TITLE: Medverse: A Universal Model for Full-Resolution 3D Medical Image Segmentation, Transformation and Enhancement
+AUTHORS: JIESI HU et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Thus, we present \textbf{Medverse}, auniversal ICL model for 3D medical imaging, trained on 22 datasets coveringdiverse tasks in universal image segmentation, transformation, and enhancementacross multiple organs, imaging modalities, and clinical centers.
+
+119, TITLE: Robust Non-Linear Correlations Via Polynomial Regression
+AUTHORS: Luca Giuliani ; Michele Lombardi
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.NA, math.NA]
+HIGHLIGHT: The Hirschfeld-Gebelein-R\'enyi (HGR) correlation coefficient is an extensionof Pearson's correlation that is not limited to linear correlations, withpotential applications in algorithmic fairness, scientific analysis, and causaldiscovery. Recently, novel algorithms to estimate HGR in a differentiablemanner have been proposed to facilitate its use as a loss regularizer inconstrained machine learning applications.
+
+120, TITLE: Global Constraint LLM Agents for Text-to-Model Translation
+AUTHORS: Junyang Cai ; Serdar Kadioglu ; Bistra Dilkina
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: Natural language descriptions of optimization or satisfaction problems arechallenging to translate into correct MiniZinc models, as this process demandsboth logical reasoning and constraint programming expertise. We introduce aframework that addresses this challenge with an agentic approach: multiplespecialized large language model (LLM) agents decompose the modeling task byglobal constraint type.
+
+121, TITLE: Adaptive Pareto-Optimal Token Merging for Edge Transformer Models in Semantic Communication
+AUTHORS: Omar Erak ; Omar Alhussein ; Hatem Abou-Zeid ; Mehdi Bennis
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.CV, eess.IV]
+HIGHLIGHT: In this paper, we present a training-freeframework for adaptive token merging in pretrained vision transformers tojointly reduce inference time and transmission resource usage.
+
+122, TITLE: Measuring Implicit Spatial Coordination in Teams: Effects on Collective Intelligence and Performance
+AUTHORS: Thuy Ngoc Nguyen ; Anita Williams Woolley ; Cleotilde Gonzalez
+CATEGORY: cs.AI [cs.AI, cs.HC]
+HIGHLIGHT: This paper investigates how three dimensions of spatialcoordination, namely exploration diversity, movement specialization, andadaptive spatial proximity, influence team performance in a collaborativeonline search and rescue task where explicit communication is restricted andteam members rely on movement patterns to infer others' intentions andcoordinate actions.
+
+123, TITLE: Documents Are People and Words Are Items: A Psychometric Approach to Textual Data with Contextual Embeddings
+AUTHORS: Jinsong Chen
+CATEGORY: cs.CL [cs.CL, stat.AP, stat.ME]
+HIGHLIGHT: This research introduces a novel psychometric method for analyzing textualdata using large language models.
+
+124, TITLE: HISPASpoof: A New Dataset For Spanish Speech Forensics
+AUTHORS: Maria Risques ; Kratika Bhagtani ; Amit Kumar Singh Yadav ; Edward J. Delp
+CATEGORY: cs.LG [cs.LG, cs.AI]
+HIGHLIGHT: We evaluate five representative methods, showing that detectorstrained on English fail to generalize to Spanish, while training on HISPASpoofsubstantially improves detection.
+
+125, TITLE: Dependent-Type-Preserving Memory Allocation
+AUTHORS: Paulette Koronkevich ; William J. Bowman
+CATEGORY: cs.PL [cs.PL]
+HIGHLIGHT: Tofacilitate type checking during linking, we can use type-preservingcompilation, which preserves the types through the compilation process.
+
+126, TITLE: An Improved Educational Competition Optimizer with Multi-covariance Learning Operators for Global Optimization Problems
+AUTHORS: Baoqi Zhao ; Xiong Yang ; Hoileong Lee ; Bowen Dong
+CATEGORY: cs.NE [cs.NE, cs.AI, cs.CE]
+HIGHLIGHT: An Improved Educational Competition Optimizer with Multi-covariance Learning Operators for Global Optimization Problems
+
+127, TITLE: Target-oriented Multimodal Sentiment Classification with Counterfactual-enhanced Debiasing
+AUTHORS: Zhiyue Liu ; Fanrong Ma ; Xin Ling
+CATEGORY: cs.CL [cs.CL, cs.AI]
+HIGHLIGHT: This leads to spurious correlations between text features and outputlabels, impairing classification accuracy. In this paper, we introduce a novelcounterfactual-enhanced debiasing framework to reduce such spuriouscorrelations.
+
+128, TITLE: Explaining Concept Drift Through The Evolution of Group Counterfactuals
+AUTHORS: Ignacy St?pka ; Jerzy Stefanowski
+CATEGORY: cs.LG [cs.LG, cs.AI]
+HIGHLIGHT: Inthis paper, we introduce a novel methodology to explain concept drift byanalyzing the temporal evolution of group-based counterfactual explanations(GCEs).
+
+129, TITLE: Geometric Neural Distance Fields for Learning Human Motion Priors
+AUTHORS: ZHENGDI YU et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: We introduce Neural Riemannian Motion Fields (NRMF), a novel 3D generativehuman motion prior that enables robust, temporally consistent, and physicallyplausible 3D motion recovery.
+
+130, TITLE: Learning Object-Centric Representations in SAR Images with Multi-Level Feature Fusion
+AUTHORS: Oh-Tae Jang ; Min-Gon Cho ; Kyung-Tae Kim
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In many cases, such clutter exhibits intensity and patterns thatresemble targets, leading models to extract entangled or spurious features.Such behavior undermines the ability to form clear target representations,regardless of the classifier. To address this challenge, we propose a novelobject-centric learning (OCL) framework, named SlotSAR, that disentanglestarget representations from background clutter in SAR images without maskannotations.
+
+131, TITLE: Enabling Regulatory Multi-Agent Collaboration: Architecture, Challenges, and Solutions
+AUTHORS: Qinnan Hu ; Yuntao Wang ; Yuan Gao ; Zhou Su ; Linkang Du
+CATEGORY: cs.AI [cs.AI, cs.CR]
+HIGHLIGHT: In this paper, we propose ablockchain-enabled layered architecture for regulatory agent collaboration,comprising an agent layer, a blockchain data layer, and a regulatoryapplication layer.
+
+132, TITLE: Invisible Attributes, Visible Biases: Exploring Demographic Shortcuts in MRI-based Alzheimer's Disease Classification
+AUTHORS: Akshit Achara ; Esther Puyol Anton ; Alexander Hammers ; Andrew P. King
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: Magnetic resonance imaging (MRI) is the gold standard for brain imaging. Deeplearning (DL) algorithms have been proposed to aid in the diagnosis of diseasessuch as Alzheimer's disease (AD) from MRI scans.
+
+133, TITLE: Exploring Pre-training Across Domains for Few-Shot Surgical Skill Assessment
+AUTHORS: DIMITRIOS ANASTASIOU et. al.
+CATEGORY: cs.CV [cs.CV, cs.LG]
+HIGHLIGHT: We quantify domainsimilarity and analyze how domain gap and the inclusion of procedure-specificdata into pre-training influence transferability.
+
+134, TITLE: Noise-Robust Topology Estimation of 2D Image Data Via Neural Networks and Persistent Homology
+AUTHORS: Dylan Peek ; Matthew P. Skerritt ; Stephan Chalup
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: In thisstudy, we examine the noise robustness of a supervised neural network trainedto predict Betti numbers in 2D binary images.
+
+135, TITLE: Inteligencia Artificial Jur�dica Y El Desaf�o De La Veracidad: An�lisis De Alucinaciones, Optimizaci�n De RAG Y Principios Para Una Integraci�n Responsable
+AUTHORS: Alex Dantart
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: This technical report analyzes the challenge of "hallucinations" (falseinformation) in LLMs applied to law.
+
+136, TITLE: Compositional Concept Generalization with Variational Quantum Circuits
+AUTHORS: HALA HAWASHIN et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: We used two image encoding techniques: a multi-hot encoding(MHE) on binary image vectors and an angle/amplitude encoding on image vectorstaken from the vision-language model CLIP.
+
+137, TITLE: Explaining Tournament Solutions with Minimal Supports
+AUTHORS: Cl�ment Contet ; Umberto Grandi ; J�r�me Mengin
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: We focus on common tournamentsolutions: the top cycle, the uncovered set, the Copeland rule, the Borda rule,the maximin rule, and the weighted uncovered set. For each rule we determinethe size of the smallest minimal supports, and we present polynomial-timealgorithms to compute them for all but the weighted uncovered set, for whichthe problem is NP-complete.
+
+138, TITLE: Tree-OPO: Off-policy Monte Carlo Tree-Guided Advantage Optimization for Multistep Reasoning
+AUTHORS: Bingning Huang ; Tu Nguyen ; Matthieu Zimmer
+CATEGORY: cs.AI [cs.AI, cs.CL, cs.LG]
+HIGHLIGHT: Our initialresults indicate that while structured advantage estimation can stabilizeupdates and better reflect compositional reasoning quality, challenges such asadvantage saturation and reward signal collapse remain. We propose heuristicand statistical solutions to mitigate these issues and discuss open challengesfor learning under staged or tree-like reward structures.
+
+139, TITLE: Curriculum-Based Multi-Tier Semantic Exploration Via Deep Reinforcement Learning
+AUTHORS: Abdel Hakim Drid ; Vincenzo Suriani ; Daniele Nardi ; Abderrezzak Debilou
+CATEGORY: cs.AI [cs.AI, cs.RO]
+HIGHLIGHT: By demonstrating a practical and scalable method for embeddingcommon-sense semantic reasoning with autonomous agents, this research providesa novel approach to pursuing a fully intelligent and self-guided exploration inrobotics.
+
+140, TITLE: Anti-Money Laundering Machine Learning Pipelines; A Technical Analysis on Identifying High-risk Bank Clients with Supervised Learning
+AUTHORS: KHASHAYAR NAMDAR et. al.
+CATEGORY: cs.AI [cs.AI]
+HIGHLIGHT: In this paper, we propose a comprehensive and systematicapproach for developing ML pipelines to identify high-risk bank clients in adataset curated for Task 1 of the University of Toronto 2023-2024 Institute forManagement and Innovation (IMI) Big Data and Artificial IntelligenceCompetition.
+
+141, TITLE: ForTIFAI: Fending Off Recursive Training Induced Failure for AI Models
+AUTHORS: Soheil Zibakhsh Shabgahi ; Pedram Aghazadeh ; Azalia Mirhosseini ; Farinaz Koushanfar
+CATEGORY: cs.AI [cs.AI, cs.LG]
+HIGHLIGHT: In this paper, we identify model overconfidence in their self-generated dataas a key driver of collapse.
+
+142, TITLE: Reading Between The Lines: Classifying Resume Seniority with Large Language Models
+AUTHORS: Matan Cohen ; Shira Shani ; Eden Menahem ; Yehudit Aperstein ; Alexander Apartsin
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: In this study, we investigate the effectiveness oflarge language models (LLMs), including fine-tuned BERT architectures, forautomating seniority classification in resumes.
+
+143, TITLE: Mitigating Language Barriers in Education: Developing Multilingual Digital Learning Materials with Machine Translation
+AUTHORS: LUCIE POL�KOV� et. al.
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: Launched through collaboration between amajor Czech academic institution and the country's largest educationalpublisher, the project is aimed at translating up to 9,000 multimodalinteractive exercises from Czech into Ukrainian, English, and German for aneducational web portal.
+
+144, TITLE: Agentic LLMs for Question Answering Over Tabular Data
+AUTHORS: Rishit Tyagi ; Mohit Gupta ; Rahul Bouri
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: We propose a Natural Language to SQL (NL-to-SQL) approachleveraging large language models (LLMs) such as GPT-4o, GPT-4o-mini, andDeepSeek v2:16b to generate SQL queries dynamically.
+
+145, TITLE: DeMeVa at LeWiDi-2025: Modeling Perspectives with In-Context Learning and Label Distribution Learning
+AUTHORS: Daniil Ignatev ; Nan Li ; Hugh Mee Wong ; Anh Dang ; Shane Kaszefski Yaschuk
+CATEGORY: cs.CL [cs.CL, cs.LG]
+HIGHLIGHT: This system paper presents the DeMeVa team's approaches to the third editionof the Learning with Disagreements shared task (LeWiDi 2025; Leonardelli etal., 2025).
+
+146, TITLE: Efficient Trie-based Biasing Using K-step Prediction for Rare Word Recognition
+AUTHORS: Chin Yuen Kwok ; Jia Qi yip
+CATEGORY: cs.CL [cs.CL, cs.AI]
+HIGHLIGHT: This revocation is limited to beam search and iscomputationally expensive, particularly for models with large decoders. Toovercome these limitations, we propose adapting ASR models to look ahead andpredict multiple steps at once.
+
+147, TITLE: Improving Synthetic Data Training for Contextual Biasing Models with A Keyword-Aware Cost Function
+AUTHORS: Chin Yuen Kwok ; Jia Qi Yip ; Eng Siong Chng
+CATEGORY: cs.CL [cs.CL, cs.AI]
+HIGHLIGHT: Rare word recognition can be improved by adapting ASR models to syntheticdata that includes these words.
+
+148, TITLE: Noise or Nuance: An Investigation Into Useful Information and Filtering For LLM Driven AKBC
+AUTHORS: Alex Clay ; Ernesto Jim�nez-Ruiz ; Pranava Madhyastha
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: In this work we investigate threefacets of the triple completion task: generation, quality assurance, and LLMresponse parsing.
+
+149, TITLE: Improving LLM Safety and Helpfulness Using SFT and DPO: A Study on OPT-350M
+AUTHORS: Piyush Pant
+CATEGORY: cs.CL [cs.CL, cs.AI, cs.LG]
+HIGHLIGHT: We introduce three key evaluationmetrics: Harmlessness Rate (HmR), Helpfulness Rate (HpR), and a CombinedAlignment Score (CAS), all derived from reward model outputs.
+
+150, TITLE: Personality-Enhanced Social Recommendations in SAMI: Exploring The Role of Personality Detection in Matchmaking
+AUTHORS: Brittany Harbison ; Samuel Taubman ; Travis Taylor ; Ashok. K. Goel
+CATEGORY: cs.CL [cs.CL, cs.CY, cs.HC, cs.LG, cs.SI]
+HIGHLIGHT: SAMI offers onesolution by facilitating student connections, but its effectiveness isconstrained by an incomplete Theory of Mind, limiting its ability to create aneffective mental model of a student. One facet of this is its inability tointuit personality, which may influence the relevance of its recommendations.To explore this, we propose a personality detection model utilizing GPTszero-shot capability to infer Big-Five personality traits from forumintroduction posts, often encouraged in online courses.
+
+151, TITLE: MetaRAG: Metamorphic Testing for Hallucination Detection in RAG Systems
+AUTHORS: Channdeth Sok ; David Luz ; Yacine Haddam
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: MetaRAG: Metamorphic Testing for Hallucination Detection in RAG Systems
+
+152, TITLE: Compass-v3: Scaling Domain-Specific LLMs for Multilingual E-Commerce in Southeast Asia
+AUTHORS: Sophia Maria
+CATEGORY: cs.CL [cs.CL]
+HIGHLIGHT: We present Compass-v3, avertical-domain Mixture-of-Experts (MoE) model with 245B total parameters and71B active per token, designed for Southeast Asian e-commerce.
+
+153, TITLE: ViRanker: A BGE-M3 & Blockwise Parallel Transformer Cross-Encoder for Vietnamese Reranking
+AUTHORS: Phuong-Nam Dang ; Kieu-Linh Nguyen ; Thanh-Hieu Pham
+CATEGORY: cs.CL [cs.CL, cs.AI]
+HIGHLIGHT: This paper presents ViRanker, a cross-encoder reranking model tailored to theVietnamese language.
+
+154, TITLE: Uniformity Within Parameterized Circuit Classes
+AUTHORS: Steef Hegeman ; Jan Martens ; Alfons Laarman
+CATEGORY: cs.CC [cs.CC, cs.LO]
+HIGHLIGHT: Overall, we provide a convenient way toverify uniformity for shallow parameterized circuit classes, and therebysubstantiate claims of uniformity in the literature.
+
+155, TITLE: Resource-Efficient Glioma Segmentation on Sub-Saharan MRI
+AUTHORS: FREEDMORE SIDUME et. al.
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: We leveraged a 3D Attention UNetarchitecture augmented with residual blocks and enhanced through transferlearning from pre-trained weights on the BraTS 2021 dataset.
+
+156, TITLE: CoAtNeXt:An Attention-Enhanced ConvNeXtV2-Transformer Hybrid Model for Gastric Tissue Classification
+AUTHORS: Mustafa Yurdakul ; Sakir Tasdemir
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: Methods In this study, a novel hybrid model namedCoAtNeXt was proposed for the classification of gastric tissue images.
+
+157, TITLE: E-MLNet: Enhanced Mutual Learning for Universal Domain Adaptation with Sample-Specific Weighting
+AUTHORS: Samuel Felipe dos Santos ; Tiago Agostinho de Almeida ; Jurandy Almeida
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: We propose the Enhanced Mutual Learning Network (E-MLNet),which integrates a dynamic weighting strategy to OEM.
+
+158, TITLE: COCO-Urdu: A Large-Scale Urdu Image-Caption Dataset with Multimodal Quality Estimation
+AUTHORS: Umair Hassan
+CATEGORY: cs.CV [cs.CV, cs.CL, 68T45 (Primary) 68T50 (Secondary)]
+HIGHLIGHT: The absence of large-scale,high-quality datasets has limited the development of Urdu-capable systems andreinforced biases in multilingual vision-language models trained primarily onhigh-resource languages. To address this gap, we present COCO-Urdu, alarge-scale image-caption dataset derived from MS COCO, containing 59,000images and 319,000 Urdu captions selected through stratified sampling topreserve the original distribution.
+
+159, TITLE: Mechanistic Learning with Guided Diffusion Models to Predict Spatio-Temporal Brain Tumor Growth
+AUTHORS: DARIA LASLO et. al.
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: We propose a hybrid mechanisticlearning framework that combines a mathematical tumor growth model with aguided denoising diffusion implicit model (DDIM) to synthesize anatomicallyfeasible future MRIs from preceding scans.
+
+160, TITLE: DualTrack: Sensorless 3D Ultrasound Needs Local and Global Context
+AUTHORS: PAUL F. R. WILSON et. al.
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: DualTrack: Sensorless 3D Ultrasound Needs Local and Global Context
+
+161, TITLE: Diffusion-Based Action Recognition Generalizes to Untrained Domains
+AUTHORS: Rogerio Guimaraes ; Frank Xiao ; Pietro Perona ; Markus Marks
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: We find that generalization is enhanced by the use of amodel conditioned on earlier timesteps of the diffusion process to highlightsemantic information over pixel level details in the extracted features.
+
+162, TITLE: PromptGuard: An Orchestrated Prompting Framework for Principled Synthetic Text Generation for Vulnerable Populations Using LLMs with Enhanced Safety, Fairness, and Controllability
+AUTHORS: Tung Vu ; Lam Nguyen ; Quynh Dao
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: We provide comprehensive mathematical formalizationincluding convergence proofs, vulnerability analysis using information theory,and theoretical validation framework using GitHub-sourced datasets,establishing mathematical foundations for systematic empirical research.
+
+163, TITLE: Classification of Driver Behaviour Using External Observation Techniques for Autonomous Vehicles
+AUTHORS: Ian Nell ; Shane Gilroy
+CATEGORY: cs.CV [cs.CV, cs.AI, cs.ET, cs.RO, eess.IV]
+HIGHLIGHT: The proposed framework employs advanced computer visionmethodologies, including real-time object tracking, lateral displacementanalysis, and lane position monitoring.
+
+164, TITLE: Modality-Agnostic Input Channels Enable Segmentation of Brain Lesions in Multimodal MRI with Sequences Unavailable During Training
+AUTHORS: Anthony P. Addison ; Felix Wagner ; Wentian Xu ; Natalie Voets ; Konstantinos Kamnitsas
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: We evaluate the method using 8 MRI databases that include 5 types ofpathologies (stroke, tumours, traumatic brain injury, multiple sclerosis andwhite matter hyperintensities) and 8 modalities (T1, T1+contrast, T2, PD, SWI,DWI, ADC and FLAIR).
+
+165, TITLE: Improvement of Human-Object Interaction Action Recognition Using Scene Information and Multi-Task Learning Approach
+AUTHORS: Hesham M. Shehata ; Mohammad Abdolrahmani
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Recent graph convolutional neural networks (GCNs) have shown high performancein the field of human action recognition by using human skeleton poses.However, it fails to detect human-object interaction cases successfully due tothe lack of effective representation of the scene information and appropriatelearning architectures. In this context, we propose a methodology to utilizehuman action recognition performance by considering fixed object information inthe environment and following a multi-task learning approach.
+
+166, TITLE: SQAP-VLA: A Synergistic Quantization-Aware Pruning Framework for High-Performance Vision-Language-Action Models
+AUTHORS: Hengyu Fang ; Yijiang Liu ; Yuan Du ; Li Du ; Huanrui Yang
+CATEGORY: cs.CV [cs.CV, cs.AI]
+HIGHLIGHT: This work introduces SQAP-VLA, the first structured,training-free VLA inference acceleration framework that simultaneously enablesstate-of-the-art quantization and token pruning.
+
+167, TITLE: Decoupling Clinical and Class-Agnostic Features for Reliable Few-Shot Adaptation Under Shift
+AUTHORS: Umaima Rahman ; Raza Imam ; Mohammad Yaqub ; Dwarikanath Mahapatra
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: We propose DRiFt, a structured feature decouplingframework that explicitly separates clinically relevant signals fromtask-agnostic noise using parameter-efficient tuning (LoRA) and learnableprompt tokens.
+
+168, TITLE: Live(r) Die: Predicting Survival in Colorectal Liver Metastasis
+AUTHORS: Muhammad Alberb ; Helen Cheung ; Anne Martel
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: We present a fully automated framework for surgical outcomeprediction from pre- and post-contrast MRI acquired before surgery.
+
+169, TITLE: RT-DETR++ for UAV Object Detection
+AUTHORS: Yuan Shufang
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: This paper introduces RT-DETR++,which enhances the encoder component of the RT-DETR model.
+
+170, TITLE: CWSSNet: Hyperspectral Image Classification Enhanced By Wavelet Domain Convolution
+AUTHORS: Yulin Tong ; Fengzong Zhang ; Haiqin Cheng
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Aclassification framework named CWSSNet was proposed, which integrates 3Dspectral-spatial features and wavelet convolution.
+
+171, TITLE: CoSwin: Convolution Enhanced Hierarchical Shifted Window Attention For Small-Scale Vision
+AUTHORS: Puskal Khadka ; Rodrigue Rizk ; Longwei Wang ; KC Santosh
+CATEGORY: cs.CV [cs.CV]
+HIGHLIGHT: Specifically, CoSwin integrates a learnable local feature enhancementmodule into each attention block, enabling the model to simultaneously capturefine-grained spatial details and global semantic structure.
+
+172, TITLE: Incorporating AI Incident Reporting Into Telecommunications Law and Policy: Insights from India
+AUTHORS: Avinash Agarwal ; Manisha J. Nene
+CATEGORY: cs.CY [cs.CY, cs.AI, cs.HC]
+HIGHLIGHT: The integration of artificial intelligence (AI) into telecommunicationsinfrastructure introduces novel risks, such as algorithmic bias andunpredictable system behavior, that fall outside the scope of traditionalcybersecurity and data protection frameworks. This paper introduces a precisedefinition and a detailed typology of telecommunications AI incidents,establishing them as a distinct category of risk that extends beyondconventional cybersecurity and data protection breaches.
+
+173, TITLE: Towards Confidential and Efficient LLM Inference with Dual Privacy Protection
+AUTHORS: HONGLAN YU et. al.
+CATEGORY: cs.CR [cs.CR, cs.AI]
+HIGHLIGHT: To overcome the abovedrawbacks, this paper proposes CMIF, a Confidential and efficient ModelInference Framework.
+
+174, TITLE: Prompt Pirates Need A Map: Stealing Seeds Helps Stealing Prompts
+AUTHORS: FELIX M�CHTLE et. al.
+CATEGORY: cs.CR [cs.CR, cs.AI]
+HIGHLIGHT: Through a large-scaleempirical analysis conducted on images shared via the popular platform CivitAI,we demonstrate that approximately 95% of these images' seed values can beeffectively brute-forced in 140 minutes per seed using our seed-recovery tool,SeedSnitch. Leveraging the recovered seed, we propose PromptPirate, a geneticalgorithm-based optimization method explicitly designed for prompt stealing.PromptPirate surpasses state-of-the-art methods, i.e., PromptStealer, P2HP, andCLIP-Interrogator, achieving an 8-11% improvement in LPIPS similarity.Furthermore, we introduce straightforward and effective countermeasures thatrender seed stealing, and thus optimization-based prompt stealing, ineffective.We have disclosed our findings responsibly and initiated coordinated mitigationefforts with the developers to address this critical vulnerability.
+
+175, TITLE: Breaking The Statistical Similarity Trap in Extreme Convection Detection
+AUTHORS: Md Tanveer Hossain Munim
+CATEGORY: cs.LG [cs.LG, cs.CV, 68T07, 86A10, I.2.6; J.2]
+HIGHLIGHT: We introduce DART (Dual Architecture for RegressionTasks), a framework addressing the challenge of transforming coarse atmosphericforecasts into high-resolution satellite brightness temperature fieldsoptimized for extreme convection detection (below 220 K).
+
+176, TITLE: MoWE : A Mixture of Weather Experts
+AUTHORS: DIBYAJYOTI CHAKRABORTY et. al.
+CATEGORY: cs.LG [cs.LG, cs.AI, physics.ao-ph, physics.geo-ph]
+HIGHLIGHT: This work presents a computationallyefficient and scalable strategy to push the state of the art in data-drivenweather prediction by making the most out of leading high-quality forecastmodels.
+
+177, TITLE: A Scoping Review of Machine Learning Applications in Power System Protection and Disturbance Management
+AUTHORS: JULIAN OELHAF et. al.
+CATEGORY: cs.LG [cs.LG, cs.AI, eess.SP]
+HIGHLIGHT: This lack of standardization hampers thecomparability of results and limits the generalizability of findings. Toaddress these challenges, this review introduces a ML-oriented taxonomy forprotection tasks, resolves key terminological inconsistencies, and advocatesfor standardized reporting practices.
+
+178, TITLE: Graph Alignment Via Dual-Pass Spectral Encoding and Latent Space Communication
+AUTHORS: Maysam Behmanesh ; Erkan Turan ; Maks Ovsjanikov
+CATEGORY: cs.LG [cs.LG, cs.AI, cs.CV]
+HIGHLIGHT: We propose a novel graph alignment framework thatsimultaneously enhances node distinctiveness and enforces geometric consistencyacross latent spaces.
+
+179, TITLE: STRIDE: Scalable and Interpretable XAI Via Subset-Free Functional Decomposition
+AUTHORS: Chaeyun Ko
+CATEGORY: cs.LG [cs.LG, cs.AI, stat.ML]
+HIGHLIGHT: In the tabular setups we study, theapproach is model-agnostic, provides both local and global views, and issupported by theoretical results on orthogonality and L^2 convergence understated assumptions.
+
+180, TITLE: Incentivizing Safer Actions in Policy Optimization for Constrained Reinforcement Learning
+AUTHORS: Somnath Hazra ; Pallab Dasgupta ; Soumyajit Dey
+CATEGORY: cs.LG [cs.LG, cs.AI]
+HIGHLIGHT: Policy optimizationmethods often exhibit instability near constraint boundaries, resulting insuboptimal training performance. To address this issue, we introduce a novelapproach that integrates an adaptive incentive mechanism in addition to thereward structure to stay within the constraint bound before approaching theconstraint boundary.
+
+181, TITLE: Identifying Key Features for Establishing Sustainable Agro-Tourism Centre: A Data Driven Approach
+AUTHORS: Alka Gadakh ; Vidya Kumbhar ; Sonal Khosla ; Kumar Karunendra
+CATEGORY: cs.LG [cs.LG, cs.CL]
+HIGHLIGHT: The study is conducted in two phases:identification of the important indicators through a comprehensive literaturereview and in the second phase state-of-the-art techniques were used toidentify the important indicators for the growth of agro-tourism.
+
+182, TITLE: Value Bounds and Convergence Analysis for Averages of LRP Attributions
+AUTHORS: Alexander Binder ; Nastaran Takmil-Homayouni ; Urun Dogan
+CATEGORY: cs.LG [cs.LG, cs.CV]
+HIGHLIGHT: We analyze numerical properties of Layer-wise relevance propagation(LRP)-type attribution methods by representing them as a product of modifiedgradient matrices.
+
+183, TITLE: A Modified RIME Algorithm with Covariance Learning and Diversity Enhancement for Numerical Optimization
+AUTHORS: Shangqing Shi ; Luoxiao Zhang ; Yuchen Yin ; Xiong Yang ; Hoileong Lee
+CATEGORY: cs.NE [cs.NE, cs.AI, cs.CE]
+HIGHLIGHT: The proposedMRIME-CD algorithm is subjected to a series of validations on the CEC2017 testset, the CEC2022 test set, and the experimental results are analyzed using theFriedman test, the Wilcoxon rank sum test, and the Kruskal Wallis test.
+
+184, TITLE: Time-Fair Benchmarking for Metaheuristics: A Restart-Fair Protocol for Fixed-Time Comparisons
+AUTHORS: Junbo Jacob Lian
+CATEGORY: cs.NE [cs.NE, cs.PF, stat.CO]
+HIGHLIGHT: We formalize a fixed-time, restart-fair benchmarking protocolwherein each algorithm is allotted an identical wall-clock time budget perproblem instance, permitting unrestricted utilization of restarts, earlytermination criteria, and internal adaptive mechanisms.
+
+185, TITLE: KoopMotion: Learning Almost Divergence Free Koopman Flow Fields for Motion Planning
+AUTHORS: Alice Kate Li ; Thales C Silva ; Victoria Edwards ; Vijay Kumar ; M. Ani Hsieh
+CATEGORY: cs.RO [cs.RO, cs.AI, cs.LG]
+HIGHLIGHT: In this work, we propose a novel flow field-based motion planning method thatdrives a robot from any initial state to a desired reference trajectory suchthat it converges to the trajectory's end point.
+
+186, TITLE: Probing Pre-trained Language Models on Code Changes: Insights from ReDef, A High-Confidence Just-in-Time Defect Prediction Dataset
+AUTHORS: Doha Nam ; Taehyoun Kim ; Duksan Ryu ; Jongmoon Baik
+CATEGORY: cs.SE [cs.SE, cs.AI]
+HIGHLIGHT: Just-in-Time software defect prediction (JIT-SDP) plays a critical role inprioritizing risky code changes during code review and continuous integration.However, existing datasets often suffer from noisy labels and low precision inidentifying bug-inducing commits. To address this, we present ReDef(Revert-based Defect dataset), a high-confidence benchmark of function-levelmodifications curated from 22 large-scale C/C++ projects.
+
+187, TITLE: Adaptive Knowledge Distillation Using A Device-Aware Teacher for Low-Complexity Acoustic Scene Classification
+AUTHORS: Seung Gyu Jeong ; Seong Eun Kim
+CATEGORY: cs.SD [cs.SD, cs.AI]
+HIGHLIGHT: In this technical report, we describe our submission for Task 1,Low-Complexity Device-Robust Acoustic Scene Classification, of the DCASE 2025Challenge.
+
+188, TITLE: Bona Fide Cross Testing Reveals Weak Spot in Audio Deepfake Detection Systems
+AUTHORS: Chin Yuen Kwok ; Jia Qi Yip ; Zhen Qiu ; Chi Hung Chi ; Kwok Yan Lam
+CATEGORY: cs.SD [cs.SD, cs.AI, cs.CL]
+HIGHLIGHT: Audio deepfake detection (ADD) models are commonly evaluated using datasetsthat combine multiple synthesizers, with performance reported as a single EqualError Rate (EER).
+
+189, TITLE: Virtual Staining for 3D X-ray Histology of Bone Implants
+AUTHORS: SARAH C. IRVINE et. al.
+CATEGORY: eess.IV [eess.IV, cs.AI, cs.CV, physics.comp-ph, q-bio.QM]
+HIGHLIGHT: In this study,we extend virtual staining to the X-ray domain by applying cross-modality imagetranslation to generate artificially stained slices fromsynchrotron-radiation-based micro-CT scans.
+
+190, TITLE: Ultrafast Deep Learning-Based Scatter Estimation in Cone-Beam Computed Tomography
+AUTHORS: Harshit Agrawal ; Ari Hietanen ; Simo S�rkk�
+CATEGORY: eess.SP [eess.SP, cs.CV]
+HIGHLIGHT: This study addresses the issue by applying networksat varying resolutions and suggesting an optimal one, based on speed andaccuracy.
