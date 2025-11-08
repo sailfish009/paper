@@ -1,0 +1,1865 @@
+1, TITLE: Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning
+AUTHORS: Luckeciano C. Melo; Alessandro Abate; Yarin Gal
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We propose a tractable computational framework thattracks and leverages curvature information during policy updates.
+
+2, TITLE: BindWeave: Subject-Consistent Video Generation Via Cross-Modal Integration
+AUTHORS: Zhaoyang Li; Dongjun Qian; Kai Su; Qishuai Diao; Xiangyang Xia; Chang Liu; Wenfei Yang; Tianzhu Zhang; Zehuan Yuan
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : To bind complex prompt semantics to concrete visualsubjects, we introduce an MLLM-DiT framework in which a pretrained multimodallarge language model performs deep cross-modal reasoning to ground entities anddisentangle roles, attributes, and interactions, yielding subject-aware hiddenstates that condition the diffusion transformer for high-fidelitysubject-consistent video generation.
+
+3, TITLE: TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments
+AUTHORS: Zhangchen Xu; Adriana Meza Soria; Shawn Tan; Anurag Roy; Ashish Sunil Agrawal; Radha Poovendran; Rameswar Panda
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Existing datasets are often limited in diversity, realism, andcomplexity, particularly regarding multi-tool and multi-turn interactions. Toaddress this gap, we introduce Toucan, the largest publicly availabletool-agentic dataset to date, containing 1.5 million trajectories synthesizedfrom nearly 500 real-world Model Context Protocols (MCPs).
+
+4, TITLE: KeySG: Hierarchical Keyframe-Based 3D Scene Graphs
+AUTHORS: Abdelrhman Werby; Dennis Rotondi; Fabio Scaparro; Kai O. Arras
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We introduce KeySG, a framework thatrepresents 3D scenes as a hierarchical graph consisting of floors, rooms,objects, and functional elements, where nodes are augmented with multi-modalinformation extracted from keyframes selected to optimize geometric and visualcoverage.
+
+5, TITLE: EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory
+AUTHORS: Jiahao Wang; Luoxin Ye; TaiMing Lu; Junfei Xiao; Jiahan Zhang; Yuxiang Guo; Xijun Liu; Rama Chellappa; Cheng Peng; Alan Yuille; Jieneng Chen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Humans possess a remarkable ability to mentally explore and replay 3Denvironments they have previously experienced. Inspired by this mental process,we present EvoWorld: a world model that bridges panoramic video generation withevolving 3D memory to enable spatially consistent long-horizon exploration.Given a single panoramic image as input, EvoWorld first generates future videoframes by leveraging a video generator with fine-grained view control, thenevolves the scene's 3D reconstruction using a feedforward plug-and-playtransformer, and finally synthesizes futures by conditioning on geometricreprojections from this evolving explicit 3D memory.
+
+6, TITLE: Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity
+AUTHORS: Jiayi Zhang; Simon Yu; Derek Chong; Anthony Sicilia; Michael R. Tomz; Christopher D. Manning; Weiyan Shi
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Unlike prior work that attributes this effect toalgorithmic limitations, we identify a fundamental, pervasive data-leveldriver: typicality bias in preference data, whereby annotators systematicallyfavor familiar text as a result of well-established findings in cognitivepsychology. We formalize this bias theoretically, verify it on preferencedatasets empirically, and show that it plays a central role in mode collapse.Motivated by this analysis, we introduce Verbalized Sampling, a simple,training-free prompting strategy to circumvent mode collapse.
+
+7, TITLE: EditTrack: Detecting and Attributing AI-assisted Image Editing
+AUTHORS: Zhengyuan Jiang; Yuyang Zhang; Moyang Guo; Neil Zhenqiang Gong
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : In this work, we formulate and study the problem of image-editing detectionand attribution: given a base image and a suspicious image, detection seeks todetermine whether the suspicious image was derived from the base image using anAI editing model, while attribution further identifies the specific editingmodel responsible.
+
+8, TITLE: ReSWD: ReSTIR'd, Not Shaken. Combining Reservoir Sampling and Sliced Wasserstein Distance for Variance Reduction
+AUTHORS: Mark Boss; Andreas Engelhardt; Simon Donné; Varun Jampani
+CATEGORY: arxiv-cs.GR [GR]
+HIGHLIGHT: Highlight : We introduce Reservoir SWD(ReSWD), which integrates Weighted Reservoir Sampling into SWD to adaptivelyretain informative projection directions in optimization steps, resulting instable gradients while remaining unbiased.
+
+9, TITLE: A Scene Is Worth A Thousand Features: Feed-Forward Camera Localization from A Collection of Image Features
+AUTHORS: Axel Barroso-Laguna; Tommaso Cavallari; Victor Adrian Prisacariu; Eric Brachmann
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We introduce FastForward, amethod that creates a map representation and relocalizes a query imageon-the-fly in a single feed-forward pass.
+
+10, TITLE: Exploring System 1 and 2 Communication for Latent Reasoning in LLMs
+AUTHORS: Julian Coda-Forno; Zhuokai Zhao; Qiang Zhang; Dipesh Tamboli; Weiwei Li; Xiangjun Fan; Lizhu Zhang; Eric Schulz; Hsiao-Ping Tseng
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We study dual-architecture latentreasoning, where a fluent Base exchanges latent messages with a Coprocessor,and test two hypotheses aimed at improving latent communication over Liu et al.(2024): (H1) increase channel capacity; (H2) learn communication via jointfinetuning.
+
+11, TITLE: Improving Code Localization with Repository Memory
+AUTHORS: Boshi Wang; Weijian Xu; Yunsheng Li; Mei Gao; Yujia Xie; Huan Sun; Dongdong Chen
+CATEGORY: arxiv-cs.SE [SE]
+HIGHLIGHT: Highlight : In this work, we augment language agents with suchmemory by leveraging a repository's commit history - a rich yet underutilizedresource that chronicles the codebase's evolution.
+
+12, TITLE: CurES: From Gradient Analysis to Efficient Curriculum Learning for Reasoning LLMs
+AUTHORS: Yongcheng Zeng; Zexu Sun; Bokai Ji; Erxue Min; Hengyi Cai; Shuaiqiang Wang; Dawei Yin; Haifeng Zhang; Xu Chen; Jun Wang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work, weapproach the problem from the perspective of reinforcement learning gradientoptimization, offering a systematic and theoretical investigation into how toimprove the training efficiency of LLMs.
+
+13, TITLE: Demystifying Deep Search: A Holistic Evaluation with Hint-free Multi-hop Questions and Factorised Metrics
+AUTHORS: Maojia Song; Renhang Liu; Xinyu Wang; Yong Jiang; Pengjun Xie; Fei Huang; Soujanya Poria; Jingren Zhou
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Second, evaluation is typically reduced to asingle pass rate, which collapses diverse behaviours into one score andobscures whether failures stem from inadequate search, poor knowledge use, orinappropriate refusal. To address these issues, we present WebDetective, abenchmark of hint-free multi-hop questions paired with a controlled Wikipediasandbox that ensures full traceability of model actions, and a holisticevaluation framework that separates search sufficiency, knowledge utilisation,and refusal behaviour.
+
+14, TITLE: LLM-based Multi-Agent Blackboard System for Information Discovery in Data Science
+AUTHORS: Alireza Salemi; Mihir Parmar; Palash Goyal; Yiwen Song; Jinsung Yoon; Hamed Zamani; Hamid Palangi; Tomas Pfister
+CATEGORY: arxiv-cs.MA [MA]
+HIGHLIGHT: Abstract: The rapid advancement of Large Language Models (LLMs) has opened newopportunities in data science, yet their practical deployment is oftenconstrained by the challenge of ...
+
+15, TITLE: Personalized Reasoning: Just-In-Time Personalization and Why LLMs Fail At It
+AUTHORS: Shuyue Stella Li; Avinandan Bose; Faeze Brahman; Simon Shaolei Du; Pang Wei Koh; Maryam Fazel; Yulia Tsvetkov
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We introduce PREFDISCO, an evaluation methodologythat transforms static benchmarks into interactive personalization tasks usingpsychologically-grounded personas with sparse preferences.
+
+16, TITLE: JoyAgent-JDGenie: Technical Report on The GAIA
+AUTHORS: Jiarun Liu; Shiyue Xu; Shangkun Liu; Yang Li; Wen Liu; Min Liu; Xiaoqing Zhou; Hanmin Wang; Shilin Jia; zhen Wang; Shaohua Tian; Hanhao Li; Junbo Zhang; Yongli Yu; Peng Cao; Haofen Wang
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Abstract: Large Language Models are increasingly deployed as autonomous agents forcomplex real-world tasks, yet existing systems often focus on isolatedimprovements without a unifying ...
+
+17, TITLE: Generalized Parallel Scaling with Interdependent Generations
+AUTHORS: Harry Dong; David Brandfonbrener; Eryk Helenowski; Yun He; Mrinal Kumar; Han Fang; Yuejie Chi; Karthik Abinav Sankararaman
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Abstract: Parallel LLM inference scaling involves sampling a set of $N>1$ responses fora single input prompt. However, these $N$ parallel responses tend to begenerated independently from ...
+
+18, TITLE: Which Rewards Matter? Reward Selection for Reinforcement Learning Under Limited Feedback
+AUTHORS: Shreyas Chaudhari; Renhao Zhang; Philip S. Thomas; Bruno Castro da Silva
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We find thatcritical subsets of rewards are those that (1) guide the agent along optimaltrajectories, and (2) support recovery toward near-optimal behavior afterdeviations.
+
+19, TITLE: Code2Video: A Code-centric Paradigm for Educational Video Generation
+AUTHORS: Yanzhe Chen; Kevin Qinghong Lin; Mike Zheng Shou
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this work, we propose Code2Video, a code-centric agent framework forgenerating educational videos via executable Python code.
+
+20, TITLE: Social Welfare Function Leaderboard: When LLM Agents Allocate Social Welfare
+AUTHORS: Zhengliang Shi; Ruotian Ma; Jen-tse Huang; Xinbei Ma; Xingyu Chen; Mengru Wang; Qu Yang; Yue Wang; Fanghua Ye; Ziyang Chen; Shanyi Wang; Cixing Li; Wenxuan Wang; Zhaopeng Tu; Xiaolong Li; Zhaochun Ren
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : However, the principles and values thatguide these models when distributing scarce societal resources remain largelyunexamined. To address this, we introduce the Social Welfare Function (SWF)Benchmark, a dynamic simulation environment where an LLM acts as a sovereignallocator, distributing tasks to a heterogeneous community of recipients.
+
+21, TITLE: BiasFreeBench: A Benchmark for Mitigating Bias in Large Language Model Responses
+AUTHORS: Xin Xu; Xunzhi He; Churan Zhi; Ruizhe Chen; Julian McAuley; Zexue He
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Moreover, their evaluations are mostlybased on the comparison between LLMs' probabilities of biased and unbiasedcontexts, which ignores the gap between such evaluations and real-world usecases where users interact with LLMs by reading model responses and expect fairand safe outputs rather than LLMs' probabilities. To enable consistentevaluation across debiasing methods and bridge this gap, we introduceBiasFreeBench, an empirical benchmark that comprehensively compares eightmainstream bias mitigation techniques (covering four prompting-based and fourtraining-based methods) on two test scenarios (multi-choice QA and open-endedmulti-turn QA) by reorganizing existing datasets into a unified query-responsesetting.
+
+22, TITLE: GUI-KV: Efficient GUI Agents Via KV Cache with Spatio-Temporal Awareness
+AUTHORS: Kung-Hsiang Huang; Haoyi Qiu; Yutong Dai; Caiming Xiong; Chien-Sheng Wu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Building onthis, we introduce GUI-KV, a plug-and-play KV cache compression method for GUIagents that requires no retraining.
+
+23, TITLE: Prompt Curriculum Learning for Efficient LLM Post-Training
+AUTHORS: Zhaolin Gao; Joongwon Kim; Wen Sun; Thorsten Joachims; Sid Wang; Richard Yuanzhe Pang; Liang Tan
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We introduce Prompt Curriculum Learning (PCL), a lightweight reinforcementlearning (RL) algorithm that selects intermediate-difficulty prompts using alearned value model to post-train language models.
+
+24, TITLE: Hierarchical Reasoning Models: Perspectives and Misconceptions
+AUTHORS: Renee Ge; Qianli Liao; Tomaso Poggio
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Despitethe promising results, this line of models is still at an early stage and callsfor in-depth investigation. In this work, we review this class of models,examine key design choices, test alternative variants and clarify commonmisconceptions.
+
+25, TITLE: MOSS-Speech: Towards True Speech-to-Speech Models Without Text Guidance
+AUTHORS: Xingjian Zhao; Zhe Xu; Qinyuan Cheng; Zhaoye Fei; Luozhijie Jin; Yang Wang; Hanfu Chen; Yaozhou Jiang; Qinghui Gao; Ke Chen; Ruixiao Li; Mingshu Chen; Ruiming Wang; Wenbo Zhang; Yiyang Zhang; Donghua Yu; Yang Gao; Xiaogui Yang; Yitian Gong; Yuanfan Xu; Yaqian Zhou; Xuanjing Huang; Xipeng Qiu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We present MOSS-Speech, a truespeech-to-speech large language model that directly understands and generatesspeech without relying on text guidance.
+
+26, TITLE: Simultaneous Multi-objective Alignment Across Verifiable and Non-verifiable Rewards
+AUTHORS: Yiran Shen; Yu Xia; Jonathan Chang; Prithviraj Ammanabrolu
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We seek to answer what it would take tosimultaneously align a model across various domains spanning those with:verifiable rewards (mathematical accuracy), non-verifiable subjectivepreferences (human values), and complex interactive scenarios (multi-turn AItutoring dialogues).
+
+27, TITLE: A Practitioner's Guide to Multi-turn Agentic Reinforcement Learning
+AUTHORS: Ruiyi Wang; Prithviraj Ammanabrolu
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : (iii) And for the agent's policy, we explore theinterplay between reward sparsity and biased (PPO, GRPO) and unbiased (RLOO)policy gradient methods in addition to showing how to find the optimalSupervised Fine-tuning (SFT) to RL training ratio given a fixed budget.
+
+28, TITLE: On Predictability of Reinforcement Learning Dynamics for Large Language Models
+AUTHORS: Yuchen Cai; Ding Cao; Xin Xu; Zijun Yao; Yuqing Huang; Zhenyu Tan; Benyi Zhang; Guiquan Liu; Junfeng Fang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : More importantly, based on thesefindings, we propose AlphaRL, a plug-in acceleration framework thatextrapolates the final parameter update using a short early training window,achieving up to 2.5 speedup while retaining \textgreater 96\% of reasoningperformance without extra modules or hyperparameter tuning.
+
+29, TITLE: From Scores to Preferences: Redefining MOS Benchmarking for Speech Quality Reward Modeling
+AUTHORS: Yifei Cao; Changhao Jiang; Jiabao Zhuang; Jiajun Sun; Ming Zhang; Zhiheng Xi; Hui Li; Shihan Dou; Yuran Wang; Yunke Zhang; Tao Ji; Tao Gui; Qi Zhang; Xuanjing Huang
+CATEGORY: arxiv-cs.SD [SD]
+HIGHLIGHT: Highlight : Our experimentsreveal three key findings: (1) scalar models achieve the strongest overallperformance, consistently exceeding 74% accuracy; (2) most models performconsiderably worse on synthetic speech than on human speech; and (3) all modelsstruggle on pairs with very small MOS differences. To improve performance onthese challenging pairs, we propose a MOS-aware GRM that incorporates anMOS-difference-based reward function, enabling the model to adaptively scalerewards according to the difficulty of each sample pair.
+
+30, TITLE: ManagerBench: Evaluating The Safety-Pragmatism Trade-off in Autonomous LLMs
+AUTHORS: Adi Simhi; Jonathan Herzig; Martin Tutek; Itay Itzhak; Idan Szpektor; Yonatan Belinkov
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Many consistently choose harmful options to advance theiroperational goals, while others avoid harm only to become overly safe andineffective. Critically, we find this misalignment does not stem from aninability to perceive harm, as models' harm assessments align with humanjudgments, but from flawed prioritization.
+
+31, TITLE: Visual Self-Refinement for Autoregressive Models
+AUTHORS: Jiamian Wang; Ziqi Zhou; Chaithanya Kumar Mummadi; Sohail Dianat; Majid Rabbani; Raghuveer Rao; Chen Qiu; Zhiqiang Tao
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This work proposes a plug-and-play refinementmodule to enhance the complex spatial correspondence modeling within thegenerated visual sequence.
+
+32, TITLE: GRAD: Generative Retrieval-Aligned Demonstration Sampler for Efficient Few-Shot Reasoning
+AUTHORS: Oussama Gabouj; Kamel Charaf; Ivan Zakazov; Nicolas Baldwin; Robert West
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this work, we propose a GenerativeRetrieval-Aligned Demonstrator (GRAD), a dynamic demonstration-based approachwhere an LLM model is trained to generate input-specific concisedemonstrations.
+
+33, TITLE: PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents
+AUTHORS: Zikang Liu; Junyi Li; Wayne Xin Zhao; Dawei Gao; Yaliang Li; Ji-rong Wen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this paper, we propose \textbf{PAL-UI} (\textbf{P}lanningwith \textbf{A}ctive \textbf{L}ook-back), a novel framework that enables GUIagents to adaptively retrieve past observations when required.
+
+34, TITLE: MAVUL: Multi-Agent Vulnerability Detection Via Contextual Reasoning and Interactive Refinement
+AUTHORS: Youpeng Li; Kartik Joshi; Xinda Wang; Eric Wong
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Abstract: The widespread adoption of open-source software (OSS) necessitates themitigation of vulnerability risks. Most vulnerability detection (VD) methodsare limited by inadequate ...
+
+35, TITLE: GEM: A Gym for Agentic LLMs
+AUTHORS: Zichen Liu; Anya Sims; Keyu Duan; Changyu Chen; Simon Yu; Xiangxin Zhou; Haotian Xu; Shaopan Xiong; Bo Liu; Chenmien Tan; Chuen Yang Beh; Weixun Wang; Hao Zhu; Weiyan Shi; Diyi Yang; Michael Shieh; Yee Whye Teh; Wee Sun Lee; Min Lin
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Analogous to OpenAI-Gym for traditionalreinforcement learning (RL), GEM provides a standardized framework for theenvironment-agent interface, including asynchronous vectorized execution forhigh throughput, and flexible wrappers for easy extensibility.
+
+36, TITLE: Can World Models Benefit VLMs for World Dynamics?
+AUTHORS: Kevin Zhang; Kuangzhi Ge; Xiaowei Chi; Renrui Zhang; Shaojun Shi; Zhen Dong; Sirui Han; Shanghang Zhang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this work, westrive to investigate the capabilities when world model priors are transferredinto Vision-Language Models: we re-purpose a video diffusion model as agenerative encoder to perform a single denoising step and treat the resultinglatents as a set of visual embedding.
+
+37, TITLE: MathSticks: A Benchmark for Visual Symbolic Compositional Reasoning with Matchstick Puzzles
+AUTHORS: Yuheng Ji; Huajie Tan; Cheng Chi; Yijie Xu; Yuting Zhao; Enshen Zhou; Huaihai Lyu; Pengwei Wang; Zhongyuan Wang; Shanghang Zhang; Xiaolong Zheng
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We introduce \textsc{MathSticks}, a benchmark for Visual SymbolicCompositional Reasoning (VSCR), which unifies visual perception, symbolicmanipulation, and arithmetic consistency.
+
+38, TITLE: Exposing The Cracks: Vulnerabilities of Retrieval-Augmented LLM-based Machine Translation
+AUTHORS: Yanming Sun; Runzhe Zhan; Chi Seng Cheang; Han Wu; Xuebo Liu; Yuyao Niu; Fengying Ye; Kaixin Lan; Lidia S. Chao; Derek F. Wong
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : \textbf{RE}trieval-\textbf{A}ugmented \textbf{L}LM-based \textbf{M}achine\textbf{T}ranslation (REAL-MT) shows promise for knowledge-intensive tasks likeidiomatic translation, but its reliability under noisy retrieval contextsremains poorly understood despite this being a common challenge in real-worlddeployment. To address this gap, we propose a noise synthesis framework and newmetrics to evaluate the robustness of REAL-MT systematically.
+
+39, TITLE: Energy-Regularized Sequential Model Editing on Hyperspheres
+AUTHORS: Qingyuan Liu; Jia-Chen Gu; Yunzhi Yao; Hong Wang; Nanyun Peng
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this work, we seek to better understand andmitigate performance degradation caused by sequential editing.
+
+40, TITLE: Expected Attention: KV Cache Compression By Estimating Attention from Future Queries Distribution
+AUTHORS: Alessio Devoto; Maximilian Jeblick; Simon Jégou
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Our approach leverages the distributional properties of LLMactivations to compute expected attention scores in closed form for each KVpair.
+
+41, TITLE: UCD: Unconditional Discriminator Promotes Nash Equilibrium in GANs
+AUTHORS: Mengfei Xia; Nan Xue; Jiapeng Zhu; Yujun Shen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this work, we quantitatively analyze the extentof Nash equilibrium in GAN training, and conclude that redundant shortcuts byinputting condition in $D$ disables meaningful knowledge extraction.
+
+42, TITLE: Agent-ScanKit: Unraveling Memory and Reasoning of Multimodal Agents Via Sensitivity Perturbations
+AUTHORS: Pengzhou Cheng; Lingzhong Dong; Zeng Wu; Zongru Wu; Xiangru Tang; Chengwei Qin; Zhuosheng Zhang; Gongshen Liu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we propose\textbf{Agent-ScanKit}, a systematic probing framework to unravel the memoryand reasoning capabilities of multimodal agents under controlled perturbations.Specifically, we introduce three orthogonal probing paradigms: visual-guided,text-guided, and structure-guided, each designed to quantify the contributionsof memorization and reasoning without requiring access to model internals.
+
+43, TITLE: Eyes-on-Me: Scalable RAG Poisoning Through Transferable Attention-Steering Attractors
+AUTHORS: Yen-Shan Chen; Sian-Yao Huang; Cheng-Lin Yang; Yun-Nung Chen
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We introduce Eyes-on-Me, a modular attackthat decomposes an adversarial document into reusable Attention Attractors andFocus Regions.
+
+44, TITLE: PRISM-Consult: A Panel-of-Experts Architecture for Clinician-Aligned Diagnosis
+AUTHORS: Lionel Levine; John Santerre; Alexander S. Young; T. Barry Levine; Francis Campion; Majid Sarrafzadeh
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We present PRISM-Consult, a clinician-aligned panel-of-experts architecturethat extends the compact PRISM sequence model into a routed family of domainspecialists.
+
+45, TITLE: Train on Validation (ToV): Fast Data Selection with Applications to Fine-tuning
+AUTHORS: Ayush Jain; Andrea Montanari; Eren Sasoglu
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We propose a simpler and faster alternative that inverts the usual role oftrain and validation: we perform inference on the training pool before andafter fine-tuning on the validation set.
+
+46, TITLE: Analyzing Dialectical Biases in LLMs for Knowledge and Reasoning Benchmarks
+AUTHORS: Eileen Pan; Anna Seo Gyeong Choi; Maartje ter Hoeve; Skyler Seto; Allison Koenecke
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We analyze the effects of typifying"standard" American English language questions as non-"standard" dialectalvariants on multiple choice question answering tasks and find up to a 20%reduction in accuracy.
+
+47, TITLE: DualTune: Decoupled Fine-Tuning for On-Device Agentic Systems
+AUTHORS: Rohan Kadekodi; Zhan Jin; Keisuke Kamahori; Yile Gu; Sean Khatiri; Noah H. Bayindirli; Sergey Gorbunov; Baris Kasikci
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We propose "decoupled fine-tuning", anovel post-training approach that employs LoRA fine-tuning to create dedicatedLoRA adapters for tool selection and tool-specific argument generation usingseparate loss masking for each of the subtasks.
+
+48, TITLE: MR3: Multilingual Rubric-Agnostic Reward Reasoning Models
+AUTHORS: David Anugraha; Shou-Yi Hung; Zilu Tang; Annie En-Shiun Lee; Derry Tanti Wijaya; Genta Indra Winata
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Inthis paper, we introduce mR3, a massively multilingual, rubric-agnostic rewardreasoning model trained on 72 languages, achieving the broadest languagecoverage in reward modeling to date.
+
+49, TITLE: Towards Self-Evolving Benchmarks: Synthesizing Agent Trajectories Via Test-Time Exploration Under Validate-by-Reproduce Paradigm
+AUTHORS: Dadi Guo; Tianyi Zhou; Dongrui Liu; Chen Qian; Qihan Ren; Shuai Shao; Zhiyuan Fan; Yi R. Fung; Kun Wang; Linfeng Zhang; Jing Shao
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : However, existingagent benchmarks are showing a trend of rapid ceiling-hitting by newlydeveloped agents, making it difficult to meet the demands for evaluating agentabilities. To address this problem, we propose the Trajectory-basedValidated-by-Reproducing Agent-benchmark Complexity Evolution (TRACE)framework.
+
+50, TITLE: Efficient Multi-modal Large Language Models Via Progressive Consistency Distillation
+AUTHORS: Zichen Wen; Shaobo Wang; Yufa Zhou; Junyuan Zhang; Qintong Zhang; Yifeng Gao; Zhaorun Chen; Bin Wang; Weijia Li; Conghui He; Linfeng Zhang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this work, we propose to develop Efficient MLLMs viaProgressive Consistency Distillation (EPIC), a progressive learning framework.Specifically, by decomposing the feature space perturbations introduced bytoken compression along the token-wise and layer-wise dimensions, we introducetoken consistency distillation and layer consistency distillation,respectively, aiming to reduce the training difficulty by leveraging guidancefrom a teacher model and following a progressive learning trajectory.
+
+51, TITLE: In-Context Curiosity: Distilling Exploration for Decision-Pretrained Transformers on Bandit Tasks
+AUTHORS: Huitao Yang; Guanting Chen
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Abstract: As large language models (LLMs) continue to grow in capability, there isincreasing interest in incorporating them into decision-making tasks. A commonpipeline for this is ...
+
+52, TITLE: Robust Context-Aware Object Recognition
+AUTHORS: Klara Janouskova; Cristian Gavrus; Jiri Matas
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We propose RCOR -- Robust Context-Aware Object Recognition -- the firstapproach that jointly achieves robustness and context-awareness withoutcompromising either.
+
+53, TITLE: When Silence Matters: The Impact of Irrelevant Audio on Text Reasoning in Large Audio-Language Models
+AUTHORS: Chen-An Li; Tzu-Han Lin; Hung-yi Lee
+CATEGORY: arxiv-cs.SD [SD]
+HIGHLIGHT: Highlight : Weinvestigate how irrelevant audio, such as silence, synthetic noise, andenvironmental sounds, affects text reasoning tasks where audio is unnecessary.Across three text-based benchmarks, we find that even non-informative audioreduces accuracy and increases prediction volatility; the severity ofinterference scales with longer durations, higher amplitudes, and elevateddecoding temperatures.
+
+54, TITLE: Hearing The Order: Investigating Selection Bias in Large Audio-Language Models
+AUTHORS: Yu-Xiang Lin; Chen-An Li; Sheng-Lun Wei; Po-Chun Chen; Hsin-Hsi Chen; Hung-yi Lee
+CATEGORY: arxiv-cs.SD [SD]
+HIGHLIGHT: Highlight : An open question is whether their predictionsare influenced by the order of answer choices, which would indicate a form ofselection bias and undermine their reliability. In this paper, we identify andanalyze this problem in LALMs.
+
+55, TITLE: Normal-Abnormal Guided Generalist Anomaly Detection
+AUTHORS: Yuexin Wang; Xiaolei Wang; Yizheng Gong; Jimin Xiao
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Previous GADmethods primarily use only normal samples as references, overlooking thevaluable information contained in anomalous samples that are often available inreal-world scenarios. To address this limitation, we propose a more practicalapproach: normal-abnormal-guided generalist anomaly detection, which leveragesboth normal and anomalous samples as references to guide anomaly detectionacross diverse domains.
+
+56, TITLE: SAGE-Music: Low-Latency Symbolic Music Generation Via Attribute-Specialized Key-Value Head Sharing
+AUTHORS: Jiaye Tan; Haonan Luo; Linfeng Song; Shuaiqi Chen; Yishan Lyu; Zian Zhong; Roujia Wang; Daniel Jiang; Haoran Zhang; Jiaming Bai; Haoran Cheng; Q. Vera Liao; Hao-Wen Dong
+CATEGORY: arxiv-cs.SD [SD]
+HIGHLIGHT: Highlight : Our main contributions are (1) thefirst systematic study of BPE's generalizability in multi-track symbolic music,and (2) the introduction of AS-KVHS for low-latency symbolic music generation.Beyond these, we also release SAGE-Music, an open-source benchmark that matchesor surpasses state-of-the-art models in generation quality.
+
+57, TITLE: Attribution Gradients: Incrementally Unfolding Citations for Critical Examination of Attributed AI Answers
+AUTHORS: Hita Kambhamettu; Alyssa Hwang; Philippe Laban; Andrew Head
+CATEGORY: arxiv-cs.HC [HC]
+HIGHLIGHT: Highlight : In this paper, we presentattribution gradients as a solution.
+
+58, TITLE: Graph-S3: Enhancing Agentic Textual Graph Retrieval with Synthetic Stepwise Supervision
+AUTHORS: Ge Chang; Jinbo Su; Jiacheng Liu; Pengfei Yang; Yuhao Shang; Huiwen Zheng; Hongli Ma; Yan Liang; Yuanchun Li; Yunxin Liu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Existing retrieverssuffer from poor performance since they either rely on shallow embeddingsimilarity or employ interactive retrieving policies that demand excessive datalabeling and training cost. To address these issues, we present Graph-$S^3$, anagentic textual graph reasoning framework that employs an LLM-based retrievertrained with synthetic stepwise supervision.
+
+59, TITLE: Automatic Speech Recognition (ASR) for African Low-Resource Languages: A Systematic Literature Review
+AUTHORS: Sukairaj Hafiz Imam; Tadesse Destaw Belay; Kedir Yassin Husse; Ibrahim Said Ahmad; Idris Abdulmumin; Hadiza Ali Umar; Muhammad Yahuza Bello; Joyce Nakatumba-Nabende; Seid Muhie Yimam; Shamsuddeen Hassan Muhammad
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : ASR has achieved remarkable global progress, yet African low-resourcelanguages remain rigorously underrepresented, producing barriers to digitalinclusion across the continent with more than +2000 languages. This systematicliterature review (SLR) explores research on ASR for African languages with afocus on datasets, models and training methods, evaluation techniques,challenges, and recommends future directions.
+
+60, TITLE: Spiralformer: Low Latency Encoder for Streaming Speech Recognition with Circular Layer Skipping and Early Exiting
+AUTHORS: Emiru Tsunoo; Hayato Futami; Yosuke Kashiwagi; Siddhant Arora; Shinji Watanabe
+CATEGORY: arxiv-eess.AS [AS]
+HIGHLIGHT: Highlight : To efficiently compute with the smallchunk shift, we propose a new encoder, Spiralformer, tailored for blockprocessing by combining layer dropping and early exiting.
+
+61, TITLE: From Human Hands to Robot Arms: Manipulation Skills Transfer Via Trajectory Alignment
+AUTHORS: Han Zhou; Jinjin Cao; Liyuan Ma; Xueji Fang; Guo-jun Qi
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Abstract: Learning diverse manipulation skills for real-world robots is severelybottlenecked by the reliance on costly and hard-to-scale teleoperateddemonstrations. While human videos offer ...
+
+62, TITLE: Arbitrary Generative Video Interpolation
+AUTHORS: Guozhen Zhang; Haiguang Wang; Chunyu Wang; Yuan Zhou; Qinglin Lu; Limin Wang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In thiswork, we present ArbInterp, a novel generative VFI framework that enablesefficient interpolation at any timestamp and of any length.
+
+63, TITLE: Adaptive Shared Experts with LoRA-Based Mixture of Experts for Multi-Task Learning
+AUTHORS: Minghao Yang; Ren Togo; Guang Li; Takahiro Ogawa; Miki Haseyama
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : However, existing MoE-MTL methods often rely on single-taskpretrained backbones and suffer from redundant adaptation and inefficientknowledge sharing during the transition from single-task to multi-task learning(STL to MTL). To address these limitations, we propose adaptive shared experts(ASE) within a low-rank adaptation (LoRA) based MoE, where shared experts areassigned router-computed gating weights jointly normalized with sparse experts.This design facilitates STL to MTL transition, enhances expert specialization,and cooperation.
+
+64, TITLE: On-the-Fly Data Augmentation Via Gradient-Guided and Sample-Aware Influence Estimation
+AUTHORS: Suorong Yang; Jie Zong; Lihang Wang; Ziheng Qin; Hai Gan; Pengfei Zhou; Kai Wang; Yang You; Furao Shen
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : As aresult, applying uniform or stochastic augmentations, without accounting forsuch dynamics, can lead to a mismatch between augmented data and the model'sevolving training needs, ultimately degrading training effectiveness. Toaddress this, we introduce SADA, a Sample-Aware Dynamic Augmentation thatperforms on-the-fly adjustment of augmentation strengths based on each sample'sevolving influence on model optimization.
+
+65, TITLE: HAMLET: Switch Your Vision-Language-Action Model Into A History-Aware Policy
+AUTHORS: Myungkyu Koo; Daewon Choi; Taeyoung Kim; Kyungmin Lee; Changyeon Kim; Younggyo Seo; Jinwoo Shin
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : In thispaper, we propose HAMLET, a scalable framework to adapt VLAs to attend to thehistorical context during action prediction.
+
+66, TITLE: NSARM: Next-Scale Autoregressive Modeling for Robust Real-World Image Super-Resolution
+AUTHORS: Xiangtao Kong; Rongyuan Wu; Shuaizheng Liu; Lingchen Sun; Lei Zhang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Most recent real-world image super-resolution (Real-ISR) methods employpre-trained text-to-image (T2I) diffusion models to synthesize the high-qualityimage either from random Gaussian noise, which yields realistic results but isslow due to iterative denoising, or directly from the input low-quality image,which is efficient but at the price of lower output quality.
+
+67, TITLE: It Takes Two: Your GRPO Is Secretly DPO
+AUTHORS: Yihong Wu; Liheng Ma; Lei Ding; Muzhi Li; Xinyu Wang; Kejia Chen; Zhan Su; Zhanguang Zhang; Chenyang Huang; Yingxue Zhang; Mark Coates; Jian-Yun Nie
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : It iscommonly believed that GRPO necessitates a large group size to ensure stabletraining via precise statistical estimation, which incurs substantialcomputational overhead. In this work, we challenge this assumption by reframingGRPO as a form of contrastive learning, which reveals a fundamental connectionto Direct Preference Optimization (DPO).
+
+68, TITLE: EgoTraj-Bench: Towards Robust Trajectory Prediction Under Ego-view Noisy Observations
+AUTHORS: Jiayi Liu; Jiaming Zhou; Ke Ye; Kun-Yu Lin; Allan Wang; Junwei Liang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : To bridge this gap, weintroduce EgoTraj-Bench, the first real-world benchmark that grounds noisy,first-person visual histories in clean, bird's-eye-view future trajectories,enabling robust learning under realistic perceptual constraints. Building onthis benchmark, we propose BiFlow, a dual-stream flow matching model thatconcurrently denoises historical observations and forecasts future motion byleveraging a shared latent representation.
+
+69, TITLE: Rethinking Thinking Tokens: LLMs As Improvement Operators
+AUTHORS: Lovish Madaan; Aniket Didolkar; Suchin Gururangan; John Quan; Ruan Silva; Ruslan Salakhutdinov; Manzil Zaheer; Sanjeev Arora; Anirudh Goyal
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Abstractly, weview the model as an improvement operator on its own "thoughts" with acontinuum of possible strategies. We identify an interesting inference familyParallel-Distill-Refine (PDR), which performs the following: (i) generatediverse drafts in parallel; (ii) distill them into a bounded, textualworkspace; and (iii) refine conditioned on this workspace, producing an outputthat seeds the next round.
+
+70, TITLE: Improving Metacognition and Uncertainty Communication in Language Models
+AUTHORS: Mark Steyvers; Catarina Belem; Padhraic Smyth
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Large language models (LLMs) are increasingly used in decision-makingcontexts, but when they present answers without signaling low confidence, usersmay unknowingly act on erroneous outputs.
+
+71, TITLE: Gather-Scatter Mamba: Accelerating Propagation with Efficient State Space Model
+AUTHORS: Hyun-kyu Ko; Youbin Kim; Jihyeon Park; Dongheok Park; Gyeongjin Kang; Wonjun Cho; Hyung Yi; Eunbyung Park
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Abstract: State Space Models (SSMs)-most notably RNNs-have historically played acentral role in sequential modeling. Although attention mechanisms such asTransformers have since dominated ...
+
+72, TITLE: Why Can't Transformers Learn Multiplication? Reverse-Engineering Reveals Long-Range Dependency Pitfalls
+AUTHORS: Xiaoyan Bai; Itamar Pres; Yuntian Deng; Chenhao Tan; Stuart Shieber; Fernanda Viégas; Martin Wattenberg; Andrew Lee
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work, we study why, byreverse-engineering a model that successfully learns multiplication via\emph{implicit chain-of-thought}, and report three findings: (1) Evidence oflong-range structure: Logit attributions and linear probes indicate that themodel encodes the necessary long-range dependencies for multi-digitmultiplication.
+
+73, TITLE: TUMIX: Multi-Agent Test-Time Scaling with Tool-Use Mixture
+AUTHORS: Yongchao Chen; Jiefeng Chen; Rui Meng; Ji Yin; Na Li; Chuchu Fan; Chi Wang; Tomas Pfister; Jinsung Yoon
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we propose Tool-Use Mixture (TUMIX), anensemble framework that runs multiple agents in parallel, each employingdistinct tool-use strategies and answer paths.
+
+74, TITLE: MetaLogic: Robustness Evaluation of Text-to-Image Models Via Logically Equivalent Prompts
+AUTHORS: Yifan Shen; Yangyang Shu; Hye-young Paik; Yulei Sui
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Despite being logically equivalent, such prompt pairs often yieldmisaligned or semantically inconsistent images, exposing a lack of robustnessin reasoning and generalisation. To address this, we propose MetaLogic, a novelevaluation framework that detects T2I misalignment without relying on groundtruth images.
+
+75, TITLE: TokMem: Tokenized Procedural Memory for Large Language Models
+AUTHORS: Zijun Wu; Yongchang Hao; Lili Mou
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We introduce TokMem, a tokenized procedural memory thatstores recurring procedures as compact, trainable embeddings.
+
+76, TITLE: IMAGEdit: Let Any Subject Transform
+AUTHORS: Fei Shen; Weihao Xu; Rui Yan; Dong Zhang; Xiangbo Shu; Jinhui Tang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this paper, we present IMAGEdit, a training-free framework for any numberof video subject editing that manipulates the appearances of multipledesignated subjects while preserving non-target regions, without finetuning orretraining.
+
+77, TITLE: ACPO: Adaptive Curriculum Policy Optimization for Aligning Vision-Language Models in Complex Reasoning
+AUTHORS: Yunhao Wang; Ziting Li; Shuai Chen; Tao Liu; Chao Song; Junjie Jiang; Jian Zhu; Peng Gao; Bin Qin
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Aligning large-scale vision-language models (VLMs) for complex reasoning viareinforcement learning is often hampered by the limitations of existing policyoptimization algorithms, such as static training schedules and the rigid,uniform clipping mechanism in Proximal Policy Optimization (PPO). In this work,we introduce Adaptive Curriculum Policy Optimization (ACPO), a novel frameworkthat addresses these challenges through a dual-component adaptive learningstrategy.
+
+78, TITLE: MOLM: Mixture of LoRA Markers
+AUTHORS: Samar Fares; Nurbek Tastan; Noor Hussein; Karthik Nandakumar
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Within this framework, we introduce Mixture of LoRAMarkers (MOLM), a routing-based instantiation in which binary keys activatelightweight LoRA adapters inside residual and attention blocks.
+
+79, TITLE: Stochastic Self-Organization in Multi-Agent Systems
+AUTHORS: Nurbek Tastan; Samuel Horvath; Karthik Nandakumar
+CATEGORY: arxiv-cs.MA [MA]
+HIGHLIGHT: Highlight : In this work,we introduce a response-conditioned framework that adapts communicationon-the-fly.
+
+80, TITLE: BiasBusters: Uncovering and Mitigating Tool Selection Bias in Large Language Models
+AUTHORS: Thierry Blankenstein; Jialin Yu; Zixuan Li; Vassilis Plachouras; Sunando Sengupta; Philip Torr; Yarin Gal; Alasdair Paren; Adel Bibi
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We introduce a benchmark of diversetool categories, each containing multiple functionally equivalent tools, toevaluate tool-selection bias.
+
+81, TITLE: Learning to Route: A Rule-Driven Agent Framework for Hybrid-Source Retrieval-Augmented Generation
+AUTHORS: Haoyue Bai; Haoyu Wang; Shengyu Chen; Zhengzhang Chen; Lu-An Tang; Wei Cheng; Haifeng Chen; Yanjie Fu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Large Language Models (LLMs) have shown remarkable performance on generalQuestion Answering (QA), yet they often struggle in domain-specific scenarioswhere accurate and up-to-date information is required. Retrieval-AugmentedGeneration (RAG) addresses this limitation by enriching LLMs with externalknowledge, but existing systems primarily rely on unstructured documents, whilelargely overlooking relational databases, which provide precise, timely, andefficiently queryable factual information, serving as indispensableinfrastructure in domains such as finance, healthcare, and scientific research.Motivated by this gap, we conduct a systematic analysis that reveals threecentral observations: (i) databases and documents offer complementary strengthsacross queries, (ii) naively combining both sources introduces noise and costwithout consistent accuracy gains, and (iii) selecting the most suitable sourcefor each query is crucial to balance effectiveness and efficiency.
+
+82, TITLE: TGPO: Temporal Grounded Policy Optimization for Signal Temporal Logic Tasks
+AUTHORS: Yue Meng; Fei Chen; Chuchu Fan
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : In this paper, we propose TGPO, Temporal Grounded Policy Optimization,to solve general STL tasks.
+
+83, TITLE: Beyond Log Likelihood: Probability-Based Objectives for Supervised Fine-Tuning Across The Model Capability Continuum
+AUTHORS: Gaotang Li; Ruizhong Qiu; Xiusi Chen; Heng Ji; Hanghang Tong
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : To this end, we study a general family ofprobability-based objectives and characterize their effectiveness underdifferent conditions.
+
+84, TITLE: BigBang-Proton Technical Report: Next-Word-Prediction Is Scientific Multitask Learner
+AUTHORS: Hengkui Wu; Liujiang Liu; Jihua He; Qihao Wang; Keke Zhao; Shuyang Hu; Renle Fu; Dahao Liang; Lingyu Zeng; Bruce Liu; Yuan Liu; Jin Zhan; Jiaqiang Niu; Xinglong Jia; Yaqin Hu; Wenjun Ji; Panpan Chi; Ken Chen; Hengyuan Wu; Yingsi Xin; Yongfeng Zhu; Yuexin Wang; Manqi Ruan; Ningtao Bian; Xiaohua Wu; Weipeng Xu
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We introduce BigBang-Proton, a unified sequence-based architecture forauto-regressive language modeling pretrained on cross-scale, cross-structure,cross-discipline real-world scientific tasks to construct a scientificmulti-task learner.
+
+85, TITLE: TabINR: An Implicit Neural Representation Framework for Tabular Data Imputation
+AUTHORS: Vincent Ochs; Florentin Bieder; Sidaty el Hadramy; Paul Friedrich; Stephanie Taha-Mehlitz; Anas Taha; Philippe C. Cattin
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : As missing values degrade the performance orhinder the applicability of downstream models, and while simple imputingstrategies tend to introduce bias or distort the underlying data distribution,we require imputers that provide high-quality imputations, are robust acrossdataset sizes and yield fast inference. We therefore introduce TabINR, anauto-decoder based Implicit Neural Representation (INR) framework that modelstables as neural functions.
+
+86, TITLE: Learning Compact Representations of LLM Abilities Via Item Response Theory
+AUTHORS: Jianhao Chen; Chenxu Wang; Gengrui Zhang; Peng Ye; Lei Bai; Wei Hu; Yuzhong Qu; Shuyue Hu
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Recent years have witnessed a surge in the number of large language models(LLMs), yet efficiently managing and utilizing these vast resources remains asignificant challenge. In this work, we explore how to learn compactrepresentations of LLM abilities that can facilitate downstream tasks, such asmodel routing and performance prediction on new benchmarks.
+
+87, TITLE: Prosperity Before Collapse: How Far Can Off-Policy RL Reach with Stale Data on LLMs?
+AUTHORS: Haizhong Zheng; Jiawei Zhao; Bedi Chen
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We revisit this challenge and uncover a prosperity-before-collapsephenomenon: stale data can be as informative as on-policy data if exploitedproperly. Building on this insight, we introduce M2PO (Second-Moment TrustPolicy Optimization), which constrains the second moment of importance weightsto suppress only extreme outliers while preserving informative updates.Notably, M2PO sharply reduces the fraction of clipped tokens under highstaleness (from 1.22% to 0.06% over training), precisely masking high-variancetokens while maintaining stable optimization.
+
+88, TITLE: Linear RNNs for Autoregressive Generation of Long Music Samples
+AUTHORS: Konrad Szewczyk; Daniel Gallo Fernández; James Townsend
+CATEGORY: arxiv-cs.SD [SD]
+HIGHLIGHT: Highlight : In this work, we push the boundariesof linear RNNs applied to raw audio modeling, investigating the effects ofdifferent architectural choices and using context-parallelism to enabletraining on sequences up to one minute (1M tokens) in length.
+
+89, TITLE: Family Matters: Language Transfer and Merging for Adapting Small LLMs to Faroese
+AUTHORS: Jenny Kunz; Iben Nyholm Debess; Annika Simonsen
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We investigate how to adapt small, efficient LLMs to Faroese, a low-resourceNorth Germanic language.
+
+90, TITLE: Measuring and Controlling The Spectral Bias for Self-Supervised Image Denoising
+AUTHORS: Wang Zhang; Huaqiu Li; Xiaowan Hu; Tao Jiang; Zikang Chen; Haoqian Wang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Secondly, during the process of fitting highfrequencies, the network learns high-frequency noise from the mapped noisyimages. To address these challenges, we introduce a Spectral Controllingnetwork (SCNet) to optimize self-supervised denoising of paired noisy images.First, we propose a selection strategy to choose frequency band components fornoisy images, to accelerate the convergence speed of training.
+
+91, TITLE: Interpreting Language Models Through Concept Descriptions: A Survey
+AUTHORS: Nils Feldhus; Laura Kopf
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, weprovide the first survey of the emerging field of concept descriptions formodel components and abstractions.
+
+92, TITLE: ImageDoctor: Diagnosing Text-to-Image Generation Via Grounded Image Reasoning
+AUTHORS: Yuxiang Guo; Jiang Liu; Ze Wang; Hao Chen; Ximeng Sun; Yang Zhao; Jialian Wu; Xiaodong Yu; Zicheng Liu; Emad Barsoum
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : However, existingapproaches typically quantify the quality of a generated image using a singlescalar, limiting their ability to provide comprehensive and interpretablefeedback on image quality. To address this, we introduce ImageDoctor, a unifiedmulti-aspect T2I model evaluation framework that assesses image quality acrossfour complementary dimensions: plausibility, semantic alignment, aesthetics,and overall quality.
+
+93, TITLE: Are Large Language Models Chronically Online Surfers? A Dataset for Chinese Internet Meme Explanation
+AUTHORS: Yubo Xie; Chenkai Wang; Zongyang Ma; Fahui Miao
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we introduce CHIME, a datasetfor CHinese Internet Meme Explanation.
+
+94, TITLE: MCM-DPO: Multifaceted Cross-Modal Direct Preference Optimization for Alt-text Generation
+AUTHORS: Jinlan Fu; Shenzhen Huangfu; Hao Fei; Yichong Huang; Xiaoyu Shen; Xipeng Qiu; See-Kiong Ng
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Previous effortsto fine-tune MLLMs using supervised fine-tuning (SFT) have struggled, as SFTrelies on accurate target annotations, which are often flawed in user-generatedalt-text. To address this, we propose Multi-faceted Cross-modal DirectPreference Optimization (MCM-DPO), which improves alt-text generation bylearning to identify better options in preference pairs without requiringprecise annotations.
+
+95, TITLE: Training-free Uncertainty Guidance for Complex Visual Tasks with MLLMs
+AUTHORS: Sanghwan Kim; Rui Xiao; Stephan Alaniz; Yongqin Xian; Zeynep Akata
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this work, we propose an effective,training-free framework that uses an MLLM's intrinsic uncertainty as aproactive guidance signal.
+
+96, TITLE: ACON: Optimizing Context Compression for Long-horizon LLM Agents
+AUTHORS: Minki Kang; Wei-Ning Chen; Dongge Han; Huseyin A. Inan; Lukas Wutschitz; Yanzhi Chen; Robert Sim; Saravan Rajmohan
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We introduce Agent Context Optimization (ACON), a unifiedframework that optimally compresses both environment observations andinteraction histories into concise yet informative condensations.
+
+97, TITLE: Weakly Supervised Cloud Detection Combining Spectral Features and Multi-Scale Deep Network
+AUTHORS: Shaocong Zhu; Zhiwei Li; Xinghua Li; Huanfeng Shen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this paper, we propose a weaklysupervised cloud detection method that combines spectral features andmulti-scale scene-level deep network (SpecMCD) to obtain highly accuratepixel-level cloud masks.
+
+98, TITLE: UrbanGraph: Physics-Informed Spatio-Temporal Dynamic Heterogeneous Graphs for Urban Microclimate Prediction
+AUTHORS: Weilin Xin; Chenyu Huang; Peilin Li; Jing Zhong; Jiawei Yao
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : To address this,we introduce UrbanGraph, a physics-informed framework integrating heterogeneousand dynamic spatio-temporal graphs.
+
+99, TITLE: Nonparametric Identification of Latent Concepts
+AUTHORS: Yujia Zheng; Shaoan Xie; Kun Zhang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work, we argue that the cognitive mechanism of comparison,fundamental to human learning, is also vital for machines to recover trueconcepts underlying the data.
+
+100, TITLE: Equivariant Splitting: Self-supervised Learning from Incomplete Data
+AUTHORS: Victor Sechaud; Jérémy Scanvic; Quentin Barthélemy; Patrice Abry; Julián Tachella
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In thispaper, we propose a new self-supervised learning strategy devised for thechallenging setting where measurements are observed via a single incompleteobservation model.
+
+101, TITLE: Strategic Fusion of Vision Language Models: Shapley-Credited Context-Aware Dawid-Skene for Multi-Label Tasks in Autonomous Driving
+AUTHORS: Yuxiang Feng; Keyang Zhang; Hassane Ouchouid; Ashwil Kaniamparambil; Ioannis Souflas; Panagiotis Angeloudis
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We present Shapley-credited Context-AwareDawid-Skene with Agreement, a game-theoretic fusion method for multi-labelunderstanding of ego-view dashcam video.
+
+102, TITLE: The Pitfalls of KV Cache Compression
+AUTHORS: Alex Chen; Renato Geh; Aditya Grover; Guy Van den Broeck; Daniel Israel
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In thispaper, we identify several pitfalls practitioners should be aware of whendeploying KV cache compressed LLMs.
+
+103, TITLE: Relative- Absolute Fusion: Rethinking Feature Extraction in Image-Based Iterative Method Selection for Solving Sparse Linear Systems
+AUTHORS: Kaiqi Zhang; Mingguan Yang; Dali Chang; Chun Chen; Yuxiang Zhang; Kexun He; Jing Zhao
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this paper, we introduce RAF(Relative-Absolute Fusion), an efficient feature extraction technique toenhance image-based selection approaches.
+
+104, TITLE: Privately Estimating Black-Box Statistics
+AUTHORS: Günter F. Steinke; Thomas Steinke
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : In this work we present a scheme that trades offbetween statistical efficiency (i.e., how much data is needed) and oracleefficiency (i.e., the number of evaluations).
+
+105, TITLE: Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models
+AUTHORS: Yu Zeng; Wenxuan Huang; Shiting Huang; Xikun Bao; Yukun Qi; Yiming Zhao; Qiuchen Wang; Lin Chen; Zehui Chen; Huaian Chen; Wanli Ouyang; Feng Zhao
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : While high-quality vision-language data can enhancethese capabilities, its scarcity and limited scalability impose significantconstraints. To address this, we propose AGILE, an Agentic jiGsaw InteractionLearning for Enhancing visual perception and reasoning in VLMs.
+
+106, TITLE: Hybrid Training for Vision-Language-Action Models
+AUTHORS: Pietro Mazzaglia; Cansu Sancaktar; Markus Peschl; Daniel Dijkman
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : In this work, we explore the idea of HybridTraining (HyT), a framework that enables VLAs to learn from thoughts andbenefit from the associated performance gains, while enabling the possibilityto leave out CoT generation during inference.
+
+107, TITLE: Agent Fine-tuning Through Distillation for Domain-specific LLMs in Microdomains
+AUTHORS: Yawen Xue; Masaya Tsunokake; Yuta Koreeda; Ekant Muljibhai Amin; Takashi Sumiyoshi; Yasuhiro Sogawa
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : This paper explores agent fine-tuning for domainadaptation within Hitachi's JP1 middleware, a microdomain for specialized IToperations.
+
+108, TITLE: CML-Bench: A Framework for Evaluating and Enhancing LLM-Powered Movie Scripts Generation
+AUTHORS: Mingzhe Zheng; Dingjie Song; Guanyu Zhou; Jun You; Jiahao Zhan; Xuran Ma; Xinyuan Song; Ser-Nam Lim; Qifeng Chen; Harry Yang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : To further validate our benchmark, we introduce CML-Instruction, aprompting strategy with detailed instructions on character dialogue and eventlogic, to guide LLMs to generate more structured and cinematically soundscripts.
+
+109, TITLE: Safety Instincts: LLMs Learn to Trust Their Internal Compass for Self-Defense
+AUTHORS: Guobin Shen; Dongcheng Zhao; Haibo Tong; Jindong Li; Feifei Zhao; Yi Zeng
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This entropy gap reveals an untappedsignal--models intrinsically "know" when to refuse. We introduce SafetyInstincts Reinforcement Learning (SIRL), which transforms this internalconfidence into a self-generated reward signal, eliminating dependence onexternal validators or human annotations.
+
+110, TITLE: Align Your Tangent: Training Better Consistency Models Via Manifold-Aligned Tangents
+AUTHORS: Beomsu Kim; Byunghee Cha; Jong Chul Ye
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : However, CMs typically require prolonged training with large batchsizes to obtain competitive sample quality. In this paper, we examine thetraining dynamics of CMs near convergence and discover that CM tangents -- CMoutput update directions -- are quite oscillatory, in the sense that they moveparallel to the data manifold, not towards the manifold.
+
+111, TITLE: Cyber Academia-Chemical Engineering (CA-ChemE): A Living Digital Town for Self-Directed Research Evolution and Emergent Scientific Discovery
+AUTHORS: Zekun Jiang; Chunming Xu; Tianhang Zhou
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : The rapid advancement of artificial intelligence (AI) has demonstratedsubstantial potential in chemical engineering, yet existing AI systems remainlimited in interdisciplinary collaboration and exploration of unchartedproblems. To address these issues, we present the Cyber Academia-ChemicalEngineering (CA-ChemE) system, a living digital town that enables self-directedresearch evolution and emergent scientific discovery through multi-agentcollaboration.
+
+112, TITLE: GRPO-$λ$: Credit Assignment Improves LLM Reasoning
+AUTHORS: Prasanna Parthasarathi; Mathieu Reymond; Boxing Chen; Yufei Cui; Sarath Chandar
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work, we present GRPO-$\lambda$, a novelextension to GRPO that enhances credit assignment in RL finetuning of LLMs forcomplex reasoning tasks.
+
+113, TITLE: Extreme Blind Image Restoration Via Prompt-Conditioned Information Bottleneck
+AUTHORS: Hongeun Kim; Bryan Sangwoo Kim; Jong Chul Ye
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Blind Image Restoration (BIR) methods have achieved remarkable success butfalter when faced with Extreme Blind Image Restoration (EBIR), where inputssuffer from severe, compounded degradations beyond their training scope.Directly learning a mapping from extremely low-quality (ELQ) to high-quality(HQ) images is challenging due to the massive domain gap, often leading tounnatural artifacts and loss of detail. To address this, we propose a novelframework that decomposes the intractable ELQ-to-HQ restoration process.
+
+114, TITLE: Plug-and-Play Prompt Refinement Via Latent Feedback for Diffusion Model Alignment
+AUTHORS: Suhyeon Lee; Jong Chul Ye
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Recent studies have explored promptrefinement as a modular alternative, but most adopt a feed-forward approachthat applies a single refined prompt throughout the entire sampling trajectory,thereby failing to fully leverage the sequential nature of reinforcementlearning. To address this, here we introduce PromptLoop, a plug-and-play RLframework that incorporates latent feedback into step-wise prompt refinement.Rather than modifying diffusion model weights, a multimodal large languagemodel (MLLM) is trained with RL to iteratively update prompts based onintermediate latent states of diffusion models.
+
+115, TITLE: VIRTUE: Visual-Interactive Text-Image Universal Embedder
+AUTHORS: Wei-Yao Wang; Kazuya Tateishi; Qiyu Wu; Shusuke Takahashi; Yuki Mitsufuji
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : In this paper, we propose anovel Visual-InteRactive Text-Image Universal Embedder (VIRTUE) that extendsthe capabilities of the segmentation model and the vision-language model to therealm of representation learning.
+
+116, TITLE: Graph2Eval: Automatic Multimodal Task Generation for Agents Via Knowledge Graphs
+AUTHORS: Yurun Chen; Xavier Hu; Yuhan Liu; Ziqi Wang; Zeyi Liao; Lin Chen; Feng Wei; Yuxi Qian; Bo Zheng; Keting Yin; Shengyu Zhang
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : While recent studies have exploredautomatic agent task generation with LLMs, most efforts remain limited to textor image analysis, without systematically modeling multi-step interactions inweb environments. To address these challenges, we propose Graph2Eval, aknowledge graph-based framework that automatically generates both multimodaldocument comprehension tasks and web interaction tasks, enabling comprehensiveevaluation of agents' reasoning, collaboration, and interactive capabilities.In our approach, knowledge graphs constructed from multi-source external dataserve as the task space, where we translate semantic relations into structuredmultimodal tasks using subgraph sampling, task templates, and meta-paths.
+
+117, TITLE: Optimizing What Matters: AUC-Driven Learning for Robust Neural Retrieval
+AUTHORS: Nima Sheikholeslami; Erfan Hosseini; Patrice Bechard; Srivatsava Daruru; Sai Rajeswar
+CATEGORY: arxiv-cs.IR [IR]
+HIGHLIGHT: Highlight : Thismismatch leads to poor calibration and suboptimal performance in downstreamtasks like retrieval-augmented generation (RAG). To address this fundamentallimitation, we introduce the MW loss, a new training objective that maximizesthe Mann-Whitney U statistic, which is mathematically equivalent to the Areaunder the ROC Curve (AUC).
+
+118, TITLE: Creative Synthesis of Kinematic Mechanisms
+AUTHORS: Jiong Lin; Jialong Ning; Judah Goldfeder; Hod Lipson
+CATEGORY: arxiv-cs.GR [GR]
+HIGHLIGHT: Highlight : In this paper, we formulate the problem of kinematic synthesis for planarlinkages as a cross-domain image generation task.
+
+119, TITLE: Collaborative-Distilled Diffusion Models (CDDM) for Accelerated and Lightweight Trajectory Prediction
+AUTHORS: Bingzhang Wang; Kehua Chen; Yinhai Wang
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Diffusion models have recentlydemonstrated strong performance in probabilistic trajectory prediction, buttheir large model size and slow sampling process hinder real-world deployment.This paper proposes Collaborative-Distilled Diffusion Models (CDDM), a novelmethod for real-time and lightweight trajectory prediction.
+
+120, TITLE: QUASAR: Quantum Assembly Code Generation Using Tool-Augmented LLMs Via Agentic RL
+AUTHORS: Cong Yu; Valter Uotila; Shilong Deng; Qingyuan Wu; Tuo Shi; Songlin Jiang; Lei You; Bo Zhao
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We propose QUASAR, an agenticreinforcement learning (RL) framework for quantum circuits generation andoptimization based on tool-augmented LLMs.
+
+121, TITLE: KnowledgeSmith: Uncovering Knowledge Updating in LLMs with Model Editing and Unlearning
+AUTHORS: Yinyi Luo; Zhexian Zhou; Hao Chen; Kai Qiu; Marios Savvides; Sharon Li; Jindong Wang
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : This paper proposes KnowledgeSmith, a unified framework tosystematically understand the updating mechanism of LLMs.
+
+122, TITLE: MorphGen: Controllable and Morphologically Plausible Generative Cell-Imaging
+AUTHORS: Berker Demirel; Marco Fumero; Theofanis Karaletsos; Francesco Locatello
+CATEGORY: arxiv-q-bio.QM [QM]
+HIGHLIGHT: Highlight : Simulating in silico cellular responses to interventions is a promisingdirection to accelerate high-content image-based assays, critical for advancingdrug discovery and gene editing. To support this, we introduce MorphGen, astate-of-the-art diffusion-based generative model for fluorescent microscopythat enables controllable generation across multiple cell types andperturbations.
+
+123, TITLE: A Neuro-Fuzzy System for Interpretable Long-Term Stock Market Forecasting
+AUTHORS: Miha Ožbot; Igor Škrjanc; Vitomir Štruc
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : The method leverages LSTM networks and temporal attentionto condense multivariate data into interpretable features suitable for fuzzyinference systems.
+
+124, TITLE: Free Draft-and-Verification: Toward Lossless Parallel Decoding for Diffusion Large Language Models
+AUTHORS: Shutong Wu; Jiawei Zhang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Taking advantage of theirinherent capability of multi-token prediction, existing parallel decodingalgorithms can speed up the DLLM inference, but at the cost of non-negligibleperformance degradation. To overcome this challenge, we introduce FreeDraft-and-Verification (Freedave), a novel fast sampling algorithm tailored forDLLMs that achieves lossless parallel decoding.
+
+125, TITLE: Milco: Learned Sparse Retrieval Across Languages Via A Multilingual Connector
+AUTHORS: Thong Nguyen; Yibin Lei; Jia-Huei Ju; Eugene Yang; Andrew Yates
+CATEGORY: arxiv-cs.IR [IR]
+HIGHLIGHT: Highlight : We introduce MILCO, an LSR architecture that maps queries anddocuments from different languages into a shared English lexical space via amultilingual connector.
+
+126, TITLE: LongCodeZip: Compress Long Context for Code Language Models
+AUTHORS: Yuling Shi; Yichun Qian; Hongyu Zhang; Beijun Shen; Xiaodong Gu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we proposeLongCodeZip, a novel plug-and-play code compression framework designedspecifically for code LLMs.
+
+127, TITLE: Shape Happens: Automatic Feature Manifold Discovery in LLMs Via Supervised Multi-Dimensional Scaling
+AUTHORS: Federico Tiblias; Irina Bigoulaeva; Jingcheng Niu; Simone Balloccu; Iryna Gurevych
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We introduceSupervised Multi-Dimensional Scaling (SMDS), a model-agnostic method toautomatically discover feature manifolds.
+
+128, TITLE: Erased, But Not Forgotten: Erased Rectified Flow Transformers Still Remain Unsafe Under Concept Attack
+AUTHORS: Nanxiang Jiang; Zhaoxin Fan; Enhan Kang; Daiheng Gao; Yun Zhou; Yanxia Chang; Zheng Zhu; Yeying Jin; Wenjun Wu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this work, wepresent ReFlux, the first concept attack method specifically designed to assessthe robustness of concept erasure in the latest rectified flow-based T2Iframework.
+
+129, TITLE: Audio Driven Real-Time Facial Animation for Social Telepresence
+AUTHORS: Jiye Lee; Chenghui Li; Linh Tran; Shih-En Wei; Jason Saragih; Alexander Richard; Hanbyul Joo; Shaojie Bai
+CATEGORY: arxiv-cs.GR [GR]
+HIGHLIGHT: Highlight : We present an audio-driven real-time system for animating photorealistic 3Dfacial avatars with minimal latency, designed for social interactions invirtual reality for anyone.
+
+130, TITLE: ReEvalMed: Rethinking Medical Report Evaluation By Aligning Metrics with Real-World Clinical Judgment
+AUTHORS: Ruochen Li; Jun Li; Bailiang Jian; Kun Yuan; Youxiang Zhu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Our framework offers guidance for building more clinicallyreliable evaluation methods.
+
+131, TITLE: Universal Beta Splatting
+AUTHORS: Rong Liu; Zhongpai Gao; Benjamin Planche; Meida Chen; Van Nguyen Nguyen; Meng Zheng; Anwesa Choudhuri; Terrence Chen; Yue Wang; Andrew Feng; Ziyan Wu
+CATEGORY: arxiv-cs.GR [GR]
+HIGHLIGHT: Highlight : We introduce Universal Beta Splatting (UBS), a unified framework thatgeneralizes 3D Gaussian Splatting to N-dimensional anisotropic Beta kernels forexplicit radiance field rendering.
+
+132, TITLE: Adaptive Event Stream Slicing for Open-Vocabulary Event-Based Object Detection Via Vision-Language Knowledge Distillation
+AUTHORS: Jinchang Zhang; Zijun Li; Jiakai Lin; Guoyu Lu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : However, the modality gap between images and event streams makes itineffective to directly transfer CLIP to event data, as CLIP was not designedfor event streams. To bridge this gap, we propose an event-image knowledgedistillation framework that leverages CLIP's semantic understanding to achieveopen-vocabulary object detection on event data.
+
+133, TITLE: Graph Integrated Multimodal Concept Bottleneck Model
+AUTHORS: Jiakai Lin; Jinchang Zhang; Guoyu Lu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : With growing demand for interpretability in deep learning, especially in highstakes domains, Concept Bottleneck Models (CBMs) address this by insertinghuman understandable concepts into the prediction pipeline, but they aregenerally single modal and ignore structured concept relationships. To overcomethese limitations, we present MoE-SGT, a reasoning driven framework thataugments CBMs with a structure injecting Graph Transformer and a Mixture ofExperts (MoE) module.
+
+134, TITLE: DecepChain: Inducing Deceptive Reasoning in Large Language Models
+AUTHORS: Wei Shen; Han Wang; Haoyu Li; Huan Zhang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work, we present an urgent but underexploredrisk: attackers could induce LLMs to generate incorrect yet coherent CoTs thatlook plausible at first glance, while leaving no obvious manipulated traces,closely resembling the reasoning exhibited in benign scenarios.
+
+135, TITLE: The Data-Quality Illusion: Rethinking Classifier-Based Quality Filtering for LLM Pretraining
+AUTHORS: Thiziri Nait Saada; Louis Bethune; Michal Klein; David Grangier; Marco Cuturi; Pierre Ablin
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We show that while CQF improves downstream task performance, it does notnecessarily enhance language modeling on the high-quality dataset.
+
+136, TITLE: ReSeek: A Self-Correcting Framework for Search Agents with Instructive Rewards
+AUTHORS: Shiyu Li; Yang Tang; Yifan Wang; Peiming Li; Xi Chen
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : However, prior RL-based methods oftenrely on sparse or rule-based rewards, which can lead agents to commit tosuboptimal or erroneous reasoning paths without the ability to recover. Toaddress these limitations, we propose ReSeek, a novel self-correcting frameworkfor training search agents.
+
+137, TITLE: BroRL: Scaling Reinforcement Learning Via Broadened Exploration
+AUTHORS: Jian Hu; Mingjie Liu; Ximing Lu; Fang Wu; Zaid Harchaoui; Shizhe Diao; Yejin Choi; Pavlo Molchanov; Jun Yang; Jan Kautz; Yi Dong
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work, we investigate a complementary paradigm forscaling RL, BroR-Lincreasing the number of rollouts per example to hundreds toexhaustively Broaden exploration, which yields continuous performance gainsbeyond the saturation point observed in ProRL when scaling the number oftraining steps.
+
+138, TITLE: From Seeing to Predicting: A Vision-Language Framework for Trajectory Forecasting and Controlled Video Generation
+AUTHORS: Fan Yang; Zhiyang Chen; Yousong Zhu; Xin Li; Jinqiao Wang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We propose TrajVLM-Gen, a two-stage framework forphysics-aware image-to-video generation.
+
+139, TITLE: Advancing Automated Spatio-Semantic Analysis in Picture Description Using Language Models
+AUTHORS: Si-Ioi Ng; Pranav S. Ambadi; Kimberly D. Mueller; Julie Liss; Visar Berisha
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Thisstudy proposes a BERT-based pipeline, fine tuned with binary cross-entropy andpairwise ranking loss, for automated CIU extraction and ordering from theCookie Theft picture description.
+
+140, TITLE: Disentangling Foreground and Background for Vision-Language Navigation Via Online Augmentation
+AUTHORS: Yunbo Xu; Xuesong Zhang; Jia Li; Zhenzhen Hu; Richang Hong
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Abstract: Following language instructions, vision-language navigation (VLN) agents aretasked with navigating unseen environments. While augmenting multifacetedvisual representations has ...
+
+141, TITLE: Analyzing Latent Concepts in Code Language Models
+AUTHORS: Arushi Sharma; Vedant Pungliya; Christopher J. Quinn; Ali Jannesari
+CATEGORY: arxiv-cs.SE [SE]
+HIGHLIGHT: Highlight : We propose Code Concept Analysis(CoCoA): a global post-hoc interpretability framework that uncovers emergentlexical, syntactic, and semantic structures in a code language model'srepresentation space by clustering contextualized token embeddings intohuman-interpretable concept groups.
+
+142, TITLE: Retrieval-Augmented Generation for Electrocardiogram-Language Models
+AUTHORS: Xiaoyu Song; William Han; Tony Chen; Chaojing Duan; Michael A. Rosenberg; Emerson Liu; Ding Zhao
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : However, despiteits promise, no open-source implementation or systematic study of RAG pipelinedesign for ELMs currently exists. To address this gap, we present the firstopen-source RAG pipeline for ELMs, along with baselines and ablation studiesfor NLG.
+
+143, TITLE: Physics-Informed Neural Controlled Differential Equations for Scalable Long Horizon Multi-Agent Motion Forecasting
+AUTHORS: Shounak Sural; Charles Kekeh; Wenliang Liu; Federico Pecora; Mouhacine Benosman
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : In this work, we aim todevelop an efficient trajectory forecasting model conditioned on multi-agentgoals.
+
+144, TITLE: CroSTAta: Cross-State Transition Attention Transformer for Robotic Manipulation
+AUTHORS: Giovanni Minelli; Giulio Turrisi; Victor Barasuol; Claudio Semini
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : We propose a Cross-State Transition Attention Transformer thatemploys a novel State Transition Attention (STA) mechanism to modulate standardattention weights based on learned state evolution patterns, enabling policiesto better adapt their behavior based on execution history.
+
+145, TITLE: Cascaded Diffusion Framework for Probabilistic Coarse-to-Fine Hand Pose Estimation
+AUTHORS: Taeyun Woo; Jinah Park; Tae-Kyun Kim
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Recent probabilistic methods model pose distributions yet arerestricted to single-stage estimation, which often fails to produce accurate 3Dreconstructions without refinement. To address these limitations, we propose acoarse-to-fine cascaded diffusion framework that combines probabilisticmodeling with cascaded refinement.
+
+146, TITLE: Research on The Integration of Embodied Intelligence and Reinforcement Learning in Textual Domains
+AUTHORS: Haonan Wang; Junfeng Sun; Mingjia Zhao; Wei Liu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Through detailed theoretical explanation and experimentalexploration, a novel integration model is introduced.
+
+147, TITLE: Expandable Decision-Making States for Multi-Agent Deep Reinforcement Learning in Soccer Tactical Analysis
+AUTHORS: Kenjiro Ide; Taiga Someya; Kohei Kawaguchi; Keisuke Fujii
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Here, we propose Expandable Decision-Making States (EDMS), asemantically enriched state representation that augments raw positions andvelocities with relational variables (e.g., scoring of space, pass, and score),combined with an action-masking scheme that gives on-ball and off-ball agentsdistinct decision sets.
+
+148, TITLE: MultiFair: Multimodal Balanced Fairness-Aware Medical Classification with Dual-Level Gradient Modulation
+AUTHORS: Md Zubair; Hao Zheng; Nussdorf Jonathan; Grayson W. Armstrong; Lucy Q. Shen; Gabriela Wilson; Yu Tian; Xingquan Zhu; Min Shi
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : This paper proposes a novel approach calledMultiFair for multimodal medical classification, which addresses thesechallenges with a dual-level gradient modulation process.
+
+149, TITLE: AI-Driven Self-Evolving Software: A Promising Path Toward Software Automation
+AUTHORS: Liyi Cai; Yijie Ren; Yitong Zhang; Jia Li
+CATEGORY: arxiv-cs.SE [SE]
+HIGHLIGHT: Highlight : To investigate this vision, we introduceAI-Driven Self-Evolving Software, a new form of software that evolvescontinuously through direct interaction with users. We demonstrate thefeasibility of this idea with a lightweight prototype built on a multi-agentarchitecture that autonomously interprets user requirements, generates andvalidates code, and integrates new functionalities.
+
+150, TITLE: NS-Pep: De Novo Peptide Design with Non-Standard Amino Acids
+AUTHORS: Tao Guo; Junbo Yin; Yu Wang; Xin Gao
+CATEGORY: arxiv-q-bio.BM [BM]
+HIGHLIGHT: Highlight : We introduce NS-Pep, a unified framework forco-designing peptide sequences and structures with NSAAs.
+
+151, TITLE: Learn2Drive: A Neural Network-based Framework for Socially Compliant Automated Vehicle Control
+AUTHORS: Yuhui Liu; Samannita Halder; Shian Wang; Tianyi Li
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : This study introduces a novel control framework for adaptive cruise control(ACC) in automated driving, leveraging Long Short-Term Memory (LSTM) networksand physics-informed constraints.
+
+152, TITLE: A Phase-aware AI Car-following Model for Electric Vehicles with Adaptive Cruise Control: Development and Validation Using Real-world Data
+AUTHORS: Yuhui Liu; Shian Wang; Ansel Panicker; Kate Embry; Ayana Asanova; Tianyi Li
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : While existing microscopic models effectivelycapture the driving behavior of ICE vehicles, a modeling framework thataccurately describes the unique car-following dynamics of EVs is lacking.Developing such a model is essential given the increasing presence of EVs intraffic, yet creating an easy-to-use and accurate analytical model remainschallenging. To address these gaps, this study develops and validates a Phase-Aware AI(PAAI) car-following model specifically for EVs.
+
+153, TITLE: GDLNN: Marriage of Programming Language and Neural Networks for Accurate and Easy-to-Explain Graph Classification
+AUTHORS: Minseok Jeon; Seunghyun Park
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We present GDLNN, a new graph machine learning architecture, for graphclassification tasks.
+
+154, TITLE: Copy-Paste to Mitigate Large Language Model Hallucinations
+AUTHORS: Yongchao Long; Xian Wu; Yingying Zhang; Xianbin Wen; Yuxi Zhou; Shenda Hong
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : To elucidateCopyPasteLLM's effectiveness, we propose the Context-Parameter CopyingCapturing algorithm.
+
+155, TITLE: Motion In-Betweening for Densely Interacting Characters
+AUTHORS: Xiaotang Zhang; Ziyi Chang; Qianhui Men; Hubert P. H. Shum
+CATEGORY: arxiv-cs.GR [GR]
+HIGHLIGHT: Highlight : Toeffectively represent and synthesize interactions, we propose a novel solutioncalled Cross-Space In-Betweening, which models the interactions of eachcharacter across different conditioning representation spaces.
+
+156, TITLE: Span-level Detection of AI-generated Scientific Text Via Contrastive Learning and Structural Calibration
+AUTHORS: Zhen Yin; Shenghua Wang
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : To address theselimitations, we present Sci-SpanDet, a structure-aware framework for detectingAI-generated scholarly texts.
+
+157, TITLE: AttentionDep: Domain-Aware Attention for Explainable Depression Severity Assessment
+AUTHORS: Yusif Ibrahimov; Tarique Anwar; Tommy Yuan; Turan Mutallimov; Elgun Hasanov
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We propose AttentionDep, a domain-awareattention model that drives explainable depression severity estimation byfusing contextual and domain knowledge.
+
+158, TITLE: Drones That Think on Their Feet: Sudden Landing Decisions with Embodied AI
+AUTHORS: Diego Ortiz Barbosa; Mohit Agrawal; Yash Malegaonkar; Luis Burbano; Axel Andersson; György Dán; Henrik Sandberg; Alvaro A. Cardenas
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Traditional approaches rely on safety engineershand-coding large sets of recovery rules, but this strategy cannot anticipatethe vast range of real-world contingencies and quickly becomes incomplete.Recent advances in embodied AI, powered by large visual language models,provide commonsense reasoning to assess context and generate appropriateactions in real time. We demonstrate this capability in a simulated urbanbenchmark in the Unreal Engine, where drones dynamically interpret theirsurroundings and decide on sudden maneuvers for safe landings.
+
+159, TITLE: Batch-CAM: Introduction to Better Reasoning in Convolutional Deep Learning Models
+AUTHORS: Giacomo Ignesti; Davide Moroni; Massimo Martinelli
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Byensuring models learn from evidence-relevant information,this approach makes arelevant contribution to building more transparent, explainable, andtrustworthy AI systems.
+
+160, TITLE: MG2FlowNet: Accelerating High-Reward Sample Generation Via Enhanced MCTS and Greediness Control
+AUTHORS: Rui Zhu; Xuan Yu; Yudong Zhang; Chen Zhang; Xu Wang; Yang Wang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work, weintegrate an enhanced Monte Carlo Tree Search (MCTS) into the GFlowNetssampling process, using MCTS-based policy evaluation to guide the generationtoward high-reward trajectories and Polynomial Upper Confidence Trees (PUCT) tobalance exploration and exploitation adaptively, and we introduce acontrollable mechanism to regulate the degree of greediness.
+
+161, TITLE: Multi-level Dynamic Style Transfer for NeRFs
+AUTHORS: Zesheng Li; Shuaibo Li; Wei Ma; Jianwei Guo; Hongbin Zha
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this paper, we presentmulti-level dynamic style transfer for NeRFs (MDS-NeRF), a novel approach thatreengineers the NeRF pipeline specifically for stylization and incorporates aninnovative dynamic style injection module.
+
+162, TITLE: Erase to Improve: Erasable Reinforcement Learning for Search-Augmented LLMs
+AUTHORS: Ziliang Wang; Kang An; Xuhui Zheng; Faqiang Qian; Weikun Zhang; Cijun Ouyang; Jialu Cai; Yuhang Wang; Yichao Wu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We propose Erasable Reinforcement Learning (ERL), a novelframework that transforms fragile reasoning into a robust process.
+
+163, TITLE: Feature Identification for Hierarchical Contrastive Learning
+AUTHORS: Julius Ott; Nastassia Vysotskaya; Huawei Sun; Lorenzo Servadei; Robert Wille
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Thus,we propose two novel hierarchical contrastive learning (HMLC) methods.
+
+164, TITLE: TimeEmb: A Lightweight Static-Dynamic Disentanglement Framework for Time Series Forecasting
+AUTHORS: Mingyuan Xia; Chunxu Zhang; Zijian Zhang; Hao Miao; Qidong Liu; Yuanshao Zhu; Bo Yang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We conduct comprehensive quantitative and qualitative analyses toverify the efficacy of static-dynamic disentanglement.
+
+165, TITLE: Atlas-free Brain Network Transformer
+AUTHORS: Shuai Huang; Xuan Kan; James J. Lah; Deqiang Qiu
+CATEGORY: arxiv-q-bio.NC [NC]
+HIGHLIGHT: Highlight : To address thesechallenges, we propose a novel atlas-free brain network transformer (atlas-freeBNT) that leverages individualized brain parcellations derived directly fromsubject-specific resting-state fMRI data.
+
+166, TITLE: Solar PV Installation Potential Assessment on Building Facades Based on Vision and Language Foundation Models
+AUTHORS: Ruyu Liu; Dongxu Zhuang; Jianhua Zhang; Arega Getaneh Abate; Per Sieverts Nielsen; Ben Wang; Xiufeng Liu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This study introduces SF-SPA (Semantic Facade Solar-PV Assessment), anautomated framework that transforms street-view photographs into quantitativePV deployment assessments.
+
+167, TITLE: InfVSR: Breaking Length Limits of Generic Video Super-Resolution
+AUTHORS: Ziqing Zhang; Kai Liu; Zheng Chen; Xi Li; Yucong Chen; Bingnan Duan; Linghe Kong; Yulun Zhang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Existing videosuper-resolution (VSR) approaches, however, face two persistent challenges whenprocessing long sequences: (1) inefficiency due to the heavy cost of multi-stepdenoising for full-length sequences; and (2) poor scalability hindered bytemporal decomposition that causes artifacts and discontinuities. To breakthese limits, we propose InfVSR, which novelly reformulates VSR as anautoregressive-one-step-diffusion paradigm.
+
+168, TITLE: Thinkquel: A Model Dedicated to Text-to-dbt Using Synthetic Data and A Span-Aware Objective
+AUTHORS: Anni Li; Aria Attar; Paul Dong
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Methodologies in Thinkquel integrates anovel synthetic data pipeline, TS-SQL, that leverages dbt as a portableintermediate representation with a span-aware reinforcement learning objective,and Token-Sequence GRPO (TS-GRPO), specifically designed to bridge the gapbetween token-level training signals and sequence-level execution rewards whenfinetuning LLMs.
+
+169, TITLE: LAKAN: Landmark-assisted Adaptive Kolmogorov-Arnold Network for Face Forgery Detection
+AUTHORS: Jiayao Jiang; Siran Peng; Bin Liu; Qi Chu; Nenghai Yu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : While methods based on Convolutional NeuralNetworks (CNNs) and Transformers are effective, there is still room forimprovement in modeling the highly complex and non-linear nature of forgeryartifacts. To address this issue, we propose a novel detection method based onthe Kolmogorov-Arnold Network (KAN).
+
+170, TITLE: Object-Centric Case-Based Reasoning Via Argumentation
+AUTHORS: Gabriel de Olim Gaul; Adam Gould; Avinash Kori; Francesca Toni
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We introduce Slot Attention Argumentation for Case-Based Reasoning (SAA-CBR),a novel neuro-symbolic pipeline for image classification that integratesobject-centric learning via a neural Slot Attention (SA) component withsymbolic reasoning conducted by Abstract Argumentation for Case-Based Reasoning(AA-CBR).
+
+171, TITLE: EMR-AGENT: Automating Cohort and Feature Extraction from EMR Databases
+AUTHORS: Kwanhyung Lee; Sungsoo Hong; Joonhyung Park; Jeonghyeop Lim; Juhwan Choi; Donghwee Yoon; Eunho Yang
+CATEGORY: arxiv-cs.DB [DB]
+HIGHLIGHT: Highlight : To enable rigorous evaluation, we develop a benchmarking codebase forthree EMR databases (MIMIC-III, eICU, SICdb), including both seen and unseenschema settings.
+
+172, TITLE: "We Are Not Future-ready": Understanding AI Privacy Risks and Existing Mitigation Strategies from The Perspective of AI Developers in Europe
+AUTHORS: Alexandra Klymenko; Stephen Meisenbacher; Patrick Gage Kelley; Sai Teja Peddinti; Kurt Thomas; Florian Matthes
+CATEGORY: arxiv-cs.HC [HC]
+HIGHLIGHT: Highlight : We find that there is littleconsensus among AI developers on the relative ranking of privacy risks.
+
+173, TITLE: EvolProver: Advancing Automated Theorem Proving By Evolving Formalized Problems Via Symmetry and Difficulty
+AUTHORS: Yuchen Tian; Ruiyuan Huang; Xuanwu Wang; Jing Ma; Zengfeng Huang; Ziyang Luo; Hongzhan Lin; Da Zheng; Lun Du
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Large Language Models (LLMs) for formal theorem proving have shownsignificant promise, yet they often lack generalizability and are fragile toeven minor transformations of problem statements. To address this limitation,we introduce a novel data augmentation pipeline designed to enhance modelrobustness from two perspectives: symmetry and difficulty.
+
+174, TITLE: What You See Is What You Ask: Evaluating Audio Descriptions
+AUTHORS: Divy Kala; Eshika Khandelwal; Makarand Tapaswi
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Through alignmentand analysis of two independent AD tracks for the same movies, we quantify thesubjectivity in when and whether to describe, and what and how to highlight.Thus, we show that working with trimmed clips is inadequate. We propose ADQA, aQA benchmark that evaluates ADs at the level of few-minute long, coherent videosegments, testing whether they would help BLV users understand the story andappreciate visual details.
+
+175, TITLE: CodeGenLink: A Tool to Find The Likely Origin and License of Automatically Generated Code
+AUTHORS: Daniele Bifolco; Guido Annicchiarico; Pierluigi Barbiero; Massimiliano Di Penta; Fiorella Zampetti
+CATEGORY: arxiv-cs.SE [SE]
+HIGHLIGHT: Highlight : This paper proposes CodeGenLink, a GitHub CoPilot extension forVisual Studio Code aimed at (i) suggesting links containing code very similarto automatically generated code, and (ii) whenever possible, indicating thelicense of the likely origin of the code.
+
+176, TITLE: Semantic-Driven AI Agent Communications: Challenges and Solutions
+AUTHORS: Kaiwen Yu; Mengying Sun; Zhijin Qin; Xiaodong Xu; Ping Yang; Yue Xiao; Gang Wu
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : To address theseissues, this article proposes a semantic-driven AI agent communicationframework and develops three enabling techniques.
+
+177, TITLE: On Estimating The Quantum Tsallis Relative Entropy
+AUTHORS: Jinge Bao; Minbo Gao; Qisheng Wang
+CATEGORY: arxiv-quant-ph [ARXIV-QUANT-PH]
+HIGHLIGHT: Highlight : In this paper, we present a comprehensivestudy of the estimation of the quantum Tsallis relative entropy.
+
+178, TITLE: Syntax-Guided Diffusion Language Models with User-Integrated Personalization
+AUTHORS: Ruqian Zhang; Yijiao Zhang; Juan Shen; Zhongyi Zhu; Annie Qu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In thiswork, we propose a syntax-guided diffusion language model that integratesstructural supervision and personalized conditioning to enhance text quality,diversity, and controllability.
+
+179, TITLE: Evaluating New AI Cell Foundation Models on Challenging Kidney Pathology Cases Unaddressed By Previous Foundation Models
+AUTHORS: Runchen Wang; Junlin Guo; Siqi Lu; Ruining Deng; Zhengyi Lu; Yanfan Zhu; Yuechen Yang; Chongyu Qu; Yu Wang; Shilin Zhao; Catie Chang; Mitchell Wilkes; Mengmeng Yin; Haichun Yang; Yuankai Huo
+CATEGORY: arxiv-q-bio.QM [QM]
+HIGHLIGHT: Highlight : In this study, we benchmarkadvanced AI cell foundation models (2025), including CellViT++ variants andCellpose-SAM, against three widely used cell foundation models developed priorto 2024, using a diverse large-scale set of kidney image patches within ahuman-in-the-loop rating framework.
+
+180, TITLE: Towards Adversarial Training Under Hyperspectral Images
+AUTHORS: Weihua Zhang; Chengze Jiang; Jie Gui; Lu Dong
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : To address these challenges, weintroduce adversarial training to the hyperspectral domain, which is widelyregarded as one of the most effective defenses against adversarial attacks.Through extensive empirical analyses, we demonstrate that while adversarialtraining does enhance robustness across various models and datasets,hyperspectral data introduces unique challenges not seen in RGB images.Specifically, we find that adversarial noise and the non-smooth nature ofadversarial examples can distort or eliminate important spectral semanticinformation. To mitigate this issue, we employ data augmentation techniques andpropose a novel hyperspectral adversarial training method, termed AT-RA.
+
+181, TITLE: On The Fragility of Benchmark Contamination Detection in Reasoning Models
+AUTHORS: Han Wang; Haoyu Li; Brian Ko; Huan Zhang
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : Surprisingly, our studies find that evading contaminationdetections for LRMs is alarmingly easy.
+
+182, TITLE: PrunedLoRA: Robust Gradient-Based Structured Pruning for Low-rank Adaptation in Fine-tuning
+AUTHORS: Xin Yu; Cong Xie; Ziyu Zhao; Tiantian Fan; Lingzhou Xue; Zhi Zhang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We propose \textit{PrunedLoRA}, a newframework that leverages structured pruning to obtain highly representativelow-rank adapters from an over-parameterized initialization.
+
+183, TITLE: Directed-MAML: Meta Reinforcement Learning Algorithm with Task-directed Approximation
+AUTHORS: Yang Zhang; Huiwen Yan; Mushuang Liu
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : To overcome theselimitations, we propose Directed-MAML, a novel task-directed meta-RL algorithm.Before the second-order gradient step, Directed-MAML applies an additionalfirst-order task-directed approximation to estimate the effect of second-ordergradients, thereby accelerating convergence to the optimum and reducingcomputational cost.
+
+184, TITLE: Debunk The Myth of SFT Generalization
+AUTHORS: Xiaofeng Lin; Hejian Sang; Zhipeng Wang; Xuezhou Zhang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Code reproducingthe results in the paper can be found at:https://github.com/XiaofengLin7/debunking-sft-generalization.
+
+185, TITLE: Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning
+AUTHORS: Junhyeok Lee; Han Jang; Kyu Sung Choi
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : However, generic segmentation tools, despitewidespread applicability, often lack the specificity required for clinicallycritical and disease-specific tasks like meningioma RT planning. To overcomethese limitations, we introduce Interactive-MEN-RT, a dedicated IMIS toolspecifically developed for clinician-assisted 3D meningioma segmentation in RTworkflows.
+
+186, TITLE: Structuring Reasoning for Complex Rules Beyond Flat Representations
+AUTHORS: Zhihao Yang; Ancheng Xu; Jingpeng Li; Liang Yan; Jiehui Zhou; Zhen Qin; Hengyun Chang; Ahmadreza Argha; Hamid Alinejad-Rokny; Minghuan Tan; Yujun Cai; Min Yang
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Althoughexisting approaches such as Chain-of-Thought (CoT) reasoning have shownpromise, they lack systematic methodologies for structured rule processing andare particularly susceptible to error propagation through sequential reasoningchains. To address these limitations, we propose the Dynamic AdjudicationTemplate (DAT), a novel framework inspired by expert human reasoning processes.DAT structures the inference mechanism into three methodical stages:qualitative analysis, evidence gathering, and adjudication.
+
+187, TITLE: DIA: The Adversarial Exposure of Deterministic Inversion in Diffusion Models
+AUTHORS: Seunghoo Hong; Geonho Son; Juhun Lee; Simon S. Woo
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Diffusion models have shown to be strong representation learners, showcasingstate-of-the-art performance across multiple domains.
+
+188, TITLE: Pay-Per-Search Models Are Abstention Models
+AUTHORS: Mustafa Omer Gul; Claire Cardie; Tanya Goyal
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we introduce MASH (Modeling Abstention viaSelective Help-seeking), a training framework that readily extracts abstentionsfrom LLMs.
+
+189, TITLE: LoRAFusion: Efficient LoRA Fine-Tuning for LLMs
+AUTHORS: Zhanda Zhu; Qidong Su; Yaoyao Ding; Kevin Song; Shang Wang; Gennady Pekhimenko
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : This leads tomissed performance gains such as reduced pipeline bubbles, better communicationoverlap, and improved GPU load balance. To address these issues, we introduce LoRAFusion, an efficient LoRAfine-tuning system for LLMs.
+
+190, TITLE: The Good, The Bad, and The Sampled: A No-Regret Approach to Safe Online Classification
+AUTHORS: Tavor Z. Baharav; Spyros Dragazis; Aldo Pacchiano
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We study the problem of sequentially testing individuals for a binary diseaseoutcome whose true risk is governed by an unknown logistic model.
+
+191, TITLE: Rethinking Reward Models for Multi-Domain Test-Time Scaling
+AUTHORS: Dong Bok Lee; Seanie Lee; Sangwoo Park; Minki Kang; Jinheon Baek; Dongki Kim; Dominik Wagner; Jiongdao Jin; Heejun Lee; Tobias Bocklet; Jinyu Wang; Jingjing Fu; Sung Ju Hwang; Jiang Bian; Lei Song
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We present the first unified evaluation of four reward model variants,discriminative ORM and PRM (\DisORM, \DisPRM) and generative ORM and PRM(\GenORM, \GenPRM), across 14 diverse domains.
+
+192, TITLE: Complexity and Hardness of Random Peaked Circuits
+AUTHORS: Yuxuan Zhang
+CATEGORY: arxiv-quant-ph [ARXIV-QUANT-PH]
+HIGHLIGHT: Highlight : In this work, we studyan explicit construction for random peaked circuits: first selecting a randomcircuit $C$ of polynomial size, which forms a $k$-design.
+
+193, TITLE: CoT Vectors: Transferring and Probing The Reasoning Mechanisms of LLMs
+AUTHORS: Li Li; Ziyi Wang; Yongliang Wu; Jianfei Cai; Xu Yang
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : To improve CoT reasoning at a lower cost, and inspiredby the task vector paradigm, we introduce CoT Vectors, compact representationsthat encode task-general, multi-step reasoning knowledge.
+
+194, TITLE: DRBench: A Realistic Benchmark for Enterprise Deep Research
+AUTHORS: Amirhossein Abaskohi; Tianyi Chen; Miguel Muñoz-Mármol; Curtis Fox; Amrutha Varshini Ramesh; Étienne Marcotte; Xing Han Lù; Nicolas Chapados; Spandana Gella; Christopher Pal; Alexandre Drouin; Issam H. Laradji
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We introduce DRBench, a benchmark for evaluating AI agents on complex,open-ended deep research tasks in enterprise settings.
+
+195, TITLE: Random Feature Spiking Neural Networks
+AUTHORS: Maximilian Gollwitzer; Felix Dietrich
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Concretely, we propose a novel data-driven,fast, high-performance, and interpretable algorithm for end-to-end training ofSNNs inspired by the SWIM algorithm for RFM-ANNs, which we coin S-SWIM.
+
+196, TITLE: Discrete Wavelet Transform As A Facilitator for Expressive Latent Space Representation in Variational Autoencoders in Satellite Imagery
+AUTHORS: Arpan Mahara; Md Rezaul Karim Khan; Naphtali Rishe; Wenjia Wang; Seyed Masoud Sadjadi
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This paper proposes an innovative perspective, utilizing the DiscreteWavelet Transform (DWT) to enhance the VAE's latent space representation,designed for satellite imagery.
+
+197, TITLE: Direct Token Optimization: A Self-contained Approach to Large Language Model Unlearning
+AUTHORS: Hong kyu Lee; Ruixuan Liu; Li Xiong
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this work, we propose directtoken optimization (DTO), a novel self-contained unlearning approach for LLMsthat directly optimizes the token level objectives and eliminates the need forexternal resources.
+
+198, TITLE: Partial Identification Approach to Counterfactual Fairness Assessment
+AUTHORS: Saeyoung Rho; Junzhe Zhang; Elias Bareinboim
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We introduce a Bayesian approach to bound unknown counterfactual fairnessmeasures with high confidence.
+
+199, TITLE: Does Bigger Mean Better? Comparitive Analysis of CNNs and Biomedical Vision Language Modles in Medical Diagnosis
+AUTHORS: Ran Tong; Jiaqi Liu; Su Liu; Jiexi Xu; Lanruo Wang; Tong Wang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This paper presents a comparative analysisbetween a supervised lightweight Convolutional Neural Network (CNN) and astate-of-the-art, zero-shot medical Vision-Language Model (VLM), BiomedCLIP,across two distinct diagnostic tasks: pneumonia detection on the PneumoniaMNISTbenchmark and tuberculosis detection on the Shenzhen TB dataset.
+
+200, TITLE: Rehearsal-free and Task-free Online Continual Learning With Contrastive Prompt
+AUTHORS: Aopeng Wang; Ke Deng; Yongli Ren; Jun Luo
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Because of processing data in one pass, online continual learning (OCL) is oneof the most difficult continual learning scenarios. To address catastrophicforgetting in OCL, some existing studies use a rehearsal buffer to storesamples and replay them in the later learning process, other studies do notstore samples but assume a sequence of learning tasks so that the taskidentities can be explored.
+
+201, TITLE: Is Model Editing Built on Sand? Revealing Its Illusory Success and Fragile Foundation
+AUTHORS: Wei Liu; Haomei Xu; Bingqing Liu; Zhiying Deng; Haozhao Wang; Jun Wang; Ruixuan Li; Yee Whye Teh; Wee Sun Lee
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : To uncoverit, we systematically develop a suite of new evaluation methods.
+
+202, TITLE: FusionAdapter for Few-Shot Relation Learning in Multimodal Knowledge Graphs
+AUTHORS: Ran Liu; Yuan Fang; Xiaoli Li
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : However, existing MMKG methods primarily align modalitiesinto a shared space, which tends to overlook the distinct contributions ofspecific modalities, limiting their performance particularly in low-resourcesettings. To address this challenge, we propose FusionAdapter for the learningof few-shot relationships (FSRL) in MMKG.
+
+203, TITLE: Combining Large Language Models and Gradient-Free Optimization for Automatic Control Policy Synthesis
+AUTHORS: Carlo Bosio; Matteo Guarrera; Alberto Sangiovanni-Vincentelli; Mark W. Mueller
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We propose a hybridapproach that decouples structural synthesis from parameter optimization byintroducing an additional optimization layer for local parameter search.
+
+204, TITLE: Retrieval and Augmentation of Domain Knowledge for Text-to-SQL Semantic Parsing
+AUTHORS: Manasi Patwardhan; Ayush Agarwal; Shabbirhussain Bhaisaheb; Aseem Arora; Lovekesh Vig; Sunita Sarawagi
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we propose a systematic framework for associatingstructured domain statements at the database level.
+
+205, TITLE: Data Quality Challenges in Retrieval-Augmented Generation
+AUTHORS: Leopold Müller; Joshua Holstein; Sarah Bause; Gerhard Satzger; Niklas Kühl
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : However,current data quality (DQ) frameworks have been primarily developed for staticdatasets, and only inadequately address the dynamic, multi-stage nature of RAGsystems. This study aims to develop DQ dimensions for this new type of AI-basedsystems.
+
+206, TITLE: PromptPilot: Improving Human-AI Collaboration Through LLM-Enhanced Prompt Engineering
+AUTHORS: Niklas Gutheil; Valentin Mayer; Leopold Müller; Jörg Rommelt; Niklas Kühl
+CATEGORY: arxiv-cs.HC [HC]
+HIGHLIGHT: Highlight : Existing approaches, such asprompt handbooks or automated optimization pipelines, either requiresubstantial effort, expert knowledge, or lack interactive guidance. To addressthis gap, we design and evaluate PromptPilot, an interactive promptingassistant grounded in four empirically derived design objectives forLLM-enhanced prompt engineering.
+
+207, TITLE: Automated Evaluation Can Distinguish The Good and Bad AI Responses to Patient Questions About Hospitalization
+AUTHORS: Sarvesh Soni; Dina Demner-Fushman
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Across 100 patientcases, we collected responses from 28 AI systems (2800 total) and assessed themalong three dimensions: whether a system response (1) answers the question, (2)appropriately uses clinical note evidence, and (3) uses general medicalknowledge.
+
+208, TITLE: Evaluation Sheet for Deep Research: A Use Case for Academic Survey Writing
+AUTHORS: Israel Abebe Azime; Tadesse Destaw Belay; Atnafu Lambebo Tonja
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this work, we introduce anevaluation sheet that can be used for assessing the capability of Deep Researchtools.
+
+209, TITLE: TextCAM: Explaining Class Activation Map with Text
+AUTHORS: Qiming Zhao; Xingjian Li; Xiaoyu Cao; Xiaolong Wu; Min Xu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Wefigure out that CAM provides little semantic insight into what attributesunderlie these activations. To address this limitation, we propose TextCAM, anovel explanation framework that enriches CAM with natural languages.
+
+210, TITLE: ZQBA: Zero Query Black-box Adversarial Attack
+AUTHORS: Joana C. Costa; Tiago Roxo; Hugo Proença; Pedro R. M. Inácio
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Thus, we propose a Zero Query Black-boxAdversarial (ZQBA) attack that exploits the representations of Deep NeuralNetworks (DNNs) to fool other networks.
+
+211, TITLE: AbsTopK: Rethinking Sparse Autoencoders For Bidirectional Features
+AUTHORS: Xudong Zhu; Mohammad Mahdi Khalili; Zhihui Zhu
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : While several SAE variants have beenproposed, there remains no principled framework to derive SAEs from theoriginal dictionary learning formulation. In this work, we introduce such aframework by unrolling the proximal gradient method for sparse coding.
+
+212, TITLE: FAME: Adaptive Functional Attention with Expert Routing for Function-on-Function Regression
+AUTHORS: Yifei Gao; Yong Chen; Chen Zhang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this paper, we introduce Functional Attention with aMixture-of-Experts (FAME), an end-to-end, fully data-driven framework forfunction-on-function regression.
+
+213, TITLE: Benchmarking Foundation Models with Retrieval-Augmented Generation in Olympic-Level Physics Problem Solving
+AUTHORS: Shunfeng Zheng; Yudi Zhang; Meng Fang; Zihan Zhang; Zhitan Wu; Mykola Pechenizkiy; Ling Chen
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We introduce PhoPile, a high-quality multimodal datasetspecifically designed for Olympiad-level physics, enabling systematic study ofretrieval-based reasoning.
+
+214, TITLE: A Hierarchical Agentic Framework for Autonomous Drone-Based Visual Inspection
+AUTHORS: Ethan Herron; Xian Yeow Lee; Gregory Sin; Teresa Gonzalez Diaz; Ahmed Farahat; Chetan Gupta
+CATEGORY: arxiv-cs.MA [MA]
+HIGHLIGHT: Highlight : We evaluate the framework in a simulatedenvironment with two worker agents, assessing performance qualitatively andquantitatively based on task completion across varying complexity levels andworkflow efficiency.
+
+215, TITLE: Secure and Robust Watermarking for AI-generated Images: A Comprehensive Survey
+AUTHORS: Jie Cao; Qi Li; Zelin Zhang; Jianbing Ni
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : This paper presents a comprehensive survey of the current state ofAI-generated image watermarking, addressing five key dimensions: (1)formalization of image watermarking systems; (2) an overview and comparison ofdiverse watermarking techniques; (3) evaluation methodologies with respect tovisual quality, capacity, and detectability; (4) vulnerabilities to maliciousattacks; and (5) prevailing challenges and future directions.
+
+216, TITLE: CardioBench: Do Echocardiography Foundation Models Generalize Beyond The Lab?
+AUTHORS: Darya Taratynova; Ahmed Aly; Numan Saeed; Mohammad Yaqub
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We evaluate severalleading FM, including cardiac-specific, biomedical, and general-purposeencoders, under consistent zero-shot, probing, and alignment protocols.
+
+217, TITLE: Activation-Deactivation: A General Framework for Robust Post-hoc Explainable AI
+AUTHORS: Akchunya Chanchal; David A. Kelly; Hana Chockler
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : In this paper we introduce a novel forward-pass paradigmActivation-Deactivation (AD), which removes the effects of occluded inputfeatures from the model's decision-making by switching off the parts of themodel that correspond to the occlusions.
+
+218, TITLE: LVLMs As Inspectors: An Agentic Framework for Category-level Structural Defect Annotation
+AUTHORS: Sheng Jiang; Yuanmin Ning; Bingxi Huang; Peiyin Chen; Zhaohui Chen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : A novel agentic annotation framework, Agent-based DefectPattern Tagger (ADPT), is introduced that integrates Large Vision-LanguageModels (LVLMs) with a semantic pattern matching module and an iterativeself-questioning refinement mechanism.
+
+219, TITLE: Looking Beyond The Known: Towards A Data Discovery Guided Open-World Object Detection
+AUTHORS: Anay Majee; Amitesh Gangrade; Rishabh Iyer
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : However, existing OWOD approaches frequently suffer from semanticconfusion between known and unknown classes, alongside catastrophic forgetting,leading to diminished unknown recall and degraded known-class accuracy. Toovercome these challenges, we propose Combinatorial Open-World Detection(CROWD), a unified framework reformulating unknown object discovery andadaptation as an interwoven combinatorial (set-based) data-discovery(CROWD-Discover) and representation learning (CROWD-Learn) task.
+
+220, TITLE: Fast, Secure, and High-Capacity Image Watermarking with Autoencoded Text Vectors
+AUTHORS: Gautier Evennou; Vivien Chappelier; Ewa Kijak
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : We propose LatentSeal, which reframeswatermarking as semantic communication: a lightweight text autoencoder mapsfull-sentence messages into a compact 256-dimensional unit-norm latent vector,which is robustly embedded by a finetuned watermark model and secured through asecret, invertible rotation.
+
+221, TITLE: Panorama: Fast-Track Nearest Neighbors
+AUTHORS: Vansh Ramani; Alexis Schlomer; Akash Nayar; Panagiotis Karras; Sayan Ranu; Jignesh M. Patel
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this paper, wepresent PANORAMA, a machine learning-driven approach that tackles the ANNSverification bottleneck through data-adaptive learned orthogonal transformsthat facilitate the accretive refinement of distance bounds.
+
+222, TITLE: Mechanistic Interpretability As Statistical Estimation: A Variance Analysis of EAP-IG
+AUTHORS: Maxime Méloux; François Portet; Maxime Peyrard
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Yet, thescientific rigor of MI critically depends on the reliability of its findings.In this work, we argue that interpretability methods, such as circuitdiscovery, should be viewed as statistical estimators, subject to questions ofvariance and robustness. To illustrate this statistical framing, we present asystematic stability analysis of a state-of-the-art circuit discovery method:EAP-IG.
+
+223, TITLE: Ovi: Twin Backbone Cross-Modal Fusion for Audio-Video Generation
+AUTHORS: Chetwin Low; Weimin Wang; Calder Katyal
+CATEGORY: arxiv-cs.MM [MM]
+HIGHLIGHT: Highlight : We introduce Ovi, a unifiedparadigm for audio-video generation that models the two modalities as a singlegenerative process.
+
+224, TITLE: Physics-Informed Extreme Learning Machine (PIELM) for Tunnelling-Induced Soil-Pile Interactions
+AUTHORS: Fu-Chen Guo; Pei-Zhi Zhuang; Fei Ren; Hong-Ya Yue; He Yang
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : This study proposes aphysics-informed extreme learning machine (PIELM) framework for analyzingtunneling-induced soil-pile interactions.
+
+225, TITLE: AuditAgent: Expert-Guided Multi-Agent Reasoning for Cross-Document Fraudulent Evidence Discovery
+AUTHORS: Songran Bai; Bingzhe Wu; Yiwei Zhang; Chengke Wu; Xiaolong Zheng; Yaze Yuan; Ke Wu; Jianqiang Li
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : In this work, we introduce a novelmulti-agent reasoning framework AuditAgent, enhanced with auditing domainexpertise, for fine-grained evidence chain localization in financial fraudcases.
+
+226, TITLE: Beyond One-hot Encoding? Journey Into Compact Encoding for Large Multi-class Segmentation
+AUTHORS: Aaron Kujawa; Thomas Booth; Tom Vercauteren
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This work presents novel methods to reduce computational and memoryrequirements for medical image segmentation with a large number of classes.
+
+227, TITLE: Deep Learning-Based Approach for Improving Relational Aggregated Search
+AUTHORS: Sara Saad Soliman; Ahmed Younes; Islam Elkabani; Ashraf Elsayed
+CATEGORY: arxiv-cs.IR [IR]
+HIGHLIGHT: Abstract: Due to an information explosion on the internet, there is a need for thedevelopment of aggregated search systems that can boost the retrieval andmanagement of content in various ...
+
+228, TITLE: Multi-Objective Task-Aware Predictor for Image-Text Alignment
+AUTHORS: Eunki Kim; Na Min An; James Thorne; Hyunjung Shim
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : However, research progress is hindered by the lack of comprehensivebenchmarks and existing evaluation predictors lacking at least one of these keyproperties: (1) Alignment with human judgments, (2) Long-sequence processing,(3) Inference efficiency, and (4) Applicability to multi-objective scoring. Toaddress these challenges, we propose a plug-and-play architecture to build arobust predictor, MULTI-TAP (Multi-Objective Task-Aware Predictor), capable ofboth multi and single-objective scoring.
+
+229, TITLE: LiRA: A Multi-Agent Framework for Reliable and Readable Literature Review Generation
+AUTHORS: Gregory Hok Tjoan Go; Khang Ly; Anders Søgaard; Amin Tabatabaei; Maarten de Rijke; Xinyi Chen
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Though priorwork has focused on automating retrieval and screening, the writing phase ofsystematic reviews remains largely under-explored, especially with regard toreadability and factual accuracy. To address this, we present LiRA (LiteratureReview Agents), a multi-agent collaborative workflow which emulates the humanliterature review process.
+
+230, TITLE: Reinforcement Learning with Verifiable Yet Noisy Rewards Under Imperfect Verifiers
+AUTHORS: Xin-Qiang Cai; Wei Wang; Feng Liu; Tongliang Liu; Gang Niu; Masashi Sugiyama
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : The second is a\textit{forward} correction that reweights score-function terms so that theexpected update direction aligns with the \textit{clean gradient}; notably, itrequires only the FN rate. We implement both as lightweight hooks in a grouprelative policy optimization (GRPO)-based RLVR pipeline and evaluate them onmath-reasoning models and benchmarks.
+
+231, TITLE: Submodular Context Partitioning and Compression for In-Context Learning
+AUTHORS: Shaoyi Zheng; Canyu Zhang; Tianyi Zhou; Shengjie Wang
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Abstract: In-context learning (ICL) enables efficient few-shot learning in largelanguage models (LLMs) without training, but suffers from the quadratic inputcomplexity of transformers, ...
+
+232, TITLE: RiskPO: Risk-based Policy Optimization Via Verifiable Reward for LLM Post-Training
+AUTHORS: Tao Ren; Jinyang Jiang; Hui Yang; Wan Tian; Minhao Zou; Guanghao Li; Zishi Zhang; Qinghao Wang; Shentao Qin; Yanjun Zhao; Rui Tao; Hui Shao; Yijie Peng
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We argue thatthese issues stem from overemphasizing high-probability output sequences whileneglecting rare but informative reasoning paths. To address these challenges,we propose Risk-based Policy Optimization (RiskPO), which substitutes classicalmean-based objectives with principled risk measures.
+
+233, TITLE: Unsupervised Unfolded RPCA (U2-rPCA): Deep Interpretable Clutter Filtering for Ultrasound Microvascular Imaging
+AUTHORS: Huaying Li; Liansheng Wang; Yinran Chen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : To thisend, this paper proposes an unsupervised unfolded rPCA (U2-rPCA) method thatpreserves mathematical interpretability and is insusceptible to learninglabels.
+
+234, TITLE: SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model
+AUTHORS: Dongli Xu; Aleksei Tiulpin; Matthew B. Blaschko
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : WhileClassifier-Free Guidance (CFG) has been adopted to improve conditionalgeneration, its application in AR models faces two key issues: guidancediminishing, where the conditional-unconditional gap quickly vanishes asdecoding progresses, and over-guidance, where strong conditions distort visualcoherence. To address these challenges, we propose SoftCFG, anuncertainty-guided inference method that distributes adaptive perturbationsacross all tokens in the sequence.
+
+235, TITLE: CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage
+AUTHORS: Bowen Wei; Yuan Shen Tay; Howard Liu; Jinhao Pan; Kun Luo; Ziwei Zhu; Chris Jordan
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Abstract: Security Operations Centers (SOCs) are overwhelmed by tens of thousands ofdaily alerts, with only a small fraction corresponding to genuine attacks. Thisoverload creates alert ...
+
+236, TITLE: Rationale-Augmented Retrieval with Constrained LLM Re-Ranking for Task Discovery
+AUTHORS: Bowen Wei
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Abstract: Head Start programs utilizing GoEngage face significant challenges when newor rotating staff attempt to locate appropriate Tasks (modules) on the platformhomepage. These ...
+
+237, TITLE: Predicting Effects, Missing Distributions: Evaluating LLMs As Human Behavior Simulators in Operations Management
+AUTHORS: Runze Zhang; Xiaowei Zhang; Mingyang Zhao
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : This paper evaluates how well LLMs replicate humanbehavior in operations management.
+
+238, TITLE: Semantic Bridges Between First Order C-Representations and Cost-Based Semantics: An Initial Perspective
+AUTHORS: Nicholas Leisegang; Giovanni Casini; Thomas Meyer
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Thisis done by assigning a numerical ranking to each interpretations via penaltiesfor each violated conditional. We compare these two approaches on a semanticlevel.
+
+239, TITLE: Color Models in Image Processing: A Review and Experimental Comparison
+AUTHORS: Muragul Muratbekova; Nuray Toganas; Ayan Igali; Maksat Shagyrov; Elnara Kadyrgali; Adilet Yerkin; Pakizar Shamoi
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We explore traditionalmodels such as RGB, CMYK, and YUV, perceptually uniform spaces like CIELAB andCIELUV, and fuzzy-based approaches as well.
+
+240, TITLE: Unveiling Interesting Insights: Monte Carlo Tree Search for Knowledge Discovery
+AUTHORS: Pietro Totis; Alberto Pozanco; Daniel Borrajo
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : However, converting thisdata into actionable knowledge remains a difficult and time-consuming task.There is often a gap between the volume of data collected and the ability toprocess and understand it, which automated knowledge discovery aims to fill.Automated knowledge discovery involves complex open problems, includingeffectively navigating data, building models to extract implicit relationships,and considering subjective goals and knowledge. In this paper, we introduce anovel method for Automated Insights and Data Exploration (AIDE), that serves asa robust foundation for tackling these challenges through the use of MonteCarlo Tree Search (MCTS).
+
+241, TITLE: Noisy-Pair Robust Representation Alignment for Positive-Unlabeled Learning
+AUTHORS: Hengwei Zhao; Zhengzhong Tu; Zhuo Zheng; Wei Wang; Junjue Wang; Rusty Feagin; Wenzhe Jiao
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We identify the primary bottleneck as thechallenge of learning discriminative representations under unreliablesupervision. To tackle this challenge, we propose NcPU, a non-contrastive PUlearning framework that requires no auxiliary information.
+
+242, TITLE: Authentic Discrete Diffusion Model
+AUTHORS: Xiao Li; Jiaqi Zhang; Shuxiang Zhang; Tianshui Chen; Liang Lin; Guangrun Wang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We propose an Authentic Discrete Diffusion (ADD) framework that fundamentallyredefines prior pseudo-discrete approaches by preserving core diffusioncharacteristics directly in the one-hot space through a suite of coordinatedmechanisms.
+
+243, TITLE: PrimeX: A Dataset of Worldview, Opinion, and Explanation
+AUTHORS: Rik Koncel-Kedziorski; Brihi Joshi; Tim Paek
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We provide anextensive initial analysis of our data and show the value of beliefexplanations and worldview for personalizing language models.
+
+244, TITLE: Low Rank Gradients and Where to Find Them
+AUTHORS: Rishi Sonthalia; Michael Murray; Guido Montúfar
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : This paper investigates low-rank structure in the gradients of the trainingloss for two-layer neural networks while relaxing the usual isotropyassumptions on the training data and parameters.
+
+245, TITLE: SAGE-LD: Towards Scalable and Generalizable End-to-End Language Diarization Via Simulated Data Augmentation
+AUTHORS: Sangmin Lee; Woongjib Choi; Jihyun Kim; Hong-Goo Kang
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we present a neural spoken language diarization model thatsupports an unconstrained span of languages within a single framework.
+
+246, TITLE: Diagnosing Shortcut-Induced Rigidity in Continual Learning: The Einstellung Rigidity Index (ERI)
+AUTHORS: Kai Gu; Weishi Shi
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : On a two-phaseCIFAR-100 CL benchmark with a deliberately spurious magenta patch in Phase 2,we evaluate Naive fine-tuning (SGD), online Elastic Weight Consolidation(EWC_on), Dark Experience Replay (DER++), Gradient Projection Memory (GPM), andDeep Generative Replay (DGR). Across these continual learning methods, weobserve that CL methods reach accuracy thresholds earlier than a Scratch-T2baseline (negative AD) but achieve slightly lower final accuracy on patchedshortcut classes (positive PD).
+
+247, TITLE: Affordance-Guided Diffusion Prior for 3D Hand Reconstruction
+AUTHORS: Naru Suzuki; Takehiko Ohkawa; Tatsuro Banno; Jihyun Lee; Ryosuke Furuta; Yoichi Sato
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Ourmethod employs a diffusion-based generative model that learns the distributionof plausible hand poses conditioned on affordance descriptions, which areinferred from a large vision-language model (VLM).
+
+248, TITLE: Neural Diffusion Processes for Physically Interpretable Survival Prediction
+AUTHORS: Alessio Cristofoletto; Cesare Rollo; Giovanni Birolo; Piero Fariselli
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We introduce DeepFHT, a survival-analysis framework that couples deep neuralnetworks with first hitting time (FHT) distributions from stochastic processtheory.
+
+249, TITLE: ProtoMask: Segmentation-Guided Prototype Learning
+AUTHORS: Steffen Meinert; Philipp Schlinge; Nils Strodthoff; Martin Atzmueller
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We aim to restrict the computation area of the saliency map toa predefined semantic image patch to reduce the uncertainty of suchvisualizations.
+
+250, TITLE: Advantage for Discrete Variational Quantum Algorithms in Circuit Recompilation
+AUTHORS: Oleksandr Kyriienko; Chukwudubem Umeano; Zoë Holmes
+CATEGORY: arxiv-quant-ph [ARXIV-QUANT-PH]
+HIGHLIGHT: Abstract: The relative power of quantum algorithms, using an adaptive access to quantumdevices, versus classical post-processing methods that rely only on an initialquantum data set, ...
+
+251, TITLE: Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerability
+AUTHORS: Shojiro Yamabe; Jun Sakuma
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : In this paper, we reveal thatDLMs have a critical vulnerability stemming from their iterative denoisingprocess and propose a countermeasure.
+
+252, TITLE: Making, Not Taking, The Best of N
+AUTHORS: Ammar Khairi; Daniel D'souza; Marzieh Fadaee; Julia Kreutzer
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : To this end, we propose Fusion-of-N(FusioN): a method that uses a general LLM judge to synthesize the mostinformative elements of each sample into a single final answer.
+
+253, TITLE: Multi-Domain Brain Vessel Segmentation Through Feature Disentanglement
+AUTHORS: Francesco Galati; Daniele Falcetta; Rosa Cortese; Ferran Prados; Ninon Burgos; Maria A. Zuluaga
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Our framework effectively segments brainarteries and veins in various datasets through image-to-image translation whileavoiding domain-specific model design and data harmonization between the sourceand the target domain. This is accomplished by employing disentanglementtechniques to independently manipulate different image properties, allowingthem to move from one domain to another in a label-preserving manner.Specifically, we focus on manipulating vessel appearances during adaptationwhile preserving spatial information, such as shapes and locations, which arecrucial for correct segmentation.
+
+254, TITLE: Barriers for Learning in An Evolving World: Mathematical Understanding of Loss of Plasticity
+AUTHORS: Amir Joudaki; Giulia Lanzillotta; Mohammad Samragh Razlighi; Iman Mirzadeh; Keivan Alizadeh; Thomas Hofmann; Mehrdad Farajtabar; Fartash Faghri
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : This work presents afirst-principles investigation of LoP in gradient-based learning.
+
+255, TITLE: RoboPilot: Generalizable Dynamic Robotic Manipulation with Dual-thinking Modes
+AUTHORS: Xinyi Liu; Mohammadreza Fani Sani; Zewei Zhou; Julius Wirbel; Bahram Zarrin; Roberto Galeazzi
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Abstract: Despite rapid progress in autonomous robotics, executing complex orlong-horizon tasks remains a fundamental challenge. Most current approachesfollow an open-loop paradigm with ...
+
+256, TITLE: Instant4D: 4D Gaussian Splatting in Minutes
+AUTHORS: Zhanpeng Luo; Haoxi Ran; Li Lu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this work, we presentInstant4D, a monocular reconstruction system that leverages native 4Drepresentation to efficiently process casual video sequences within minutes,without calibrated cameras or depth sensors.
+
+257, TITLE: Optimizing Fairness in Production Planning: A Human-Centric Approach to Machine and Workforce Allocation
+AUTHORS: Alexander Nasuta; Alessandro Cisi; Sylwia Olbrych; Gustavo Vieira; Rui Fernandes; Lucas Paletta; Marlene Mayr; Rishyank Chevuri; Robert Woitsch; Hans Aoyang Zhou; Anas Abdelrazeq; Robert H. Schmitt
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This work presents a two-layer, human-centric production planning frameworkdesigned to optimize both operational efficiency and workforce fairness inindustrial manufacturing.
+
+258, TITLE: Thoughtbubbles: An Unsupervised Method for Parallel Thinking in Latent Space
+AUTHORS: Houjun Liu; Shikhar Murty; Christopher D. Manning; Róbert Csordás
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work,we propose Thoughtbubbles, a transformer variant that natively performsparallel adaptive computation in latent space by learning to fork or deleteresidual streams.
+
+259, TITLE: FIN: Fast Inference Network for Map Segmentation
+AUTHORS: Ruan Bispo; Tim Brophy; Reenu Mohandas; Anthony Scanlan; Ciarán Eising
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Our model introduces a real-time mapsegmentation architecture considering aspects such as high accuracy, per-classbalancing, and inference time.
+
+260, TITLE: Make A Video Call with LLM: A Measurement Campaign Over Five Mainstream Apps
+AUTHORS: Jiayang Xu; Xiangjie Huang; Zijie Li; Zili Meng
+CATEGORY: arxiv-cs.NI [NI]
+HIGHLIGHT: Highlight : Despite itssignificance, no systematic study has characterized the performance of existingAI video chat systems. To address this gap, this paper proposes a comprehensivebenchmark with carefully designed metrics across four dimensions: quality,latency, internal mechanisms, and system overhead.
+
+261, TITLE: PodEval: A Multimodal Evaluation Framework for Podcast Audio Generation
+AUTHORS: Yujia Xiao; Liumeng Xue; Lei He; Xinyi Chen; Aemon Yat Fei Chiu; Wenjie Tian; Shaofei Zhang; Qiuqiang Kong; Xinfa Zhu; Wei Xue; Tan Lee
+CATEGORY: arxiv-cs.SD [SD]
+HIGHLIGHT: Highlight : In this work, we take podcast-like audiogeneration as a starting point and propose PodEval, a comprehensive andwell-designed open-source evaluation framework.
+
+262, TITLE: Emergent Evaluation Hubs in A Decentralizing Large Language Model Ecosystem
+AUTHORS: Manuel Cebrian; Tomomi Kito; Raul Castro Fernandez
+CATEGORY: arxiv-cs.CY [CY]
+HIGHLIGHT: Highlight : Drawing on two curatedproxies for the ecosystem, the Stanford Foundation-Model Ecosystem Graph andthe Evidently AI benchmark registry, we find complementary but contrastingdynamics.
+
+263, TITLE: Characterizing Model Behavior Under Synthetic Data Training: An Empirical Study Across Scales and Mixing Ratios
+AUTHORS: Y. Du; G. Wu; G. Tang; W. Wang; Q. Fan
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : This paper presents a controlled empiricalstudy examining model performance, calibration, and output characteristics whentrained on varying synthetic-to-external data ratios.
+
+264, TITLE: Data Driven Approaches in Nanophotonics: A Review of AI-enabled Metadevices
+AUTHORS: Huanshu Zhang; Lei Kang; Sawyer D. Campbell; Jacob T. Young; Douglas H. Werner
+CATEGORY: arxiv-physics.optics [OPTICS]
+HIGHLIGHT: Highlight : This review takes a model-centric perspective that synthesizesemerging design strategies and delineates how traditional trial-and-error andcomputationally intensive electromagnetic simulations are being supplanted bydeep learning frameworks that efficiently navigate expansive design spaces.
+
+265, TITLE: Bridging The Gap Between Simulated and Real Network Data Using Transfer Learning
+AUTHORS: Carlos Güemes-Palau; Miquel Ferriol-Galmés; Jordi Paillisse-Vilanova; Albert López-Brescó; Pere Barlet-Ros; Albert Cabellos-Aparicio
+CATEGORY: arxiv-cs.NI [NI]
+HIGHLIGHT: Highlight : We propose a hybrid approach leveraging transferlearning to combine simulated and real-world data.
+
+266, TITLE: Integrating Offline Pre-Training with Online Fine-Tuning: A Reinforcement Learning Approach for Robot Social Navigation
+AUTHORS: Run Su; Hao Fu; Shuai Zhou; Yingao Fu
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : Extensive experiments in simulated socialnavigation environments demonstrate that our method achieves a higher successrate and lower collision rate compared to state-of-the-art baselines.
+
+267, TITLE: Structural Refinement of Bayesian Networks for Efficient Model Parameterisation
+AUTHORS: Kieran Drury; Martine J. Barons; Jim Q. Smith
+CATEGORY: arxiv-stat.ME [ME]
+HIGHLIGHT: Highlight : Wenot only introduce and discuss the intrinsic properties and requirements ofeach method, but we evaluate each method through a worked example on a Bayesiannetwork model of cardiovascular risk assessment.
+
+268, TITLE: Test-Time Search in Neural Graph Coarsening Procedures for The Capacitated Vehicle Routing Problem
+AUTHORS: Yoonju Sim; Hyeonah Kim; Changhyun Kwon
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Abstract: The identification of valid inequalities, such as the rounded capacityinequalities (RCIs), is a key component of cutting plane methods for theCapacitated Vehicle Routing Problem ...
+
+269, TITLE: Benchmarking Machine Learning Models for Fault Classification and Localization in Power System Protection
+AUTHORS: Julian Oelhaf; Georg Kordowich; Changhun Kim; Paula Andrea Pérez-Toro; Christian Bergler; Andreas Maier; Johann Jäger; Siming Bayer
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This work presents, for the first time, acomparative benchmarking study of classical ML models for FC and FL in powersystem protection based on EMT data.
+
+270, TITLE: Looking Alike From Far to Near: Enhancing Cross-Resolution Re-Identification Via Feature Vector Panning
+AUTHORS: Zanwu Liu; Chao Yuan; Bo Li; Xiaowei Zhang; Guanglin Niu
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Based on thisinteresting finding, we propose a lightweight and effective Vector PanningFeature Alignment (VPFA) framework, which conducts CR-ReID from a novelperspective of modeling the resolution-specific feature discrepancy.
+
+271, TITLE: Fiaingen: A Financial Time Series Generative Method Matching Real-world Data Quality
+AUTHORS: Jože M. Rožanec; Tina Žezlin; Laurentiu Vasiliu; Dunja Mladenić; Radu Prodan; Dumitru Roman
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Generative methods canmitigate this shortage. In this paper, we introduce a set of novel techniquesfor time series data generation (we name them Fiaingen) and assess theirperformance across three criteria: (a) overlap of real-world and synthetic dataon a reduced dimensionality space, (b) performance on downstream machinelearning tasks, and (c) runtime performance.
+
+272, TITLE: Emergence of Robust Looming Selectivity Via Coordinated Inhibitory Neural Computations
+AUTHORS: Qinbing Fu; Ziyan Qin
+CATEGORY: arxiv-q-bio.NC [NC]
+HIGHLIGHT: Highlight : This research suggests that self-inhibition may act earlier thanlateral inhibition to rapidly reduce excitation in situ, thereby suppressingtranslational motion, and global inhibition can modulate excitation on a finerscale, enhancing selectivity in higher contrast range.
+
+273, TITLE: HalluGuard: Evidence-Grounded Small Reasoning Models to Mitigate Hallucinations in Retrieval-Augmented Generation
+AUTHORS: Loris Bergeron; Ioana Buhnila; Jérôme François; Radu State
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Abstract: Large Language Models (LLMs) excel in many NLP tasks but remain prone tohallucinations, limiting trust in real-world applications. We presentHalluGuard, a 4B-parameter Small ...
+
+274, TITLE: ThinkBrake: Mitigating Overthinking in Tool Reasoning
+AUTHORS: Minjae Oh; Sangjun Song; Seungkyu Lee; Sungmin Jo; Yohan Jo
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We adapt various early-termination baselines to tool use andintroduce ThinkBrake, a training-free decoding heuristic.
+
+275, TITLE: Enhancing Rating Prediction with Off-the-Shelf LLMs Using In-Context User Reviews
+AUTHORS: Koki Ryu; Hitomi Yanaka
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Through comprehensiveexperiments with eight models across three datasets, we demonstrate thatuser-written reviews significantly improve the rating prediction performance ofLLMs.
+
+276, TITLE: Judging with Confidence: Calibrating Autoraters to Preference Distributions
+AUTHORS: Zhuohang Li; Xiaowei Li; Chengyu Huang; Guowang Li; Katayoon Goshvadi; Bo Dai; Dale Schuurmans; Paul Zhou; Hamid Palangi; Yiwen Song; Palash Goyal; Murat Kantarcioglu; Bradley A. Malin; Yuan Xue
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we propose a general framework for calibratingprobabilistic autoraters to any given preference distribution.
+
+277, TITLE: Automated Alignment of Math Items to Content Standards in Large-Scale Assessments Using Language Models
+AUTHORS: Qingshu Xu; Hong Jiao; Tianyi Zhou; Ming Li; Nan Zhang; Sydney Peters; Yanbin Fu
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : This study evaluates three automatedparadigms for aligning items with four domain and nineteen skill labels.
+
+278, TITLE: Memory Determines Learning Direction: A Theory of Gradient-Based Optimization in State Space Models
+AUTHORS: JingChuan Guan; Tomoyuki Kubota; Yasuo Kuniyoshi; Kohei Nakajima
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : However, previous studies have not sufficientlyaddressed the mechanisms underlying their high performance owing to a lack oftheoretical explanation of SSMs' learning dynamics. In this study, we providesuch an explanation and propose an improved training strategy.
+
+279, TITLE: Uncertainty-Aware Concept Bottleneck Models with Enhanced Interpretability
+AUTHORS: Haifei Zhang; Patrick Barry; Eduardo Brandao
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this paper, we propose a novel uncertainty-aware andinterpretable classifier for the second stage of CBMs.
+
+280, TITLE: DiSA-IQL: Offline Reinforcement Learning for Robust Soft Robot Control Under Distribution Shifts
+AUTHORS: Linjin He; Xinda Qi; Dong Chen; Zhaojian Li; Xiaobo Tan
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : Deep reinforcement learning (DRL) hasrecently emerged as a promising alternative, but online training is oftenimpractical because of costly and potentially damaging real-world interactions.Offline RL provides a safer option by leveraging pre-collected datasets, but itsuffers from distribution shift, which degrades generalization to unseenscenarios. To overcome this challenge, we propose DiSA-IQL(Distribution-Shift-Aware Implicit Q-Learning), an extension of IQL thatincorporates robustness modulation by penalizing unreliable state-action pairsto mitigate distribution shift.
+
+281, TITLE: Defect Segmentation in OCT Scans of Ceramic Parts for Non-destructive Inspection Using Deep Learning
+AUTHORS: Andrés Laveda-Martínez; Natalia P. García-de-la-Puente; Fernando García-Torres; Niels Møller Israelsen; Ole Bang; Dominik Brouczek; Niels Benson; Adrián Colomer; Valery Naranjo
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Abstract: Non-destructive testing (NDT) is essential in ceramic manufacturing to ensurethe quality of components without compromising their integrity. In thiscontext, Optical Coherence ...
+
+282, TITLE: On Discovering Algorithms for Adversarial Imitation Learning
+AUTHORS: Shashank Reddy Chirra; Jayden Teoh; Praveen Paruchuri; Pradeep Varakantham
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : In this work, we take adifferent approach: we investigate the discovery of data-driven RA functions,i.e, based directly on the performance of the resulting imitation policy.
+
+283, TITLE: Uncovering The Computational Ingredients of Human-Like Representations in LLMs
+AUTHORS: Zach Studdiford; Timothy T. Rogers; Kushin Mukherjee; Siddharth Suresh
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Comparing human and model representations, we find that models thatundergo instruction-finetuning and which have larger dimensionality ofattention heads are among the most human aligned, while multimodal pretrainingand parameter size have limited bearing on alignment.
+
+284, TITLE: Efficient Layer-wise LLM Fine-tuning for Revision Intention Prediction
+AUTHORS: Zhexiong Liu; Diane Litman
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Although simply fine-tuning LLMs forrevision classification seems plausible, it requires a large amount of revisionannotations, which are exceptionally expensive and scarce in the community. Toaddress this issue, we introduce a plug-and-play layer-wise parameter-efficientfine-tuning (PEFT) framework, i.e., IR-Tuning, which fine-tunes a subset ofimportant LLM layers that are dynamically selected based on their gradient normdistribution, while freezing those of redundant layers.
+
+285, TITLE: ALARB: An Arabic Legal Argument Reasoning Benchmark
+AUTHORS: Harethah Abu Shairah; Somayah AlHarbi; Abdulaziz AlHussein; Sameer Alsabea; Omar Shaqaqi; Hebah AlShamlan; Omar Knio; George Turkiyyah
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We introduce ALARB, a dataset and suite of tasks designed to evaluate thereasoning capabilities of large language models (LLMs) within the Arabic legaldomain.
+
+286, TITLE: Tenyidie Syllabification Corpus Creation and Deep Learning Applications
+AUTHORS: Teisovi Angami; Kevisino Khate
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : The contribution of this work is the creation of 10,120 syllabifiedTenyidie words and the application of the Deep Learning techniques on thecreated corpus.
+
+287, TITLE: Intuitions of Machine Learning Researchers About Transfer Learning for Medical Image Classification
+AUTHORS: Yucheng Lu; Hubert Dariusz Zając; Veronika Cheplygina; Amelia Jiménez-Sánchez
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Unlike prior work thatbenchmarks models and experimental setups, we take a human-centered HCIperspective on how practitioners select source datasets.
+
+288, TITLE: Forestpest-YOLO: A High-Performance Detection Framework for Small Forestry Pests
+AUTHORS: Aoduo Li; Peikai Lin; Jiancheng Li; Zhen Zhang; Shiting Wu; Zexiao Liang; Zhifa Jiang
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : To overcome theseobstacles, this paper introduces Forestpest-YOLO, a detection frameworkmeticulously optimized for the nuances of forestry remote sensing.
+
+289, TITLE: POVQA: Preference-Optimized Video Question Answering with Rationales for Data Efficiency
+AUTHORS: Ashim Dahal; Ankit Ghimire; Saydul Akbar Murad; Nick Rahimi
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We introduce POVQA, a data-efficient pipeline that compresses eachsecond of video into a single temporally pooled image (via motion blur andweighted averaging variants) and then align LVLMs with lightweight supervision.Concretely, we build 1 fps input sources using Blend Blur with Last Frame,Weighted Average, Exponential and Ramp pooling and fine-tune QWEN-2.5-VL 7Bwith supervised two turn target including reasoning and final answer.
+
+290, TITLE: VLOD-TTA: Test-Time Adaptation of Vision-Language Object Detectors
+AUTHORS: Atif Belal; Heitor R. Medeiros; Marco Pedersoli; Eric Granger
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We introduce VLOD-TTA, a test-time adaptation (TTA) framework for VLODsthat leverages dense proposal overlap and image-conditioned prompt scores.First, an IoU-weighted entropy objective is proposed that concentratesadaptation on spatially coherent proposal clusters and reduces confirmationbias from isolated boxes.
+
+291, TITLE: The CoCompiler: DSL Lifting Via Relational Compilation
+AUTHORS: Naomi Spargo; Santiago Cuéllar; Jonathan Daugherty; Chris Phifer; David Darais
+CATEGORY: arxiv-cs.PL [PL]
+HIGHLIGHT: Highlight : We present the CoCompiler, a bidirectionalcompiler and lifter between C and Lustre, a synchronous dataflow language usedfor reactive systems.
+
+292, TITLE: Advancing Automated Ethical Profiling in SE: A Zero-Shot Evaluation of LLM Reasoning
+AUTHORS: Patrizio Migliarini; Mashal Afzal Memon; Marco Autili; Paola Inverardi
+CATEGORY: arxiv-cs.SE [SE]
+HIGHLIGHT: Highlight : Large Language Models (LLMs) are increasingly integrated into softwareengineering (SE) tools for tasks that extend beyond code synthesis, includingjudgment under uncertainty and reasoning in ethically significant contexts.
+
+293, TITLE: A Deep Learning Pipeline for Epilepsy Genomic Analysis Using GPT-2 XL and NVIDIA H100
+AUTHORS: Muhammad Omer Latif; Hayat Ullah; Muhammad Ali Shafique; Zhihua Dong
+CATEGORY: arxiv-q-bio.GN [GN]
+HIGHLIGHT: Highlight : Epilepsy is a chronic neurological condition characterized by recurrentseizures, with global prevalence estimated at 50 million people worldwide.While progress in high-throughput sequencing has allowed for broad-basedtranscriptomic profiling of brain tissues, the deciphering of these highlycomplex datasets remains one of the challenges. To address this issue, in thispaper we propose a new analysis pipeline that integrates the power of deeplearning strategies with GPU-acceleration computation for investigating Geneexpression patterns in epilepsy.
+
+294, TITLE: A Fast and Precise Method for Searching Rectangular Tumor Regions in Brain MR Images
+AUTHORS: Hidenori Takeshima; Shuki Maruyama
+CATEGORY: arxiv-eess.IV [IV]
+HIGHLIGHT: Highlight : Purpose: To develop a fast and precise method for searching rectangularregions in brain tumor images.
+
+295, TITLE: Enhancing The Development of Cherenkov Telescope Array Control Software with Large Language Models
+AUTHORS: Dmitriy Kostunin; Elisa Jones; Vladimir Sotnikov; Valery Sotnikov; Sergo Golovachev; Alexandre Strube
+CATEGORY: arxiv-astro-ph.IM [IM]
+HIGHLIGHT: Highlight : Theseagents align with project-specific documentation and codebases, understandcontextual information, interact with external APIs, and communicate with usersin natural language. We present our progress in integrating these features intoCTAO pipelines for operations and offline data analysis.
+
+296, TITLE: QSearchNet: A Quantum Walk Search Framework for Link Prediction
+AUTHORS: Priyank Dubey
+CATEGORY: arxiv-quant-ph [ARXIV-QUANT-PH]
+HIGHLIGHT: Highlight : In this work, we introduce QSearchNet, aquantum-inspired framework based on Discrete-Time Quantum Walk (DTQW) dynamicsand Grover's amplitude amplification.
+
+297, TITLE: Cubic Incompleteness: Hilbert's Tenth Problem Over $\mathbb{N}$ Starts at $δ=3$
+AUTHORS: Milan Rosko
+CATEGORY: arxiv-math.LO [LO]
+HIGHLIGHT: Highlight : We prove that Hilbert's Tenth Problem over $\mathbb{N}$ remains undecidablewhen restricted to cubic equations (degree $\leq 3$), resolving the open case$\delta = 3$ identified by Jones (1982) and establishing sharpness against thedecidability barrier at $\delta = 2$ (Lagrange's four-square theorem). For anyconsistent, recursively axiomatizable theory $T$ with G\"odel sentence $G_T$,we effectively construct a single polynomial $P(x_1, \ldots, x_m) \in\mathbb{Z}[\mathbf{x}]$ of degree $\leq 3$ such that $T \vdash G_T$ if and onlyif $\exists \mathbf{x} \in \mathbb{N}^m : P(\mathbf{x}) = 0$.
+
+298, TITLE: An Effective Version of The $p$-Curvature Conjecture for Order One Differential Equations
+AUTHORS: Florian Fürnsinn; Lucas Pannier
+CATEGORY: arxiv-math.NT [NT]
+HIGHLIGHT: Highlight : We develop an effective version of Kronecker's Theorem on the splitting ofpolynomials, based on asymptotic arguments proposed by the Chudnovsky brothers,coming from Hermite-Pad\'e approximation.
+
+299, TITLE: HARPA: A Testability-Driven, Literature-Grounded Framework for Research Ideation
+AUTHORS: Rosni Vasu; Peter Jansen; Pao Siangliulue; Cristina Sarasua; Abraham Bernstein; Peter Clark; Bhavana Dalvi Mishra
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Additionally, existing ideation tools are not adaptive to priorexperimental outcomes. We developed HARPA to address these challenges byincorporating the ideation workflow inspired by human researchers.
+
+300, TITLE: When Hallucination Costs Millions: Benchmarking AI Agents in High-Stakes Adversarial Financial Markets
+AUTHORS: Zeshi Dai; Zimo Peng; Zerui Cheng; Ryan Yihe Li
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We present CAIA, a benchmark exposing a critical blind spot in AI evaluation:the inability of state-of-the-art models to operate in adversarial, high-stakesenvironments where misinformation is weaponized and errors are irreversible.While existing benchmarks measure task completion in controlled settings,real-world deployment demands resilience against active deception.
+
+301, TITLE: Typed Chain-of-Thought: A Curry-Howard Framework for Verifying LLM Reasoning
+AUTHORS: Elija Perrier
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : While Chain-of-Thought (CoT) prompting enhances the reasoning capabilities oflarge language models, the faithfulness of the generated rationales remains anopen problem for model interpretability. We propose a novel theoretical lensfor this problem grounded in the Curry-Howard correspondence, which posits adirect relationship between formal proofs and computer programs.
+
+302, TITLE: Apriel-1.5-15b-Thinker
+AUTHORS: Shruthan Radhakrishna; Aman Tiwari; Aanjaneya Shukla; Masoud Hashemi; Rishabh Maheshwary; Shiva Krishna Reddy Malay; Jash Mehta; Pulkit Pattnaik; Saloni Mittal; Khalil Slimi; Kelechi Ogueji; Akintunde Oladipo; Soham Parikh; Oluwanifemi Bamgbose; Toby Liang; Ahmed Masry; Khyati Mahajan; Sai Rajeswar Mudumba; Vikas Yadav; Sathwik Tejaswi Madhusudhan; Torsten Scholak; Sagar Davasam; Srinivas Sunkara; Nicholas Chapados
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We present Apriel-1.5-15B-Thinker, a 15-billion parameter open-weightsmultimodal reasoning model that achieves frontier-level performance throughtraining design rather than sheer scale.
+
+303, TITLE: Adaptive Federated Few-Shot Rare-Disease Diagnosis with Energy-Aware Secure Aggregation
+AUTHORS: Aueaphum Aueawatthanaphisut
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This paper proposes the Adaptive Federated Few-ShotRare-Disease Diagnosis (AFFR) framework, which integrates three pillars: (i)few-shot federated optimization with meta-learning to generalize from limitedpatient samples, (ii) energy-aware client scheduling to mitigate devicedropouts and ensure balanced participation, and (iii) secure aggregation withcalibrated differential privacy to safeguard sensitive model updates.
+
+304, TITLE: Logical Consistency Between Disagreeing Experts and Its Role in AI Safety
+AUTHORS: Andrés Corrada-Emmanuel
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This asymmetry in the utility of agreements versus disagreements isexplored here by formalizing a logic of unsupervised evaluation forclassifiers. Its core problem is computing the set of group evaluations thatare logically consistent with how we observe them agreeing and disagreeing intheir decisions.
+
+305, TITLE: Exploring Network-Knowledge Graph Duality: A Case Study in Agentic Supply Chain Risk Analysis
+AUTHORS: Evan Heus; Rick Bookstaber; Dhruv Sharma
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Our core contribution is to exploit the inherentduality between networks and knowledge graphs (KG).
+
+306, TITLE: Improving Cryptocurrency Pump-and-Dump Detection Through Ensemble-Based Models and Synthetic Oversampling Techniques
+AUTHORS: Jieun Yu; Minjung Park; Sangmi Chai
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This study aims to detect pump and dump (P&D) manipulation in cryptocurrencymarkets, where the scarcity of such events causes severe class imbalance andhinders accurate detection.
+
+307, TITLE: MAGIC-MASK: Multi-Agent Guided Inter-Agent Collaboration with Mask-Based Explainability for Reinforcement Learning
+AUTHORS: Maisha Maliha; Dean Hougen
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : While prior explainability methods likeStateMask, have advanced the identification of critical states, they remainlimited by computational cost, exploration coverage, and lack of adaptation tomulti-agent settings. To overcome these limitations, we propose amathematically grounded framework, MAGIC-MASK (Multi-Agent Guided Inter-agentCollaboration with Mask-Based Explainability for Reinforcement Learning), thatextends perturbation-based explanation to Multi-Agent Reinforcement Learning.Our method integrates Proximal Policy Optimization, adaptive epsilon-greedyexploration, and lightweight inter-agent collaboration to share masked stateinformation and peer experience.
+
+308, TITLE: ICL Optimized Fragility
+AUTHORS: Serena Gomez Wannaz
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This study examines howICL guides affect reasoning across different knowledge domains using sixvariants of the GPT-OSS:20b model: one baseline model and five ICLconfigurations (simple, chain-of-thought, random, appended text, and symboliclanguage).
+
+309, TITLE: AI in Data Science Education: Experiences from The Classroom
+AUTHORS: J. A. Hageman; C. F. W. Peeters
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This study explores the integration of AI, particularly large language models(LLMs) like ChatGPT, into educational settings, focusing on the implicationsfor teaching and learning.
+
+310, TITLE: Integrating AI and Ensemble Forecasting: Explainable Materials Planning with Scorecards and Trend Insights for A Large-Scale Manufacturer
+AUTHORS: Saravanan Venkatachalam
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : This paper presents a practical architecture for after-sales demandforecasting and monitoring that unifies a revenue- and cluster-aware ensembleof statistical, machine-learning, and deep-learning models with a role-drivenanalytics layer for scorecards and trend diagnostics.
+
+311, TITLE: Benchmarking Agentic Systems in Automated Scientific Information Extraction with ChemX
+AUTHORS: Anastasia Vepreva; Julia Razlivina; Maria Eremeeva; Nina Gubina; Anastasia Orlova; Aleksei Dmitrenko; Ksenya Kapranova; Susan Jyakhwo; Nikita Vasilev; Arsen Sarkisyan; Ivan Yu. Chernyshov; Vladimir Vinogradov; Andrei Dmitrenko
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Currentagent-based approaches, both general-purpose and domain-specific, exhibitlimited performance in this domain. To address this gap, we present ChemX, acomprehensive collection of 10 manually curated and domain-expert-validateddatasets focusing on nanomaterials and small molecules.
+
+312, TITLE: Relevance-Zone Reduction in Game Solving
+AUTHORS: Chi-Huang Lin; Ting Han Wei; Chun-Jui Wang; Hung Guei; Chung-Chin Shih; Yun-Jui Tsai; I-Chen Wu; Ti-Rong Wu
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : We design three constraint generation strategies andintegrate an RZ Pattern Table to fully leverage past solutions.
+
+313, TITLE: The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation
+AUTHORS: Zarreen Reza
+CATEGORY: arxiv-cs.AI [AI]
+HIGHLIGHT: Highlight : Our analysis, enabled by a new suite ofpsychometric and semantic metrics, reveals several key findings.
+
+314, TITLE: Facilitating Cognitive Accessibility with LLMs: A Multi-Task Approach to Easy-to-Read Text Generation
+AUTHORS: François Ledoyen; Gaël Dias; Jeremie Pantin; Alexis Lechervy; Fabrice Maurel; Youssef Chahir
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this work, we investigate thepotential of large language models (LLMs) to automate the generation of ETRcontent.
+
+315, TITLE: Backdoor Attacks Against Speech Language Models
+AUTHORS: Alexandrine Fortier; Thomas Thebaud; Jesús Villalba; Najim Dehak; Patrick Cardinal
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this work, we present the firstsystematic study of audio backdoor attacks against speech language models.
+
+316, TITLE: SafePassage: High-Fidelity Information Extraction with Black Box LLMs
+AUTHORS: Joe Barrow; Raj Patel; Misha Kharkovski; Ben Davies; Ryan Schmitt
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Unlike traditional information extractionpipelines, the information "extracted" is not guaranteed to be grounded in thedocument. To prevent this, this paper introduces the notion of a "safepassage": context generated by the LLM that is both grounded in the documentand consistent with the extracted information.
+
+317, TITLE: O-MEGA: Optimized Methods for Explanation Generation and Analysis
+AUTHORS: Ľuboš Kriš; Jaroslav Kopčan; Qiwei Peng; Andrej Ridzik; Marcel Veselý; Martin Tamajka
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : To address thechallenge of selecting optimal explainability approaches, we present\textbf{\texttt{o-mega}}, a hyperparameter optimization tool designed toautomatically identify the most effective explainable AI methods and theirconfigurations within the semantic matching domain.
+
+318, TITLE: TASER: Translation Assessment Via Systematic Evaluation and Reasoning
+AUTHORS: Monishwaran Maheswaran; Marco Carini; Christian Federmann; Tony Diaz
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We introduce TASER (Translation Assessment via Systematic Evaluation andReasoning), a metric that uses Large Reasoning Models (LRMs) for automatedtranslation quality assessment.
+
+319, TITLE: TAMA: Tool-Augmented Multimodal Agent for Procedural Activity Understanding
+AUTHORS: Kimihiro Hasegawa; Wiradee Imrattanatrai; Masaki Asada; Ken Fukuda; Teruko Mitamura
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In this paper, we propose a novelframework, called TAMA, a Tool-Augmented Multimodal Agent, for proceduralactivity understanding.
+
+320, TITLE: Hybrid Dialogue State Tracking for Persian Chatbots: A Language Model-Based Approach
+AUTHORS: Samin Mahdipour Aghabagher; Saeedeh Momtazi
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : This study proposes a hybrid DST modelthat utilizes rule-based methods along with language models, including BERT forslot filling and intent detection, XGBoost for intent validation, GPT for DST,and online agents for real-time answer generation.
+
+321, TITLE: Inclusive Easy-to-Read Generation for Individuals with Cognitive Impairments
+AUTHORS: François Ledoyen; Gaël Dias; Alexis Lechervy; Jeremie Pantin; Fabrice Maurel; Youssef Chahir; Elisa Gouzonnat; Mélanie Berthelot; Stanislas Moravac; Armony Altinier; Amy Khairalla
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : To ensure high-quality andaccessible outputs, we introduce an evaluation framework based on automaticmetrics supplemented by human assessments.
+
+322, TITLE: EuroSpeech: A Multilingual Speech Corpus
+AUTHORS: Samuel Pfisterer; Florian Grötschla; Luca A. Lanzendörfer; Florian Yan; Roger Wattenhofer
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Thus, trained modelsperform poorly on the majority of the supported languages. Our work addressesthis challenge by introducing a scalable pipeline for constructing speechdatasets from parliamentary recordings.
+
+323, TITLE: Training Large Language Models To Reason In Parallel With Global Forking Tokens
+AUTHORS: Sheng Jia; Xiao Wang; Shiva Prasad Kasiviswanathan
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : Although LLMs have demonstrated improved performance by scaling paralleltest-time compute, doing so relies on generating reasoning paths that are bothdiverse and accurate. For challenging problems, the forking tokens that triggerdiverse yet correct reasoning modes are typically deep in the sampling tree.Consequently, common strategies to encourage diversity, such as temperaturescaling, encounter a worsened trade-off between diversity and accuracy.Motivated by this challenge, we treat parallel reasoning as aset-of-next-token-prediction problem, and incorporate a set-based global lossinto Supervised Fine-Tuning (SFT) using self-supervised bipartite matchingbetween our global forking tokens and unique reasoning traces.
+
+324, TITLE: Curiosity-Driven LLM-as-a-judge for Personalized Creative Judgment
+AUTHORS: Vanya Bannihatti Kumar; Divyanshu Goyal; Akhil Eppa; Neel Bhandari
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : In thiswork, we propose a novel curiosity-driven LLM-as-a-judge for evaluatingcreative writing which is personlized to each individual's creative judgments.We use the Torrance Test of Creative Thinking(TTCW) benchmark introduced inChakrabarty et al. (2024), which has stories annotated by expert humans acrossvarious subjective dimensions like Originality, to test our hypothesis.
+
+325, TITLE: Linguistic Characteristics of AI-Generated Text: A Survey
+AUTHORS: Luka Terčon; Kaja Dobrovoljc
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We categorize theexisting works along several dimensions, including the levels of linguisticdescription, the models included, the genres analyzed, the languages analyzed,and the approach to prompting.
+
+326, TITLE: Decomposing Attention To Find Context-Sensitive Neurons
+AUTHORS: Alex Gibson
+CATEGORY: arxiv-cs.CL [CL]
+HIGHLIGHT: Highlight : We study transformer language models, analyzing attention heads whoseattention patterns are spread out, and whose attention scores depend weakly oncontent.
+
+327, TITLE: Virtual Fashion Photo-Shoots: Building A Large-Scale Garment-Lookbook Dataset
+AUTHORS: Yannick Hauri; Luca A. Lanzendörfer; Till Aczel
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In contrast,editorial fashion presents garments through dynamic poses, diverse locations,and carefully crafted visual narratives. We introduce the task of virtualfashion photo-shoot, which seeks to capture this richness by transformingstandardized garment images into contextually grounded editorial imagery.
+
+328, TITLE: AI- CNet3D: An Anatomically-Informed Cross-Attention Network with Multi-Task Consistency Fine-tuning for 3D Glaucoma Classification
+AUTHORS: Roshan Kenia; Anfei Li; Rishabh Srivastava; Kaveri A. Thakoor
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : To address this,we propose a novel hybrid deep learning model that integrates cross-attentionmechanisms into a 3D convolutional neural network (CNN), enabling theextraction of critical features from the superior and inferior hemiretinas, aswell as from the optic nerve head (ONH) and macula, within OCT volumes.
+
+329, TITLE: Improved Hyperspectral Anomaly Detection Via Unsupervised Subspace Modeling in The Signed Cumulative Distribution Transform Domain
+AUTHORS: Abu Hasnat Mohammad Rubaiyat; Jordan Vincent; Colin Olson
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This paper introduces a novelHAD method by proposing a transport-based mathematical model to describe thepixels comprising a given hyperspectral image.
+
+330, TITLE: Deep Learning Motion Correction of Quantitative Stress Perfusion Cardiovascular Magnetic Resonance
+AUTHORS: Noortje I. P. Schueler; Nathan C. K. Wong; Richard J. Crawley; Josien P. W. Pluim; Amedeo Chiribiri; Cian M. Scannell
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Methods: We developed an unsupervised deep learning-based motion correctionpipeline that replaces iterative registration with efficient one-shotestimation.
+
+331, TITLE: DEAP DIVE: Dataset Investigation with Vision Transformers for EEG Evaluation
+AUTHORS: Annemarie Hoffsommer; Helen Schneider; Svetlana Pavlitska; J. Marius Zöllner
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Using Continuous Wavelet Transformation to convert EEG datainto scaleograms, we trained a vision transformer (ViT) model for emotionclassification.
+
+332, TITLE: JEPA-T: Joint-Embedding Predictive Architecture with Text Fusion for Image Generation
+AUTHORS: Siheng Wan; Zhengtao Yao; Zhengdao Li; Junhao Dong; Yanshu Li; Yikai Li; Linshan Li; Haoyan Xu; Yijiang Li; Zhikang Dong; Huacan Wang; Jifeng Shen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We propose \textbf{JEPA-T}, aunified multimodal framework that encodes images and captions into discretevisual and textual tokens, processed by a joint-embedding predictiveTransformer.
+
+333, TITLE: PAL-Net: A Point-Wise CNN with Patch-Attention for 3D Facial Landmark Localization
+AUTHORS: Ali Shadman Yazdi; Annalisa Cappella; Benedetta Baldini; Riccardo Solazzo; Gianluca Tartaglia; Chiarella Sforza; Giuseppe Baselli
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This study presents afully automated deep learning pipeline (PAL-Net) for localizing 50 anatomicallandmarks on stereo-photogrammetry facial models.
+
+334, TITLE: PhraseStereo: The First Open-Vocabulary Stereo Image Segmentation Dataset
+AUTHORS: Thomas Campagnolo; Ezio Malis; Philippe Martinet; Gaetan Bahl
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : PhraseStereo builds upon the PhraseCut dataset byleveraging GenStereo to generate accurate right-view images from existingsingle-view data, enabling the extension of phrase grounding into the stereodomain.
+
+335, TITLE: Secure and Reversible Face Anonymization with Diffusion Models
+AUTHORS: Pol Labarbarie; Vincent Itier; William Puech
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : In this paper, we introduce, to our knowledge, thefirst secure, high-quality reversible anonymization method based on a diffusionmodel.
+
+336, TITLE: A Geometric Unification of Generative AI with Manifold-Probabilistic Projection Models
+AUTHORS: Leah Bar; Liron Mor Yosef; Shai Zucker; Neta Shoham; Inbar Seroussi; Nir Sochen
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : This study unifies the geometric and probabilisticperspectives by providing a geometric framework and a kernel-basedprobabilistic method simultaneously.
+
+337, TITLE: Assessing Foundation Models for Mold Colony Detection with Limited Training Data
+AUTHORS: Henrik Pichler; Janis Keuper; Matthew Copping
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : Our results show that data-efficient foundation models can matchtraditional approaches with only a fraction of the required data, enablingearlier development and faster iterative improvement of automatedmicrobiological systems with a superior upper-bound performance thantraditional models would achieve.
+
+338, TITLE: OTTER: Open-Tagging Via Text-Image Representation for Multi-modal Understanding
+AUTHORS: Jieer Ouyang; Xiaoneng Xiang; Zheng Wang; Yangkai Ding
+CATEGORY: arxiv-cs.CV [CV]
+HIGHLIGHT: Highlight : We introduce OTTER, a unified open-set multi-label tagging framework thatharmonizes the stability of a curated, predefined category set with theadaptability of user-driven open tags.
+
+339, TITLE: Digital Domination: A Case for Republican Liberty in Artificial Intelligence
+AUTHORS: Matthew David Hamilton
+CATEGORY: arxiv-cs.CY [CY]
+HIGHLIGHT: Highlight : By examining digital advertising and socialmedia algorithms, this article highlights how artificial intelligence alreadyposes a significant threat to the republican conception of liberty -- orfreedom from unaccountable power -- and thereby highlights the necessity ofprotecting republican liberty when integrating artificial intelligence intosociety.
+
+340, TITLE: An Analysis of The New EU AI Act and A Proposed Standardization Framework for Machine Learning Fairness
+AUTHORS: Mike Teodorescu; Yongxu Sun; Haren N. Bhatia; Christos Makridis
+CATEGORY: arxiv-cs.CY [CY]
+HIGHLIGHT: Highlight : Drawing from past work, weadvocate for the standardization of industry best practices as a necessaryaddition to broad regulations to achieve the level of details required inindustry, while preventing stifling innovation and investment in the AI sector.The proposals are exemplified with the case of ASR and speech synthesizers.
+
+341, TITLE: SecureBERT 2.0: Advanced Language Model for Cybersecurity Intelligence
+AUTHORS: Ehsan Aghaei; Sarthak Jain; Prashanth Arun; Arjun Sambamoorthy
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : We present SecureBERT 2.0, an enhancedencoder-only language model purpose-built for cybersecurity applications.Leveraging the ModernBERT architecture, SecureBERT 2.0 introduces improvedlong-context modeling and hierarchical encoding, enabling effective processingof extended and heterogeneous documents, including threat reports and sourcecode artifacts.
+
+342, TITLE: Stealing AI Model Weights Through Covert Communication Channels
+AUTHORS: Valentin Barbaza; Alan Rodrigo Diaz-Rizo; Hassan Aboushady; Spyridon Raptis; Haralampos-G. Stratigopoulos
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : In this work,we present a novel attack targeting wireless devices equipped with AI hardwareaccelerators.
+
+343, TITLE: CHAI: Command Hijacking Against Embodied AI
+AUTHORS: Luis Burbano; Diego Ortiz; Qi Sun; Siwei Yang; Haoqin Tu; Cihang Xie; Yinzhi Cao; Alvaro A Cardenas
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : In this paper, we introduce CHAI (Command Hijackingagainst embodied AI), a new class of prompt-based attacks that exploit themultimodal language interpretation abilities of Large Visual-Language Models(LVLMs).
+
+344, TITLE: A Call to Action for A Secure-by-Design Generative AI Paradigm
+AUTHORS: Dalal Alharthi; Ivan Roberto Kawaminami Garcia
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : This paper argues for a security-by-design AI paradigm thatproactively mitigates LLM vulnerabilities while enhancing performance. Toachieve this, we introduce PromptShield, an ontology-driven framework thatensures deterministic and secure prompt interactions.
+
+345, TITLE: Cloud Investigation Automation Framework (CIAF): An AI-Driven Approach to Cloud Forensics
+AUTHORS: Dalal Alharthi; Ivan Roberto Kawaminami Garcia
+CATEGORY: arxiv-cs.CR [CR]
+HIGHLIGHT: Highlight : LLMs can mimichuman reasoning, offering a pathway to automating cloud log analysis. Toaddress this, we introduce the Cloud Investigation Automation Framework (CIAF),an ontology-driven framework that systematically investigates cloud forensiclogs while improving efficiency and accuracy.
+
+346, TITLE: Towards Verifiable Federated Unlearning: Framework, Challenges, and The Road Ahead
+AUTHORS: Thanh Linh Nguyen; Marcela Tuler de Oliveira; An Braeken; Aaron Yi Ding; Quoc-Viet Pham
+CATEGORY: arxiv-cs.DC [DC]
+HIGHLIGHT: Highlight : This article introduces veriFUL, a referenceframework for verifiable FUL that formalizes verification entities, goals,approaches, and metrics.
+
+347, TITLE: Artificial Intelligence for Cost-Aware Resource Prediction in Big Data Pipelines
+AUTHORS: Harshit Goyal
+CATEGORY: arxiv-cs.DC [DC]
+HIGHLIGHT: Highlight : This work presents an artificialintelligence approach to predict resource utilization in big data pipelinesusing Random Forest regression.
+
+348, TITLE: Hyperparameters Are All You Need: Using Five-step Inference for An Original Diffusion Model to Generate Images Comparable to The Latest Distillation Model
+AUTHORS: Zilai Li
+CATEGORY: arxiv-cs.GR [GR]
+HIGHLIGHT: Highlight : Based on the analysis of the truncationerror of the diffusion ODE and SDE, our study proposes a training-freealgorithm that generates high-quality 512 x 512 and 1024 x 1024 images in eightsteps, with flexible guidance scales.
+
+349, TITLE: Navigating The Synchrony-Stability Frontier in Adaptive Chatbots
+AUTHORS: T. James Brandt
+CATEGORY: arxiv-cs.HC [HC]
+HIGHLIGHT: Highlight : We present a computational evaluation framework that makes thecore design tension explicit: balancing moment-to-moment linguistic synchronyagainst long-term persona stability.
+
+350, TITLE: Can AI Agents Understand Spoken Conversations About Data Visualizations in Online Meetings?
+AUTHORS: Rizul Sharma; Tianyu Jiang; Seokki Lee; Jillian Aurisano
+CATEGORY: arxiv-cs.HC [HC]
+HIGHLIGHT: Highlight : In this short paper, we present work evaluating an AI agent's understandingof spoken conversations about data visualizations in an online meetingscenario.
+
+351, TITLE: Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs
+AUTHORS: Roksana Goworek; Olivia Macmillan-Scott; Eda B. Özyiğit
+CATEGORY: arxiv-cs.IR [IR]
+HIGHLIGHT: Highlight : Cross-lingual information retrieval (CLIR) addresses the challenge ofretrieving relevant documents written in languages different from that of theoriginal query. Research in this area has typically framed the task asmonolingual retrieval augmented by translation, treating retrieval methods andcross-lingual capabilities in isolation.
+
+352, TITLE: Privacy-Preserving Learning-Augmented Data Structures
+AUTHORS: Prabhav Goyal; Vinesh Sridhar; Wilson Zheng
+CATEGORY: arxiv-cs.IR [IR]
+HIGHLIGHT: Highlight : In this work, we take the first step towards privacy and securityguarantees in this setting by proposing the first learning-augmented datastructure that is strongly history independent, robust, and supports dynamicupdates. To achieve this, we introduce two techniques: thresholding, whichautomatically makes any learning-augmented data structure robust, and pairing,a simple technique that provides strong history independence in the dynamicsetting.
+
+353, TITLE: COM-BOM: Bayesian Exemplar Search for Efficiently Exploring The Accuracy-Calibration Pareto Frontier
+AUTHORS: Gaoxiang Luo; Aryan Deshwal
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this paper, we formulateexemplar selection as a multi-objective optimization problem, explicitlytargeting both the maximization of predictive accuracy and the minimization ofexpected calibration error.
+
+354, TITLE: SLogic: Subgraph-Informed Logical Rule Learning for Knowledge Graph Completion
+AUTHORS: Trung Hoang Le; Tran Cao Son; Huiping Cao
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Logical rule-based methods offer an interpretable approach to knowledge graphcompletion by capturing compositional relationships in the form ofhuman-readable inference rules.
+
+355, TITLE: Black-Box Time-Series Domain Adaptation Via Cross-Prompt Foundation Models
+AUTHORS: M. T. Furqon; Mahardhika Pratama; Igor Skrjanc; Lin Liu; Habibullah Habibullah; Kutluyil Dogancay
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : All of which are built upona time-series foundation model to overcome the spatio-temporal dynamic.
+
+356, TITLE: Automated Structured Radiology Report Generation with Rich Clinical Context
+AUTHORS: Seongjae Kang; Dong Bok Lee; Juho Jung; Dongseop Kim; Won Hwa Kim; Sunghoon Joo
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Through extensive benchmarking withstate-of-the-art multimodal large language models, we demonstrate thatincorporating clinical context with the proposed C-SRRG significantly improvesreport generation quality.
+
+357, TITLE: Learning Energy-based Variational Latent Prior for VAEs
+AUTHORS: Debottam Dutta; Chaitanya Amballa; Zhongweiyang Xu; Yu-Lin Wei; Romit Roy Choudhury
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : While EBMs areknown to offer the flexibility to match posteriors (and also improving theELBO), they are traditionally slow in sample generation due to their dependencyon MCMC methods. Our key idea is to bring a variational approach to tackle thenormalization constant in EBMs, thus bypassing the expensive MCMC approaches.The variational form can be approximated with a sampler network, and we showthat such an approach to training priors can be formulated as an alternatingoptimization problem.
+
+358, TITLE: GLAI: GreenLightningAI for Accelerated Training Through Knowledge Decoupling
+AUTHORS: Jose I. Mestre; Alberto Fernández-Hernández; Cristian Pérez-Corral; Manuel F. Dolz; Jose Duato; Enrique S. Quintana-Ortí
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : In this work we introduce GreenLightningAI (GLAI), a new architectural blockdesigned as an alternative to conventional MLPs.
+
+359, TITLE: A Framework for Selection of Machine Learning Algorithms Based on Performance Metrices and Akaike Information Criteria in Healthcare, Telecommunication, and Marketing Sector
+AUTHORS: A. K. Hamisu; K. Jasleen
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : The key contribution is arecommendation framework that identifies the best ML model according to inputattributes, balancing performance evaluation and model complexity to enhanceefficiency and accuracy in diverse real-world applications.
+
+360, TITLE: Microsaccade-Inspired Probing: Positional Encoding Perturbations Reveal LLM Misbehaviours
+AUTHORS: Rui Melo; Rui Abreu; Corina S. Pasareanu
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : We draw inspiration from microsaccades, tiny involuntary eye movements thatreveal hidden dynamics of human perception, to propose an analogous probingmethod for large language models (LLMs).
+
+361, TITLE: Feature Identification Via The Empirical NTK
+AUTHORS: Jennifer Lin
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : Across twostandard toy models for mechanistic interpretability, Toy Models ofSuperposition (TMS) and a 1-layer MLP trained on modular addition, we find thatthe eNTK exhibits sharp spectral cliffs whose top eigenspaces align withground-truth features.
+
+362, TITLE: From 2D to 3D, Deep Learning-based Shape Reconstruction in Magnetic Resonance Imaging: A Review
+AUTHORS: Emma McMillian; Abhirup Banerjee; Alfonso Bueno-Orovio
+CATEGORY: arxiv-cs.LG [LG]
+HIGHLIGHT: Highlight : This review aims to provide researchers with astructured overview of current 3D reconstruction methodologies to identifyopportunities for advancing deep learning towards more robust, generalizable,and clinically impactful solutions.
+
+363, TITLE: Reasoning-Aware Prompt Orchestration: A Foundation Model for Multi-Agent Language Model Coordination
+AUTHORS: Hassen Dhrif
+CATEGORY: arxiv-cs.MA [MA]
+HIGHLIGHT: Highlight : We present a theoretically-grounded frameworkfor dynamic prompt orchestration that enhances reasoning across multiplespecialized agents.
+
+364, TITLE: Lessons Learned So Far From Verifying The Rust Standard Library (work-in-progress)
+AUTHORS: Alex Le Blanc; Patrick Lam
+CATEGORY: arxiv-cs.PL [PL]
+HIGHLIGHT: Highlight : Given that this effort is done in public and open-sourced,we have access to a wealth of information on how people are verifying thestandard library, as well as what is currently possible and what still appearsto be beyond the state of the art for verified software. In this paper, we discuss the lessons learned thus far from this verificationeffort, from both our work on it, as well as that of the broader community.
+
+365, TITLE: What Did I Learn? Operational Competence Assessment for AI-Based Trajectory Planners
+AUTHORS: Michiel Braat; Maren Buermann; Marijke van Weperen; Jan-Pieter Paardekooper
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : We propose modeling driving dataas knowledge graphs, representing driving scenes with entities and theirrelationships.
+
+366, TITLE: A Systematic Study of Large Language Models for Task and Motion Planning With PDDLStream
+AUTHORS: Jorge Mendez-Mendez
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : Using large language models (LLMs) to solve complex robotics problemsrequires understanding their planning capabilities.
+
+367, TITLE: VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators
+AUTHORS: Hengtao Li; Pengxiang Ding; Runze Suo; Yihao Wang; Zirui Ge; Dongyuan Zang; Kexian Yu; Mingyang Sun; Hongyin Zhang; Donglin Wang; Weihua Su
+CATEGORY: arxiv-cs.RO [RO]
+HIGHLIGHT: Highlight : We introduce VLA-RFT, a reinforcement fine-tuningframework that leverages a data-driven world model as a controllable simulator.Trained from real interaction data, the simulator predicts future visualobservations conditioned on actions, allowing policy rollouts with dense,trajectory-level rewards derived from goal-achieving references.
+
+368, TITLE: Architectural Transformations and Emerging Verification Demands in AI-Enabled Cyber-Physical Systems
+AUTHORS: Hadiza Umar Yusuf; Khouloud Gaaloul
+CATEGORY: arxiv-cs.SE [SE]
+HIGHLIGHT: Abstract: In the world of Cyber-Physical Systems (CPS), a captivating real-time fusionoccurs where digital technology meets the physical world. This synergy has beensignificantly ...
+
+369, TITLE: CWM: An Open-Weights LLM for Research on Code Generation with World Models
+AUTHORS: FAIR CodeGen team; Quentin Carbonneaux; Gal Cohen; Jonas Gehring; Jacob Kahn; Jannik Kossen; Felix Kreuk; Emily McMilin; Michel Meyer; Yuxiang Wei; David Zhang; Kunhao Zheng; Jordi Armengol-Estapé; Pedram Bashiri; Maximilian Beck; Pierre Chambon; Abhishek Charnalia; Chris Cummins; Juliette Decugis; Zacharias V. Fisches; François Fleuret; Fabian Gloeckle; Alex Gu; Michael Hassid; Daniel Haziza; Badr Youbi Idrissi; Christian Keller; Rahul Kindi; Hugh Leather; Gallil Maimon; Aram Markosyan; Francisco Massa; Pierre-Emmanuel Mazaré; Vegard Mella; Naila Murray; Keyur Muzumdar; Peter O'Hearn; Matteo Pagliardini; Dmitrii Pedchenko; Tal Remez; Volker Seeker; Marco Selvi; Oren Sultan; Sida Wang; Luca Wehrstedt; Ori Yoran; Lingming Zhang; Taco Cohen; Yossi Adi; Gabriel Synnaeve
+CATEGORY: arxiv-cs.SE [SE]
+HIGHLIGHT: Highlight : We present first steps ofhow world models can benefit agentic coding, enable step-by-step simulation ofPython code execution, and show early results of how reasoning can benefit fromthe latter.
+
+370, TITLE: Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction
+AUTHORS: Yuanfang Xiang; Lun Ai
+CATEGORY: arxiv-q-bio.MN [MN]
+HIGHLIGHT: Highlight : We introduce a balanced consistency metric toevaluate the predictions' consistency against both data and knowledge.
+
+371, TITLE: UniverSR: Unified and Versatile Audio Super-Resolution Via Vocoder-Free Flow Matching
+AUTHORS: Woongjib Choi; Sangmin Lee; Hyungseob Lim; Hong-Goo Kang
+CATEGORY: arxiv-eess.AS [AS]
+HIGHLIGHT: Highlight : In this paper, we present a vocoder-free framework for audio super-resolutionthat employs a flow matching generative model to capture the conditionaldistribution of complex-valued spectral coefficients.
+
+372, TITLE: U-DFA: A Unified DINOv2-Unet with Dual Fusion Attention for Multi-Dataset Medical Segmentation
+AUTHORS: Zulkaif Sajjad; Furqan Shaukat; Junaid Mir
+CATEGORY: arxiv-eess.IV [IV]
+HIGHLIGHT: Highlight : To thisend, we propose U-DFA, a unified DINOv2-Unet encoder-decoder architecture thatintegrates a novel Local-Global Fusion Adapter (LGFA) to enhance segmentationperformance.
+
+373, TITLE: TubeDAgger: Reducing The Number of Expert Interventions with Stochastic Reach-Tubes
+AUTHORS: Julian Lemmel; Manuel Kranzl; Adam Lamine; Philipp Neubauer; Radu Grosu; Sophie A. Neubauer
+CATEGORY: arxiv-eess.SY [SY]
+HIGHLIGHT: Highlight : We propose the use of stochastic reachtubes - common inverification of dynamical systems - as a novel method for estimating thenecessity of expert intervention.
+
